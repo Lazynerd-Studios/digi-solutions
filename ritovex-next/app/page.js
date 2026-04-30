@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Ritovex - Creative Agency',
+  title: 'Ritovex - IT Services & Digital Infrastructure',
 };
 
 const companyLogos = [
@@ -19,96 +19,75 @@ const companyLogos = [
 const services = [
   {
     num: '01',
-    title: 'Web Design',
-    desc: 'Focuses on the aesthetic and user experience of a website, creating visually appealing and intuitive interfaces.',
+    title: 'Digital Signage Solutions',
+    desc: 'End-to-end digital signage systems from LED walls and video walls to interactive kiosks and menu boards — designed, installed, and managed for maximum impact.',
   },
   {
     num: '02',
-    title: 'Web Development',
-    desc: 'Involves the coding and programming that makes a website functional and interactive. This includes front-end and back-end.',
+    title: 'Network Deployment & Installation',
+    desc: 'Complete network infrastructure deployment including routers, switches, access points, and wireless networks — configured for speed, security, and scalability.',
   },
   {
     num: '03',
-    title: 'Branding',
-    desc: 'The process of creating a unique identity for a business, including logo design, color palettes, and messaging.',
+    title: 'Network Cabling & Fiber Optics',
+    desc: 'Professional structured cabling solutions — Cat6, Cat6a, fiber optic installation, cable management, and certification testing for enterprise-grade performance.',
   },
   {
     num: '04',
-    title: 'Product Design',
-    desc: 'Encompasses the entire process of creating a product, from initial concept and prototyping to final production.',
+    title: 'IT Infrastructure Management',
+    desc: 'Ongoing monitoring, maintenance, and support for your entire IT ecosystem — servers, endpoints, cloud services, and network security.',
   },
 ];
 
 const portfolio = [
   {
-    img: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68790a0db5c24b5842b874f3_Portfolio%20Image1.jpg',
-    cat: 'Web Development',
-    date: 'August 23, 2025',
-    title: 'SmartCity Traffic Solution',
+    img: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=450&fit=crop',
+    cat: 'Digital Signage',
+    date: 'March 2025',
+    title: 'Retail LED Video Wall Deployment',
   },
   {
-    img: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68790a0d3a4ccd16c17f9d0e_Portfolio%20Image2.jpg',
-    cat: 'Web Development',
-    date: 'August 23, 2025',
-    title: 'ShopEasy E-Commerce Platform',
+    img: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=450&fit=crop',
+    cat: 'Network Deployment',
+    date: 'January 2025',
+    title: 'Enterprise Office Network Overhaul',
   },
   {
-    img: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68790a0d0ff0062c7583db97_Portfolio%20Image3.jpg',
-    cat: 'Web Development',
-    date: 'August 23, 2025',
-    title: 'MedTrack Healthcare App',
+    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=450&fit=crop',
+    cat: 'Network Cabling',
+    date: 'November 2024',
+    title: 'Data Center Fiber Optic Installation',
   },
 ];
 
 const processSteps = [
-  { num: '01', title: 'Discovery & Strategy', desc: 'We dive deep into understanding your brand, audience, and goals to craft a winning strategy.' },
-  { num: '02', title: 'Design & Development', desc: 'Our team brings concepts to life with cutting-edge design and robust development practices.' },
-  { num: '03', title: 'Launch & Optimize', desc: 'We launch with precision and continuously optimize for peak performance and growth.' },
+  { num: '01', title: 'Site Survey & Assessment', desc: 'We evaluate your premises, understand your requirements, and design a tailored solution that fits your space and budget.' },
+  { num: '02', title: 'Design & Engineering', desc: 'Our engineers create detailed system designs, cable routing plans, and network topology maps for seamless implementation.' },
+  { num: '03', title: 'Deployment & Handover', desc: 'Certified technicians install, test, and commission every component — with full documentation and staff training included.' },
 ];
 
 const testimonials = [
   {
-    quote: 'Was initially hesitant about the project, but the team quickly put my mind at ease. Their expertise and professionalism are unmatched.',
-    name: 'Sarah Johnson',
-    role: 'CEO, TechStart Inc.',
-    avatar: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68790f3cb5c24b5842bcae38_Testimonial%20Avatar1.jpg',
+    quote: 'Ritovex transformed our retail spaces with stunning digital signage. Their team handled everything from design to installation flawlessly. Sales increased by 30%.',
+    name: 'David Okonkwo',
+    role: 'Operations Director, Metro Retail Group',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
   },
   {
-    quote: 'I came to them with a vague idea, and they helped me refine it into a concrete plan. Throughout the entire process, communication was excellent.',
-    name: 'Michael Chen',
-    role: 'Founder, InnovateLab',
-    avatar: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68790f3cf57d94f7ac49f9b6_Testimonial%20Avatar2.jpg',
+    quote: 'The network deployment across our 12-branch office was executed on time and within budget. Zero downtime, and the new fiber backbone is incredibly fast.',
+    name: 'Amara Nwosu',
+    role: 'CTO, FinTrust Financial Services',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
   },
   {
-    quote: 'The results speak for themselves. Our conversion rates increased by 150% after the redesign. Truly exceptional work from start to finish.',
-    name: 'Emily Davis',
-    role: 'Marketing Director, Bloom Co.',
-    avatar: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68790f3cb5c24b5842bcae3c_Testimonial%20Avatar3.jpg',
+    quote: 'Their structured cabling work in our new headquarters was impeccable. Every cable labeled, tested, and certified. The clean cable management is a work of art.',
+    name: 'James Adeyemi',
+    role: 'Facilities Manager, Horizon Towers',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
   },
 ];
 
-const tools = ['Figma', 'Sketch', 'Adobe XD', 'Webflow', 'Framer', 'React', 'Next.js', 'Node.js'];
-
-const blogs = [
-  {
-    img: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/6879134c3a4ccd16c183a7b6_Blog%20Image1.jpg',
-    cat: 'Design',
-    title: 'Simple Tips for Better Website Design',
-    excerpt: 'Learn easy ways to improve your website\'s look and feel. Easy steps for you.',
-  },
-  {
-    img: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/6879134c6a63c2b04aedfc16_Blog%20Image2.jpg',
-    cat: 'Development',
-    title: 'How to Speed Up Your Website Fast Loading',
-    excerpt: 'Quick fixes to make your site load faster. How great user experience boosts your business.',
-  },
-  {
-    img: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/6879134ce6eb407be03b017e_Blog%20Image3.jpg',
-    cat: 'Security',
-    title: 'Essential Tips for Website Security',
-    excerpt: 'Keep your site safe with simple security tips. Best tools to build apps easily and quickly.',
-  },
-];
+const tools = ['Samsung', 'LG', 'Cisco', 'Ubiquiti', 'Aruba', 'CommScope', 'Panduit', 'Leviton', 'Belden', 'FiberStore'];
 
 export default function HomePage() {
   return (
@@ -119,28 +98,28 @@ export default function HomePage() {
           <div className="banner-content">
             <div className="banner-typography">
               <div className="banner-subtitle-wrapper">
-                <span className="banner-subtitle">Creative Agency</span>
+                <span className="banner-subtitle">IT Infrastructure Experts</span>
               </div>
-              <h1 className="banner-title">World&apos;s Best Creative Agency Team</h1>
+              <h1 className="banner-title">Digital Signage, Networks & Cabling Done Right</h1>
               <p className="banner-description-text">
-                World&apos;s best creative agency team — crafting legendary brands through bold ideas, strategic genius, and design that drives results.
+                We design, deploy, and maintain cutting-edge digital signage systems, enterprise networks, and structured cabling infrastructure — delivering reliable technology that powers your business.
               </p>
               <div className="banner-button-wrapper">
-                <Link href="/contact" className="btn btn-primary">Get Started</Link>
+                <Link href="/contact" className="btn btn-primary">Get a Free Quote</Link>
                 <button className="btn btn-video">
                   <span className="video-icon">
                     <svg width="14" height="16" viewBox="0 0 14 16" fill="none">
                       <path d="M13.5 7.13397C14.1667 7.51888 14.1667 8.48112 13.5 8.86602L1.5 15.7942C0.833332 16.1791 0 15.698 0 14.9282L0 1.0718C0 0.301996 0.833332 -0.179129 1.5 0.205771L13.5 7.13397Z" fill="currentColor" />
                     </svg>
                   </span>
-                  <span className="video-text">Watch Demo</span>
+                  <span className="video-text">Watch Our Work</span>
                 </button>
               </div>
             </div>
             <div className="banner-image-wrapper">
               <img
-                src="https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/687809ff2e58f4023f2a0ba4_Banner%20Image.png"
-                alt="Creative Team"
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=700&fit=crop"
+                alt="Network Cabling Installation"
                 className="banner-image"
               />
             </div>
@@ -153,7 +132,7 @@ export default function HomePage() {
         <div className="container">
           <div className="company-subtitle-wrapper">
             <div className="company-subtitle-line"></div>
-            <div className="company-subtitle">Trusted Partners Worldwide for Success</div>
+            <div className="company-subtitle">Trusted by Leading Brands Across Industries</div>
             <div className="company-subtitle-line"></div>
           </div>
           <div className="sponsors-ticker-wrapper">
@@ -176,8 +155,8 @@ export default function HomePage() {
           <div className="about-us-grid">
             <div className="about-us-image-wrapper">
               <img
-                src="https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780a91eb80257eb8eee0cc_About%20Image.png"
-                alt="About Us"
+                src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?w=600&h=700&fit=crop"
+                alt="IT Technicians at Work"
                 className="about-us-image"
               />
             </div>
@@ -185,9 +164,9 @@ export default function HomePage() {
               <div className="section-subtitle-wrap">
                 <span className="section-subtitle">About Us</span>
               </div>
-              <h2 className="section-title">Who We Are. Learn About us</h2>
+              <h2 className="section-title">Your Trusted IT Infrastructure Partner</h2>
               <p className="section-description">
-                We are a dynamic team of innovators, storytellers, and visionaries dedicated to transforming ideas into extraordinary experiences.
+                Ritovex is a leading IT services company specializing in digital signage solutions, network deployment, and structured cabling. We help businesses modernize their technology infrastructure with reliable, scalable, and future-proof solutions.
               </p>
               <div className="about-features">
                 <div className="about-feature">
@@ -198,8 +177,8 @@ export default function HomePage() {
                     </svg>
                   </div>
                   <div className="about-feature-text">
-                    <h4>We deliver great work always</h4>
-                    <p>Consistently exceeding expectations with every project we undertake.</p>
+                    <h4>Certified Technicians</h4>
+                    <p>Our team holds industry certifications from Cisco, CommScope, and Panduit for quality assurance.</p>
                   </div>
                 </div>
                 <div className="about-feature">
@@ -210,22 +189,22 @@ export default function HomePage() {
                     </svg>
                   </div>
                   <div className="about-feature-text">
-                    <h4>Experience you can count on</h4>
-                    <p>Years of industry expertise backing every creative decision.</p>
+                    <h4>On-Time, Every Time</h4>
+                    <p>We deliver projects on schedule with minimal disruption to your daily operations.</p>
                   </div>
                 </div>
               </div>
               <div className="about-bottom-row">
                 <Link href="/about" className="btn btn-primary">More About Us</Link>
-                <a href="tel:22003567890" className="contact-link">
+                <a href="tel:+2348001234567" className="contact-link">
                   <span className="contact-icon-wrap">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                     </svg>
                   </span>
                   <span className="contact-text">
-                    <span className="contact-label">Get free Quote</span>
-                    <span className="contact-number">22 (00) 356 7890</span>
+                    <span className="contact-label">Call Us Now</span>
+                    <span className="contact-number">+234 800 123 4567</span>
                   </span>
                 </a>
               </div>
@@ -241,9 +220,9 @@ export default function HomePage() {
             <div className="section-subtitle-wrap center">
               <span className="section-subtitle">Our Services</span>
             </div>
-            <h2 className="section-title center">Your Needs, Our Expertise</h2>
+            <h2 className="section-title center">Technology Solutions That Power Business</h2>
             <p className="section-description center">
-              Your Vision, Our Expertise — Together, we bring ideas to life with tailored solutions that deliver real impact.
+              From digital displays to network backbones — we deliver comprehensive IT infrastructure services tailored to your industry and scale.
             </p>
           </div>
           <div className="services-grid">
@@ -270,9 +249,9 @@ export default function HomePage() {
         <div className="container">
           <div className="section-header">
             <div className="section-subtitle-wrap center">
-              <span className="section-subtitle">Portfolio</span>
+              <span className="section-subtitle">Projects</span>
             </div>
-            <h2 className="section-title center">Explore Our Real Works</h2>
+            <h2 className="section-title center">Infrastructure We Have Built</h2>
           </div>
           <div className="portfolio-grid">
             {portfolio.map((item, i) => (
@@ -280,7 +259,7 @@ export default function HomePage() {
                 <div className="portfolio-image-wrap">
                   <img src={item.img} alt={item.title} className="portfolio-image" />
                   <div className="portfolio-overlay">
-                    <span className="portfolio-view-btn">View</span>
+                    <span className="portfolio-view-btn">View Project</span>
                   </div>
                 </div>
                 <div className="portfolio-meta">
@@ -299,9 +278,9 @@ export default function HomePage() {
         <div className="container">
           <div className="section-header">
             <div className="section-subtitle-wrap center">
-              <span className="section-subtitle">Working Process</span>
+              <span className="section-subtitle">Our Process</span>
             </div>
-            <h2 className="section-title center">Explore Our 3 Step Working Process</h2>
+            <h2 className="section-title center">How We Deliver Excellence</h2>
           </div>
           <div className="process-grid">
             {processSteps.map((step) => (
@@ -313,7 +292,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="process-cta">
-            <Link href="/contact" className="btn btn-primary">Start Projects</Link>
+            <Link href="/contact" className="btn btn-primary">Start Your Project</Link>
           </div>
         </div>
       </section>
@@ -322,7 +301,7 @@ export default function HomePage() {
       <section className="section services-tools">
         <div className="container">
           <div className="tools-content">
-            <h2 className="section-title center">Tools We Use to Deliver Excellence</h2>
+            <h2 className="section-title center">Technology Partners & Equipment</h2>
             <div className="tools-grid">
               {tools.map((tool) => (
                 <div className="tool-item" key={tool}>
@@ -341,9 +320,9 @@ export default function HomePage() {
             <div className="section-subtitle-wrap center">
               <span className="section-subtitle">Testimonials</span>
             </div>
-            <h2 className="section-title center">What Our Clients are Saying</h2>
+            <h2 className="section-title center">What Our Clients Say</h2>
             <p className="section-description center">
-              Hear directly from our clients about their experiences and the results we&apos;ve delivered.
+              Businesses across retail, finance, hospitality, and corporate sectors trust Ritovex for their IT infrastructure needs.
             </p>
           </div>
           <div className="testimonials-grid">
@@ -376,43 +355,15 @@ export default function HomePage() {
       <section className="section cta" id="contact">
         <div className="container">
           <div className="cta-box">
-            <h2 className="cta-title">Let&apos;s Start Talk</h2>
+            <h2 className="cta-title">Ready to Upgrade Your Infrastructure?</h2>
             <p className="cta-desc">
-              Ready to transform your digital presence? Let&apos;s discuss how we can help your business grow.
+              Get a free site assessment and quote for your digital signage, network, or cabling project.
             </p>
-            <Link href="/contact" className="btn btn-secondary">Connect With Us</Link>
+            <Link href="/contact" className="btn btn-secondary">Get a Free Quote</Link>
           </div>
         </div>
       </section>
 
-      {/* Blog */}
-      <section className="section blog" id="blog">
-        <div className="container">
-          <div className="section-header">
-            <div className="section-subtitle-wrap center">
-              <span className="section-subtitle">Our Blog</span>
-            </div>
-            <h2 className="section-title center">Read Our Recent Articles</h2>
-          </div>
-          <div className="blog-grid">
-            {blogs.map((blog, i) => (
-              <Link href="/" className="blog-card" key={i}>
-                <div className="blog-image-wrap">
-                  <img src={blog.img} alt={blog.title} className="blog-image" />
-                </div>
-                <div className="blog-content">
-                  <span className="blog-category">{blog.cat}</span>
-                  <h3 className="blog-card-title">{blog.title}</h3>
-                  <p className="blog-excerpt">{blog.excerpt}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <div className="blog-cta">
-            <Link href="/" className="btn btn-outline">Browse All Articles</Link>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

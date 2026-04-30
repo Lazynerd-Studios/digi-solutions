@@ -8,31 +8,31 @@ export const metadata = {
 const servicesImages = [
   {
     num: '01',
-    title: 'Web Design',
-    desc: 'Focuses on the aesthetic and user experience of a website, creating visually appealing and intuitive layouts.',
-    img: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68a8c652faddc427986bc208_Services%20Image1.jpg',
+    title: 'Digital Signage Solutions',
+    desc: 'Complete digital signage ecosystems — LED video walls, LCD displays, interactive kiosks, menu boards, and wayfinding systems. We handle design, procurement, installation, content management, and ongoing maintenance.',
+    img: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop',
   },
   {
     num: '02',
-    title: 'Web Development',
-    desc: 'Involves the coding and programming that makes a website functional and interactive. This includes front-end and back-end.',
-    img: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68a8c652c1e25073a0538410_Services%20Image2.jpg',
+    title: 'Network Deployment & Installation',
+    desc: 'Full-scale network infrastructure deployment — LAN/WAN setup, wireless networks, firewall configuration, VPN implementation, and network security hardening for offices, campuses, and multi-site organizations.',
+    img: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=400&fit=crop',
   },
   {
     num: '03',
-    title: 'Branding',
-    desc: 'The process of creating a unique identity for a company or product, encompassing its name, logo, messaging, and overall image.',
-    img: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68a8c6521cb67e81661aaad8_Services%20Image3.jpg',
+    title: 'Network Cabling & Fiber Optics',
+    desc: 'Professional structured cabling installation — Cat5e, Cat6, Cat6a, fiber optic backbone, cable tray and ladder rack installation, patch panel termination, and full certification testing with documentation.',
+    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
   },
   {
     num: '04',
-    title: 'Product Design',
-    desc: 'Encompasses the entire process of creating a new product, from conceptualization and research to prototyping and final execution.',
-    img: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68a8c652566a0be2eda8c9c1_Services%20Image4.jpg',
+    title: 'CCTV & Security Systems',
+    desc: 'Surveillance and access control solutions — IP camera systems, NVR/DVR setup, video analytics, biometric access control, and integrated security management platforms for complete peace of mind.',
+    img: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&h=400&fit=crop',
   },
 ];
 
-const techStack = ['Figma', 'Sketch', 'Adobe XD', 'Webflow', 'Framer', 'React', 'Next.js', 'Node.js', 'WordPress', 'Shopify'];
+const techStack = ['Samsung', 'LG', 'NEC', 'Cisco', 'Ubiquiti', 'Aruba', 'Hikvision', 'Dahua', 'CommScope', 'Panduit', 'Leviton', 'Belden'];
 
 const benefits = [
   {
@@ -42,7 +42,7 @@ const benefits = [
       </svg>
     ),
     title: 'On-Time Delivery',
-    desc: 'We prioritize timely completion without compromising quality.',
+    desc: 'We prioritize timely project completion without compromising quality or safety standards.',
   },
   {
     icon: (
@@ -51,7 +51,7 @@ const benefits = [
       </svg>
     ),
     title: 'Tailored Solutions',
-    desc: 'Every solution is customized to fit your unique goals and challenges.',
+    desc: 'Every project is customized to your specific space, budget, performance requirements, and growth plans.',
   },
   {
     icon: (
@@ -59,37 +59,37 @@ const benefits = [
         <rect x="2" y="3" width="20" height="14" rx="2" ry="2" /><line x1="8" y1="21" x2="16" y2="21" /><line x1="12" y1="17" x2="12" y2="21" />
       </svg>
     ),
-    title: 'Modern Tech Stack',
-    desc: 'We use modern, reliable technologies to craft fast, user-friendly digital experiences.',
+    title: 'Certified Equipment',
+    desc: 'We use enterprise-grade equipment from Samsung, Cisco, CommScope, and other industry-leading manufacturers.',
   },
 ];
 
 const faqs = [
-  { q: 'What services does Ritovex offer?', a: 'We offer a comprehensive range of digital services including web design, web development, branding, and product design. Our team specializes in creating tailored solutions that align with your business goals.' },
-  { q: 'How long does a typical project take?', a: 'Project timelines vary based on scope and complexity. A typical website project takes 4-8 weeks, while larger branding or product design projects may take 8-12 weeks.' },
-  { q: 'Do you offer ongoing support after launch?', a: 'Yes, absolutely. We believe in building long-term relationships with our clients. Our ongoing support packages ensure your digital products remain up-to-date, secure, and performing at their best.' },
-  { q: 'What is your pricing structure?', a: 'We offer flexible pricing based on project requirements. Contact us for a custom quote tailored to your specific needs and budget.' },
-  { q: 'Can you work with international clients?', a: 'Definitely! We work with clients from all around the world. Our team is experienced in remote collaboration and we use modern tools to ensure seamless communication across time zones.' },
+  { q: 'What types of digital signage do you install?', a: 'We install LED video walls, LCD displays, interactive touch kiosks, menu boards, wayfinding displays, and outdoor digital billboards. We work with top brands like Samsung, LG, and NEC and provide full content management solutions.' },
+  { q: 'How long does a typical network deployment take?', a: 'Project timelines vary based on scope. A small office network can be completed in 3-5 days, while large enterprise deployments across multiple locations may take 4-8 weeks. We provide detailed timelines during the planning phase.' },
+  { q: 'Do you offer warranties on cabling and installation work?', a: 'Yes. All our structured cabling installations come with a 25-year system warranty backed by manufacturers like CommScope and Panduit. Network equipment carries standard manufacturer warranties, and we offer extended maintenance packages.' },
+  { q: 'Can you work with existing infrastructure or do we need a complete overhaul?', a: 'We can integrate with your existing infrastructure where possible. Our site assessment identifies what can be reused, what needs upgrading, and the most cost-effective path forward.' },
+  { q: 'Do you provide ongoing maintenance and support?', a: 'Absolutely. We offer SLA-based maintenance contracts, 24/7 remote monitoring, on-call technician support, and preventive maintenance schedules to ensure your systems operate at peak performance.' },
 ];
 
 const testimonials = [
   {
-    quote: 'Was initially hesitant about the project, but the team quickly put my mind at ease. Their expertise and professionalism are unmatched.',
-    name: 'Sarah Johnson',
-    role: 'CEO, TechStart Inc.',
-    avatar: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68790f3cb5c24b5842bcae38_Testimonial%20Avatar1.jpg',
+    quote: 'Ritovex deployed a 12-screen video wall across our retail chain in under three weeks. The quality of work and attention to cable management was outstanding.',
+    name: 'Chinedu Eze',
+    role: 'IT Director, Shoprite Nigeria',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
   },
   {
-    quote: 'I came to them with a vague idea, and they helped me refine it into a concrete plan. Throughout the entire process, communication was excellent.',
-    name: 'Michael Chen',
-    role: 'Founder, InnovateLab',
-    avatar: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68790f3cf57d94f7ac49f9b6_Testimonial%20Avatar2.jpg',
+    quote: 'Their fiber optic installation across our 8-floor office building was flawless. Every cable labeled, tested, and certified. The network performance is incredible.',
+    name: 'Ngozi Obi',
+    role: 'CTO, Capital Trust Bank',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
   },
   {
-    quote: 'The results speak for themselves. Our conversion rates increased by 150% after the redesign. Truly exceptional work from start to finish.',
-    name: 'Emily Davis',
-    role: 'Marketing Director, Bloom Co.',
-    avatar: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68790f3cb5c24b5842bcae3c_Testimonial%20Avatar3.jpg',
+    quote: 'We needed a complete network overhaul for our new hospital wing. Ritovex delivered on time, within budget, and with zero disruption to patient services.',
+    name: 'Dr. Ibrahim Musa',
+    role: 'Facilities Director, Grandview Hospital',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
   },
 ];
 
@@ -104,9 +104,9 @@ export default function ServicesPage() {
             <span className="breadcrumb-sep">/</span>
             <span>Services</span>
           </div>
-          <h1 className="inner-banner-title">Creative Solutions</h1>
+          <h1 className="inner-banner-title">Our Services</h1>
           <p className="inner-banner-desc">
-            We deliver innovative, tailor-made strategies that solve problems, spark ideas, and bring your vision to life—efficiently and effectively.
+            Comprehensive IT infrastructure solutions — from digital signage and network deployment to structured cabling and security systems.
           </p>
         </div>
       </section>
@@ -116,11 +116,11 @@ export default function ServicesPage() {
         <div className="container">
           <div className="section-header">
             <div className="section-subtitle-wrap center">
-              <span className="section-subtitle">Our Services</span>
+              <span className="section-subtitle">What We Do</span>
             </div>
-            <h2 className="section-title center">Your Needs, Our Expertise</h2>
+            <h2 className="section-title center">IT Infrastructure Services</h2>
             <p className="section-description center">
-              Your Vision, Our Expertise — Together, we bring ideas to life with tailored solutions that deliver real results.
+              We design, deploy, and maintain the technology systems that keep modern businesses connected, visible, and secure.
             </p>
           </div>
           <div className="services-image-grid">
@@ -147,14 +147,14 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* CMS Technology */}
+      {/* Technology Partners */}
       <section className="section" style={{ backgroundColor: 'var(--color-light-gray)' }}>
         <div className="container">
           <div className="section-header">
             <div className="section-subtitle-wrap center">
-              <span className="section-subtitle">Technology</span>
+              <span className="section-subtitle">Partners</span>
             </div>
-            <h2 className="section-title center">Tools We Use to Build Great Products</h2>
+            <h2 className="section-title center">Brands & Technologies We Work With</h2>
           </div>
           <div className="cms-tech-grid">
             {techStack.map((tech) => (
@@ -171,7 +171,7 @@ export default function ServicesPage() {
             <div className="section-subtitle-wrap center">
               <span className="section-subtitle">Benefits</span>
             </div>
-            <h2 className="section-title center">Why Choose Our Services</h2>
+            <h2 className="section-title center">Why Clients Choose Ritovex</h2>
           </div>
           <div className="benefits-grid">
             {benefits.map((b, i) => (
@@ -196,7 +196,7 @@ export default function ServicesPage() {
           </div>
           <FaqAccordion faqs={faqs} />
           <div style={{ textAlign: 'center', marginTop: '40px' }}>
-            <p style={{ marginBottom: '16px' }}>Still Have More Questions?</p>
+            <p style={{ marginBottom: '16px' }}>Still have questions about our services?</p>
             <Link href="/contact" className="btn btn-primary">Contact Us</Link>
           </div>
         </div>
@@ -209,9 +209,9 @@ export default function ServicesPage() {
             <div className="section-subtitle-wrap center">
               <span className="section-subtitle">Testimonials</span>
             </div>
-            <h2 className="section-title center">What Our Clients are Saying</h2>
+            <h2 className="section-title center">What Our Clients Say</h2>
             <p className="section-description center">
-              Hear directly from our clients about their experiences and the results we&apos;ve delivered.
+              Businesses across retail, finance, healthcare, and hospitality trust Ritovex for their IT infrastructure.
             </p>
           </div>
           <div className="testimonials-grid">
@@ -244,11 +244,11 @@ export default function ServicesPage() {
       <section className="section cta">
         <div className="container">
           <div className="cta-box">
-            <h2 className="cta-title">Let&apos;s Start Talk</h2>
+            <h2 className="cta-title">Ready to Upgrade Your Infrastructure?</h2>
             <p className="cta-desc">
-              Ready to transform your digital presence? Let&apos;s discuss how we can help your business grow.
+              Get a free site assessment and quote for your digital signage, network, or cabling project.
             </p>
-            <Link href="/contact" className="btn btn-secondary">Connect With Us</Link>
+            <Link href="/contact" className="btn btn-secondary">Get a Free Quote</Link>
           </div>
         </div>
       </section>

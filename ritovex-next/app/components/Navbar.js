@@ -36,7 +36,6 @@ export default function Navbar() {
     { href: '/about', label: 'About' },
     { href: '/services', label: 'Services' },
     { href: '/portfolio', label: 'Projects' },
-    { href: '/#blog', label: 'Blog' },
     { href: '/contact', label: 'Contact' },
   ];
 
@@ -63,7 +62,7 @@ export default function Navbar() {
         </div>
         <div className="nav-actions">
           <Link href="/contact" className="btn btn-primary">
-            Get Started
+            Get a Free Quote
           </Link>
           <button
             className={`mobile-menu-btn${menuOpen ? ' open' : ''}`}

@@ -15,37 +15,37 @@ export default function Footer() {
                 />
               </Link>
               <p className="footer-tagline">
-                Crafting legendary brands through bold ideas and strategic genius.
+                IT infrastructure experts specializing in digital signage, network deployment, and structured cabling for modern businesses.
               </p>
             </div>
             <div className="footer-links-grid">
               <div className="footer-links-col">
-                <h4 className="footer-links-title">Main Pages</h4>
+                <h4 className="footer-links-title">Services</h4>
                 <ul className="footer-links-list">
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="/services">Services</Link></li>
-                  <li><Link href="/portfolio">Projects</Link></li>
-                  <li><Link href="/#blog">Blogs</Link></li>
-                  <li><Link href="/contact">Contact Us</Link></li>
+                  <li><Link href="/services">Digital Signage</Link></li>
+                  <li><Link href="/services">Network Deployment</Link></li>
+                  <li><Link href="/services">Network Cabling</Link></li>
+                  <li><Link href="/services">CCTV & Security</Link></li>
+                  <li><Link href="/services">IT Management</Link></li>
                 </ul>
               </div>
               <div className="footer-links-col">
-                <h4 className="footer-links-title">Inner Pages</h4>
+                <h4 className="footer-links-title">Company</h4>
                 <ul className="footer-links-list">
                   <li><Link href="/about">About Us</Link></li>
-                  <li><Link href="/about">Team Members</Link></li>
-                  <li><Link href="/services">Pricing</Link></li>
-                  <li><Link href="/services">FAQ</Link></li>
+                  <li><Link href="/portfolio">Projects</Link></li>
+                  <li><Link href="/contact">Contact</Link></li>
+                  <li><Link href="/">Blog</Link></li>
+                  <li><Link href="/">Careers</Link></li>
                 </ul>
               </div>
               <div className="footer-links-col">
-                <h4 className="footer-links-title">Utility Pages</h4>
+                <h4 className="footer-links-title">Contact</h4>
                 <ul className="footer-links-list">
-                  <li><Link href="/">Style Guide</Link></li>
-                  <li><Link href="/">License</Link></li>
-                  <li><Link href="/">Changelog</Link></li>
-                  <li><Link href="/">Instructions</Link></li>
-                  <li><Link href="/">404 Not Found</Link></li>
+                  <li>14B Adetokunbo Ademola St</li>
+                  <li>Victoria Island, Lagos</li>
+                  <li>+234 800 123 4567</li>
+                  <li>info@ritovex.com</li>
                 </ul>
               </div>
             </div>

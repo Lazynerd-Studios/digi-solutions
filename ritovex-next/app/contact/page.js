@@ -15,9 +15,9 @@ export default function ContactPage() {
             <span className="breadcrumb-sep">/</span>
             <span>Contact Us</span>
           </div>
-          <h1 className="inner-banner-title">Contact Us</h1>
+          <h1 className="inner-banner-title">Get In Touch</h1>
           <p className="inner-banner-desc">
-            We&apos;d love to hear from you. Reach out and let&apos;s start a conversation about your next big idea.
+            Ready to upgrade your IT infrastructure? Reach out for a free site assessment, quote, or consultation.
           </p>
         </div>
       </section>
@@ -27,35 +27,43 @@ export default function ContactPage() {
         <div className="container">
           <div className="contact-grid">
             <div className="contact-form-wrapper">
-              <h2 className="contact-form-title">Send Your Message</h2>
+              <h2 className="contact-form-title">Request a Free Quote</h2>
               <form action="#" method="POST">
                 <div className="form-group">
-                  <label htmlFor="name">Your Name</label>
-                  <input type="text" id="name" name="name" className="form-input" placeholder="Thomas Alison" required />
+                  <label htmlFor="name">Full Name</label>
+                  <input type="text" id="name" name="name" className="form-input" placeholder="John Adeyemi" required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="email">Email Address</label>
-                  <input type="email" id="email" name="email" className="form-input" placeholder="example@domain.com" required />
+                  <input type="email" id="email" name="email" className="form-input" placeholder="john@company.com" required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="phone">Phone Number</label>
-                  <input type="tel" id="phone" name="phone" className="form-input" placeholder="+91 123 456789" />
+                  <input type="tel" id="phone" name="phone" className="form-input" placeholder="+234 800 123 4567" />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="budget">Your Budget</label>
-                  <input type="text" id="budget" name="budget" className="form-input" placeholder="Type Your Budget" />
+                  <label htmlFor="service">Service Interested In</label>
+                  <select id="service" name="service" className="form-input" defaultValue="">
+                    <option value="" disabled>Select a service</option>
+                    <option value="digital-signage">Digital Signage Solutions</option>
+                    <option value="network-deployment">Network Deployment & Installation</option>
+                    <option value="network-cabling">Network Cabling & Fiber Optics</option>
+                    <option value="cctv">CCTV & Security Systems</option>
+                    <option value="it-management">IT Infrastructure Management</option>
+                    <option value="other">Other / Not Sure</option>
+                  </select>
                 </div>
                 <div className="form-group">
-                  <label htmlFor="message">Your Message</label>
-                  <textarea id="message" name="message" className="form-textarea" placeholder="Write your message" required></textarea>
+                  <label htmlFor="message">Project Details</label>
+                  <textarea id="message" name="message" className="form-textarea" placeholder="Tell us about your project — location, size, timeline, and any specific requirements." required></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>Send Message</button>
+                <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>Send Request</button>
               </form>
             </div>
             <div className="contact-image-wrapper">
               <img
-                src="https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68b0ab92d1331d9fc99cba90_Contact%20Us%20Image.jpg"
-                alt="Contact Us"
+                src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?w=600&h=700&fit=crop"
+                alt="IT Technicians at Work"
               />
             </div>
           </div>
@@ -73,8 +81,8 @@ export default function ContactPage() {
                   <circle cx="12" cy="10" r="3" />
                 </svg>
               </div>
-              <h3 className="contact-detail-title">Our Location</h3>
-              <p className="contact-detail-text">1234 Elm Street, Suite 567, Springfield, IL 62704</p>
+              <h3 className="contact-detail-title">Head Office</h3>
+              <p className="contact-detail-text">14B Adetokunbo Ademola Street, Victoria Island, Lagos, Nigeria</p>
             </div>
             <div className="contact-detail-card">
               <div className="contact-detail-icon">
@@ -82,8 +90,8 @@ export default function ContactPage() {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
               </div>
-              <h3 className="contact-detail-title">Phone Number</h3>
-              <p className="contact-detail-text">+91 123 456789</p>
+              <h3 className="contact-detail-title">Phone</h3>
+              <p className="contact-detail-text">+234 800 123 4567<br />+234 700 987 6543</p>
             </div>
             <div className="contact-detail-card">
               <div className="contact-detail-icon">
@@ -92,8 +100,8 @@ export default function ContactPage() {
                   <polyline points="22,6 12,13 2,6" />
                 </svg>
               </div>
-              <h3 className="contact-detail-title">Email Address</h3>
-              <p className="contact-detail-text">Suport@example.com</p>
+              <h3 className="contact-detail-title">Email</h3>
+              <p className="contact-detail-text">info@ritovex.com<br />projects@ritovex.com</p>
             </div>
           </div>
         </div>

@@ -19,61 +19,61 @@ const companyLogos = [
 const services = [
   {
     num: '01',
-    title: 'Web Design',
-    desc: 'Focuses on the aesthetic and user experience of a website, creating visually appealing and intuitive layouts.',
+    title: 'Digital Signage Solutions',
+    desc: 'End-to-end digital signage systems from LED walls and interactive kiosks to menu boards and wayfinding displays.',
   },
   {
     num: '02',
-    title: 'Web Development',
-    desc: 'Involves the coding and programming that makes a website functional and interactive.',
+    title: 'Network Deployment',
+    desc: 'Complete network infrastructure deployment including routers, switches, wireless access points, and firewalls.',
   },
   {
     num: '03',
-    title: 'Branding',
-    desc: 'The process of creating a unique identity for a company or product, encompassing its name, logo, messaging, and overall image.',
+    title: 'Network Cabling & Fiber',
+    desc: 'Professional structured cabling — Cat6, Cat6a, fiber optic installation, cable management, and certification.',
   },
   {
     num: '04',
-    title: 'Product Design',
-    desc: 'Encompasses the entire process of creating a new product, from conceptualization and research to prototyping and final execution.',
+    title: 'IT Infrastructure Management',
+    desc: 'Ongoing monitoring, maintenance, and support for servers, endpoints, cloud services, and network security.',
   },
 ];
 
 const team = [
-  { name: 'James Wilson', role: 'CEO & Founder', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face' },
-  { name: 'Sarah Johnson', role: 'Creative Director', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face' },
-  { name: 'Michael Chen', role: 'Lead Developer', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face' },
-  { name: 'Emily Davis', role: 'Marketing Lead', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face' },
+  { name: 'David Okonkwo', role: 'CEO & Lead Engineer', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face' },
+  { name: 'Amara Nwosu', role: 'Head of Network Operations', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face' },
+  { name: 'James Adeyemi', role: 'Senior Cabling Specialist', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face' },
+  { name: 'Fatima Bello', role: 'Digital Signage Consultant', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face' },
 ];
 
 const awards = [
-  { title: 'Awwwards Site of the Day', year: '2025' },
-  { title: 'CSS Design Awards - Best UI', year: '2024' },
-  { title: 'Webby Awards - Best Agency', year: '2024' },
-  { title: 'FWA of the Month', year: '2023' },
-  { title: 'Digital Agency Network - Top 100', year: '2023' },
+  { title: 'Cisco Certified Partner', year: '2025' },
+  { title: 'CommScope Installation Excellence', year: '2024' },
+  { title: 'Best IT Infrastructure Provider — Tech Awards', year: '2024' },
+  { title: 'Samsung Digital Signage Certified Installer', year: '2023' },
+  { title: 'Panduit Certified Contractor Network', year: '2023' },
 ];
 
 const whyCards = [
   {
     icon: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68781451c1b2ec734bdb1f89_About%20Us%20Card%20Icon1.svg',
-    title: 'Innovation First',
-    desc: 'Foster creativity and embrace innovation to stay ahead of the competition.',
+    title: 'Certified Expertise',
+    desc: 'Our technicians hold certifications from Cisco, CommScope, Panduit, and Samsung for guaranteed quality.',
   },
   {
     icon: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/6878145183772d0cdf6005e8_About%20Us%20Card%20Icon2.svg',
-    title: 'Maximum Efficiency',
-    desc: 'Streamline processes and resources to maximize efficiency and profitability.',
+    title: 'End-to-End Service',
+    desc: 'From initial site survey and design to installation, testing, and ongoing maintenance — we handle it all.',
   },
   {
     icon: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68781451e9e825ffe70ac4af_About%20Us%20Card%20Icon3.svg',
-    title: 'Strong Relationships',
-    desc: 'Build meaningful relationships with customers through exceptional service.',
+    title: 'Industry Experience',
+    desc: 'Over a decade of experience deploying IT infrastructure for retail, finance, hospitality, and enterprise.',
   },
   {
     icon: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68781451954bf1b86c600b25_About%20Us%20Card%20Icon4.svg',
-    title: 'Scalable Growth',
-    desc: 'Expand your business by implementing structured, scalable plans.',
+    title: '24/7 Support',
+    desc: 'Round-the-clock monitoring and rapid response support to keep your systems running without interruption.',
   },
 ];
 
@@ -88,9 +88,9 @@ export default function AboutPage() {
             <span className="breadcrumb-sep">/</span>
             <span>About Us</span>
           </div>
-          <h1 className="inner-banner-title">About Us</h1>
+          <h1 className="inner-banner-title">About Ritovex</h1>
           <p className="inner-banner-desc">
-            We&apos;re a creative agency fueled by passion and purpose. We partner with brands to craft unforgettable experiences and meaningful connections.
+            We are a leading IT infrastructure company specializing in digital signage, network deployment, and structured cabling — delivering reliable technology solutions that drive business growth.
           </p>
         </div>
       </section>
@@ -101,8 +101,8 @@ export default function AboutPage() {
           <div className="about-banner-grid">
             <div className="about-banner-image-wrapper">
               <img
-                src="https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68aa0b473008cdec5ec19e1d_About%20Us%20Banner%20Image.jpg"
-                alt="Our Team"
+                src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?w=700&h=500&fit=crop"
+                alt="Ritovex Technicians"
                 className="about-banner-image"
               />
             </div>
@@ -110,26 +110,26 @@ export default function AboutPage() {
               <div className="section-subtitle-wrap">
                 <span className="section-subtitle">Who We Are</span>
               </div>
-              <h2 className="section-title">Award-Winning Work, Trusted Results</h2>
+              <h2 className="section-title">Building the Digital Backbone of Modern Business</h2>
               <p className="section-description">
-                We have happy Clients worldwide. We&apos;re dedicated to helping you achieve your goals with a simple, user-friendly experience.
+                Since 2014, Ritovex has been at the forefront of IT infrastructure deployment across Nigeria. From massive LED video walls in retail malls to enterprise fiber networks in financial institutions, we design, install, and maintain the technology that powers business.
               </p>
               <div className="about-stats-grid">
                 <div className="about-stat-card">
-                  <div className="about-stat-number">150+</div>
+                  <div className="about-stat-number">500+</div>
                   <div className="about-stat-label">Projects Completed</div>
                 </div>
                 <div className="about-stat-card">
-                  <div className="about-stat-number">80+</div>
-                  <div className="about-stat-label">Happy Clients</div>
+                  <div className="about-stat-number">200+</div>
+                  <div className="about-stat-label">Enterprise Clients</div>
                 </div>
                 <div className="about-stat-card">
                   <div className="about-stat-number">12+</div>
                   <div className="about-stat-label">Years Experience</div>
                 </div>
                 <div className="about-stat-card">
-                  <div className="about-stat-number">25+</div>
-                  <div className="about-stat-label">Team Members</div>
+                  <div className="about-stat-number">35+</div>
+                  <div className="about-stat-label">Certified Engineers</div>
                 </div>
               </div>
             </div>
@@ -144,13 +144,13 @@ export default function AboutPage() {
             <div className="section-subtitle-wrap center">
               <span className="section-subtitle">Why Choose Us</span>
             </div>
-            <h2 className="section-title center">Your Success, Our Priority.</h2>
+            <h2 className="section-title center">The Ritovex Advantage</h2>
           </div>
           <div className="why-choose-grid">
             <div className="why-choose-image-wrapper">
               <img
-                src="https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68aa0d4927a7a2c37c2d4733_Why%20Chooses%20Us%20Image.png"
-                alt="Why Choose Us"
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=500&fit=crop"
+                alt="Network Cabling"
                 className="why-choose-image"
               />
             </div>
@@ -176,7 +176,7 @@ export default function AboutPage() {
         <div className="container">
           <div className="company-subtitle-wrapper">
             <div className="company-subtitle-line"></div>
-            <div className="company-subtitle">Trusted Partners Worldwide for Success</div>
+            <div className="company-subtitle">Trusted by Leading Brands Across Industries</div>
             <div className="company-subtitle-line"></div>
           </div>
           <div className="sponsors-ticker-wrapper">
@@ -200,9 +200,9 @@ export default function AboutPage() {
             <div className="section-subtitle-wrap center">
               <span className="section-subtitle">Our Services</span>
             </div>
-            <h2 className="section-title center">Your Needs, Our Expertise</h2>
+            <h2 className="section-title center">Technology Solutions That Power Business</h2>
             <p className="section-description center">
-              Your Vision, Our Expertise — Together, we bring ideas to life with tailored solutions that deliver real results.
+              From digital displays to network backbones — comprehensive IT infrastructure services tailored to your industry.
             </p>
           </div>
           <div className="services-grid">
@@ -231,7 +231,7 @@ export default function AboutPage() {
             <div className="section-subtitle-wrap center">
               <span className="section-subtitle">Our Team</span>
             </div>
-            <h2 className="section-title center">Meet Our Expert Members</h2>
+            <h2 className="section-title center">Meet the Experts Behind Your Infrastructure</h2>
           </div>
           <div className="team-grid">
             {team.map((member, i) => (
@@ -254,9 +254,9 @@ export default function AboutPage() {
         <div className="container">
           <div className="section-header">
             <div className="section-subtitle-wrap center">
-              <span className="section-subtitle">Awards</span>
+              <span className="section-subtitle">Certifications</span>
             </div>
-            <h2 className="section-title center">Recognition & Honors</h2>
+            <h2 className="section-title center">Industry Recognition & Partnerships</h2>
           </div>
           <div className="awards-list">
             {awards.map((award, i) => (
@@ -273,11 +273,11 @@ export default function AboutPage() {
       <section className="section cta">
         <div className="container">
           <div className="cta-box">
-            <h2 className="cta-title">Let&apos;s Start Talk</h2>
+            <h2 className="cta-title">Ready to Upgrade Your Infrastructure?</h2>
             <p className="cta-desc">
-              Ready to transform your digital presence? Let&apos;s discuss how we can help your business grow.
+              Get a free site assessment and quote for your digital signage, network, or cabling project.
             </p>
-            <Link href="/contact" className="btn btn-secondary">Connect With Us</Link>
+            <Link href="/contact" className="btn btn-secondary">Get a Free Quote</Link>
           </div>
         </div>
       </section>
