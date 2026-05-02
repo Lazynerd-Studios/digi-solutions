@@ -20,6 +20,13 @@ export default function ContactPage() {
             Ready to upgrade your IT infrastructure? Reach out for a free site assessment, quote, or consultation.
           </p>
         </div>
+        <div className="container" style={{ marginTop: '60px' }}>
+          <img
+            src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1320&h=500&fit=crop"
+            alt="Contact DigiSolutions"
+            style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+          />
+        </div>
       </section>
 
       {/* Contact Form & Image */}
@@ -62,8 +69,8 @@ export default function ContactPage() {
             </div>
             <div className="contact-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?w=600&h=700&fit=crop"
-                alt="IT Technicians at Work"
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=700&fit=crop"
+                alt="DigiSolutions Office"
               />
             </div>
           </div>
@@ -101,7 +108,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="contact-detail-title">Email</h3>
-              <p className="contact-detail-text">info@ritovex.com<br />projects@ritovex.com</p>
+              <p className="contact-detail-text">info@digisolutions.ng<br />projects@digisolutions.ng</p>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Ritovex - IT Services & Digital Infrastructure',
+  title: 'DigiSolutions - IT Services & Digital Infrastructure',
 };
 
 const companyLogos = [
@@ -68,7 +68,7 @@ const processSteps = [
 
 const testimonials = [
   {
-    quote: 'Ritovex transformed our retail spaces with stunning digital signage. Their team handled everything from design to installation flawlessly. Sales increased by 30%.',
+    quote: 'DigiSolutions transformed our retail spaces with stunning digital signage. Their team handled everything from design to installation flawlessly. Sales increased by 30%.',
     name: 'David Okonkwo',
     role: 'Operations Director, Metro Retail Group',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
@@ -87,8 +87,6 @@ const testimonials = [
   },
 ];
 
-const tools = ['Samsung', 'LG', 'Cisco', 'Ubiquiti', 'Aruba', 'CommScope', 'Panduit', 'Leviton', 'Belden', 'FiberStore'];
-
 export default function HomePage() {
   return (
     <>
@@ -106,19 +104,12 @@ export default function HomePage() {
               </p>
               <div className="banner-button-wrapper">
                 <Link href="/contact" className="btn btn-primary">Get a Free Quote</Link>
-                <button className="btn btn-video">
-                  <span className="video-icon">
-                    <svg width="14" height="16" viewBox="0 0 14 16" fill="none">
-                      <path d="M13.5 7.13397C14.1667 7.51888 14.1667 8.48112 13.5 8.86602L1.5 15.7942C0.833332 16.1791 0 15.698 0 14.9282L0 1.0718C0 0.301996 0.833332 -0.179129 1.5 0.205771L13.5 7.13397Z" fill="currentColor" />
-                    </svg>
-                  </span>
-                  <span className="video-text">Watch Our Work</span>
-                </button>
+
               </div>
             </div>
             <div className="banner-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=700&fit=crop"
+                src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=700&fit=crop"
                 alt="Network Cabling Installation"
                 className="banner-image"
               />
@@ -155,8 +146,8 @@ export default function HomePage() {
           <div className="about-us-grid">
             <div className="about-us-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?w=600&h=700&fit=crop"
-                alt="IT Technicians at Work"
+                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=700&fit=crop"
+                alt="IT Technician at Work"
                 className="about-us-image"
               />
             </div>
@@ -166,7 +157,7 @@ export default function HomePage() {
               </div>
               <h2 className="section-title">Your Trusted IT Infrastructure Partner</h2>
               <p className="section-description">
-                Ritovex is a leading IT services company specializing in digital signage solutions, network deployment, and structured cabling. We help businesses modernize their technology infrastructure with reliable, scalable, and future-proof solutions.
+                DigiSolutions is a leading IT services company specializing in digital signage solutions, network deployment, and structured cabling. We help businesses modernize their technology infrastructure with reliable, scalable, and future-proof solutions.
               </p>
               <div className="about-features">
                 <div className="about-feature">
@@ -297,22 +288,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Tools */}
-      <section className="section services-tools">
-        <div className="container">
-          <div className="tools-content">
-            <h2 className="section-title center">Technology Partners & Equipment</h2>
-            <div className="tools-grid">
-              {tools.map((tool) => (
-                <div className="tool-item" key={tool}>
-                  <span className="tool-name">{tool}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials */}
       <section className="section testimonial">
         <div className="container">
@@ -322,7 +297,7 @@ export default function HomePage() {
             </div>
             <h2 className="section-title center">What Our Clients Say</h2>
             <p className="section-description center">
-              Businesses across retail, finance, hospitality, and corporate sectors trust Ritovex for their IT infrastructure needs.
+              Businesses across retail, finance, hospitality, and corporate sectors trust DigiSolutions for their IT infrastructure needs.
             </p>
           </div>
           <div className="testimonials-grid">

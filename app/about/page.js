@@ -88,10 +88,17 @@ export default function AboutPage() {
             <span className="breadcrumb-sep">/</span>
             <span>About Us</span>
           </div>
-          <h1 className="inner-banner-title">About Ritovex</h1>
+          <h1 className="inner-banner-title">About DigiSolutions</h1>
           <p className="inner-banner-desc">
             We are a leading IT infrastructure company specializing in digital signage, network deployment, and structured cabling — delivering reliable technology solutions that drive business growth.
           </p>
+        </div>
+        <div className="container" style={{ marginTop: '60px' }}>
+          <img
+            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1320&h=500&fit=crop"
+            alt="DigiSolutions Data Center"
+            style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+          />
         </div>
       </section>
 
@@ -102,7 +109,7 @@ export default function AboutPage() {
             <div className="about-banner-image-wrapper">
               <img
                 src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?w=700&h=500&fit=crop"
-                alt="Ritovex Technicians"
+                alt="DigiSolutions Technicians"
                 className="about-banner-image"
               />
             </div>
@@ -112,7 +119,7 @@ export default function AboutPage() {
               </div>
               <h2 className="section-title">Building the Digital Backbone of Modern Business</h2>
               <p className="section-description">
-                Since 2014, Ritovex has been at the forefront of IT infrastructure deployment across Nigeria. From massive LED video walls in retail malls to enterprise fiber networks in financial institutions, we design, install, and maintain the technology that powers business.
+                Since 2014, DigiSolutions has been at the forefront of IT infrastructure deployment across Nigeria. From massive LED video walls in retail malls to enterprise fiber networks in financial institutions, we design, install, and maintain the technology that powers business.
               </p>
               <div className="about-stats-grid">
                 <div className="about-stat-card">
@@ -144,7 +151,7 @@ export default function AboutPage() {
             <div className="section-subtitle-wrap center">
               <span className="section-subtitle">Why Choose Us</span>
             </div>
-            <h2 className="section-title center">The Ritovex Advantage</h2>
+            <h2 className="section-title center">The DigiSolutions Advantage</h2>
           </div>
           <div className="why-choose-grid">
             <div className="why-choose-image-wrapper">
@@ -231,7 +238,7 @@ export default function AboutPage() {
             <div className="section-subtitle-wrap center">
               <span className="section-subtitle">Our Team</span>
             </div>
-            <h2 className="section-title center">Meet the Experts Behind Your Infrastructure</h2>
+            <h2 className="section-title center">Our Leadership Team</h2>
           </div>
           <div className="team-grid">
             {team.map((member, i) => (

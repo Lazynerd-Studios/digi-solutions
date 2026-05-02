@@ -11,10 +11,10 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: 'Ritovex - Creative Agency',
-    template: '%s - Ritovex',
+    default: 'DigiSolutions - IT Services & Digital Infrastructure',
+    template: '%s - DigiSolutions',
   },
-  description: 'Ritovex is a modern Creative Agency template, designed for startups, agencies, and professionals to build stunning, high-performing websites.',
+  description: 'DigiSolutions is a leading IT services company specializing in digital signage, network deployment, and structured cabling for modern businesses.',
 };
 
 export default function RootLayout({ children }) {

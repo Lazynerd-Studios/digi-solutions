@@ -10,7 +10,7 @@ export default function Footer() {
               <Link href="/" className="footer-logo">
                 <img
                   src="/logo-white.png"
-                  alt="Ritovex Logo"
+                  alt="DigiSolutions Logo"
                   className="footer-logo-img"
                 />
               </Link>
@@ -51,7 +51,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p className="footer-copyright">&copy; 2025 Ritovex. All rights reserved.</p>
+            <p className="footer-copyright">&copy; 2025 DigiSolutions. All rights reserved.</p>
             <div className="footer-social">
               <a href="#" aria-label="Facebook">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">

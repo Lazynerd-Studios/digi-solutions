@@ -59,6 +59,13 @@ export default function PortfolioPage() {
             A showcase of IT infrastructure projects we have delivered across digital signage, network deployment, structured cabling, and security systems.
           </p>
         </div>
+        <div className="container" style={{ marginTop: '60px' }}>
+          <img
+            src="https://images.unsplash.com/photo-1563986768609-322da13575f2?w=1320&h=500&fit=crop"
+            alt="DigiSolutions Projects"
+            style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+          />
+        </div>
       </section>
 
       {/* Portfolio Grid */}

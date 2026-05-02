@@ -36,7 +36,6 @@ export default function Navbar() {
     { href: '/about', label: 'About' },
     { href: '/services', label: 'Services' },
     { href: '/portfolio', label: 'Projects' },
-    { href: '/contact', label: 'Contact' },
   ];
 
   return (
@@ -45,7 +44,7 @@ export default function Navbar() {
         <Link href="/" className="logo">
           <img
             src="/logo-black.png"
-            alt="Ritovex Logo"
+            alt="DigiSolutions Logo"
             className="logo-img"
           />
         </Link>

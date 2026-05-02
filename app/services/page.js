@@ -74,7 +74,7 @@ const faqs = [
 
 const testimonials = [
   {
-    quote: 'Ritovex deployed a 12-screen video wall across our retail chain in under three weeks. The quality of work and attention to cable management was outstanding.',
+    quote: 'DigiSolutions deployed a 12-screen video wall across our retail chain in under three weeks. The quality of work and attention to cable management was outstanding.',
     name: 'Chinedu Eze',
     role: 'IT Director, Shoprite Nigeria',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
@@ -86,7 +86,7 @@ const testimonials = [
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
   },
   {
-    quote: 'We needed a complete network overhaul for our new hospital wing. Ritovex delivered on time, within budget, and with zero disruption to patient services.',
+    quote: 'We needed a complete network overhaul for our new hospital wing. DigiSolutions delivered on time, within budget, and with zero disruption to patient services.',
     name: 'Dr. Ibrahim Musa',
     role: 'Facilities Director, Grandview Hospital',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
@@ -108,6 +108,13 @@ export default function ServicesPage() {
           <p className="inner-banner-desc">
             Comprehensive IT infrastructure solutions — from digital signage and network deployment to structured cabling and security systems.
           </p>
+        </div>
+        <div className="container" style={{ marginTop: '60px' }}>
+          <img
+            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1320&h=500&fit=crop"
+            alt="Network Infrastructure"
+            style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+          />
         </div>
       </section>
 
@@ -171,7 +178,7 @@ export default function ServicesPage() {
             <div className="section-subtitle-wrap center">
               <span className="section-subtitle">Benefits</span>
             </div>
-            <h2 className="section-title center">Why Clients Choose Ritovex</h2>
+            <h2 className="section-title center">Why Clients Choose DigiSolutions</h2>
           </div>
           <div className="benefits-grid">
             {benefits.map((b, i) => (
@@ -211,7 +218,7 @@ export default function ServicesPage() {
             </div>
             <h2 className="section-title center">What Our Clients Say</h2>
             <p className="section-description center">
-              Businesses across retail, finance, healthcare, and hospitality trust Ritovex for their IT infrastructure.
+              Businesses across retail, finance, healthcare, and hospitality trust DigiSolutions for their IT infrastructure.
             </p>
           </div>
           <div className="testimonials-grid">
