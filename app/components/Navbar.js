@@ -44,7 +44,7 @@ export default function Navbar() {
       <div className="container navbar-wrapper">
         <Link href="/" className="logo">
           <img
-            src="https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/6877fc04a8637ed3fa554e53_Ritovex%20Logo.svg"
+            src="/logo-black.png"
             alt="Ritovex Logo"
             className="logo-img"
           />
