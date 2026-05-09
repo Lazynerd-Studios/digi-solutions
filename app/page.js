@@ -58,6 +58,24 @@ const portfolio = [
     date: 'November 2024',
     title: 'Data Center Fiber Optic Installation',
   },
+  {
+    img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=450&fit=crop',
+    cat: 'Healthcare Digital Signage',
+    date: 'September 2024',
+    title: 'Hospital Patient Info Display System',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&h=450&fit=crop',
+    cat: 'Medical Menu Boards',
+    date: 'July 2024',
+    title: 'Clinic Digital Menu Board Installation',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=450&fit=crop',
+    cat: 'Medical Displays',
+    date: 'May 2024',
+    title: 'Diagnostic Display Screens — Grandview Hospital',
+  },
 ];
 
 const processSteps = [
@@ -232,6 +250,17 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Wide Office / Operations Center */}
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="container">
+          <img
+            src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1320&h=500&fit=crop"
+            alt="DigiSolutions Operations Center"
+            style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+          />
         </div>
       </section>
 

@@ -41,6 +41,24 @@ const portfolioItems = [
     date: 'June 2024',
     title: 'Structured Cabling — University Campus Expansion',
   },
+  {
+    img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=450&fit=crop',
+    cat: 'Healthcare Digital Signage',
+    date: 'April 2024',
+    title: 'Hospital Patient Info Display System',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&h=450&fit=crop',
+    cat: 'Medical Menu Boards',
+    date: 'February 2024',
+    title: 'Clinic Digital Menu Board Installation',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=450&fit=crop',
+    cat: 'Medical Displays',
+    date: 'December 2023',
+    title: 'Diagnostic Display Screens — Grandview Hospital',
+  },
 ];
 
 export default function PortfolioPage() {
