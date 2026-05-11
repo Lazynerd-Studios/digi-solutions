@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Contact Us',
@@ -21,10 +22,12 @@ export default function ContactPage() {
           </p>
         </div>
         <div className="container" style={{ marginTop: '60px' }}>
-          <img
+          <Image
             src="/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (3).jpeg"
             alt="Contact DigiSolutions"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+            width={1320}
+            height={500}
           />
         </div>
       </section>
@@ -68,9 +71,11 @@ export default function ContactPage() {
               </form>
             </div>
             <div className="contact-image-wrapper">
-              <img
+              <Image
                 src="/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (4).jpeg"
                 alt="DigiSolutions Office"
+                width={600}
+                height={400}
               />
             </div>
           </div>

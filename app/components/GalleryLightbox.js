@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import Image from 'next/image';
 
 export default function GalleryLightbox({ images, startIndex, isOpen, onClose }) {
   const [currentIndex, setCurrentIndex] = useState(startIndex);
@@ -54,10 +55,12 @@ export default function GalleryLightbox({ images, startIndex, isOpen, onClose })
         </button>
 
         <div className="lightbox-image-wrap">
-          <img
+          <Image
             src={images[currentIndex].src}
             alt={images[currentIndex].alt}
             className="lightbox-image"
+            width={800}
+            height={600}
           />
           <div className="lightbox-counter">
             {currentIndex + 1} / {images.length}

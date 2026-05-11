@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'DigiSolutions - IT Services & Digital Infrastructure',
@@ -120,10 +121,12 @@ export default function HomePage() {
               </div>
             </div>
             <div className="banner-image-wrapper">
-              <img
-                src="/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (1).jpeg"
-                alt="Network Cabling Installation"
+              <Image
+                src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=700&fit=crop"
+                alt="Network Infrastructure"
                 className="banner-image"
+                width={800}
+                height={600}
               />
             </div>
           </div>
@@ -157,10 +160,12 @@ export default function HomePage() {
         <div className="container">
           <div className="about-us-grid">
             <div className="about-us-image-wrapper">
-              <img
-                src="/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (2).jpeg"
+              <Image
+                src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?w=600&h=700&fit=crop"
                 alt="IT Technician at Work"
                 className="about-us-image"
+                width={600}
+                height={700}
               />
             </div>
             <div className="about-us-content">
@@ -250,10 +255,12 @@ export default function HomePage() {
       {/* Wide Office / Operations Center */}
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
-          <img
+          <Image
             src="/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (3).jpeg"
             alt="DigiSolutions Operations Center"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+            width={1320}
+            height={500}
           />
         </div>
       </section>
@@ -271,7 +278,7 @@ export default function HomePage() {
             {portfolio.map((item, i) => (
               <Link href="/portfolio" className="portfolio-card" key={i}>
                 <div className="portfolio-image-wrap">
-                  <img src={item.img} alt={item.title} className="portfolio-image" />
+                  <Image src={item.img} alt={item.title} className="portfolio-image" width={600} height={400} />
                   <div className="portfolio-overlay">
                     <span className="portfolio-view-btn">View Project</span>
                   </div>
@@ -336,7 +343,7 @@ export default function HomePage() {
                 <p className="testimonial-quote">{t.quote}</p>
                 <div className="testimonial-author">
                   <div className="testimonial-avatar">
-                    <img src={t.avatar} alt={t.name} />
+                    <Image src={t.avatar} alt={t.name} width={100} height={100} />
                   </div>
                   <div className="testimonial-info">
                     <div className="testimonial-name">{t.name}</div>

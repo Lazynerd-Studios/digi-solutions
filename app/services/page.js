@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import FaqAccordion from '../components/FaqAccordion';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Services',
@@ -203,10 +204,12 @@ export default function ServicesPage() {
           </p>
         </div>
         <div className="container" style={{ marginTop: '60px' }}>
-          <img
+          <Image
             src="/imgs/WhatsApp Image 2026-05-04 at 12.17.00.jpeg"
             alt="Network Infrastructure"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+            width={1320}
+            height={500}
           />
         </div>
       </section>
@@ -227,7 +230,7 @@ export default function ServicesPage() {
             {servicesImages.map((s) => (
               <Link href="/services" className="services-image-card" key={s.num}>
                 <div className="services-image-wrap">
-                  <img src={s.img} alt={s.title} />
+                  <Image src={s.img} alt={s.title} width={600} height={400} />
                 </div>
                 <div className="services-image-content">
                   <div className="services-image-header">
@@ -351,7 +354,7 @@ export default function ServicesPage() {
                 <p className="testimonial-quote">{t.quote}</p>
                 <div className="testimonial-author">
                   <div className="testimonial-avatar">
-                    <img src={t.avatar} alt={t.name} />
+                    <Image src={t.avatar} alt={t.name} width={100} height={100} />
                   </div>
                   <div className="testimonial-info">
                     <div className="testimonial-name">{t.name}</div>

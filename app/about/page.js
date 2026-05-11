@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'About Us',
@@ -108,10 +109,12 @@ export default function AboutPage() {
           </p>
         </div>
         <div className="container" style={{ marginTop: '60px' }}>
-          <img
+          <Image
             src="/imgs/WhatsApp Image 2026-05-04 at 12.17.25.jpeg"
             alt="DigiSolutions Data Center"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+            width={1320}
+            height={500}
           />
         </div>
       </section>
@@ -121,10 +124,12 @@ export default function AboutPage() {
         <div className="container">
           <div className="about-banner-grid">
             <div className="about-banner-image-wrapper">
-              <img
+              <Image
                 src="/imgs/WhatsApp Image 2026-05-04 at 12.17.25 (1).jpeg"
                 alt="DigiSolutions Technicians"
                 className="about-banner-image"
+                width={600}
+                height={700}
               />
             </div>
             <div className="about-banner-content">
@@ -169,10 +174,12 @@ export default function AboutPage() {
           </div>
           <div className="why-choose-grid">
             <div className="why-choose-image-wrapper">
-              <img
+              <Image
                 src="/imgs/WhatsApp Image 2026-05-04 at 12.17.26.jpeg"
                 alt="Network Cabling"
                 className="why-choose-image"
+                width={600}
+                height={700}
               />
             </div>
             <div className="why-choose-cards">
@@ -258,7 +265,7 @@ export default function AboutPage() {
             {team.map((member, i) => (
               <div className="team-member-card" key={i}>
                 <div className="team-member-image-wrap">
-                  <img src={member.img} alt={member.name} className="team-member-image" />
+                  <Image src={member.img} alt={member.name} className="team-member-image" width={600} height={400} />
                 </div>
                 <div className="team-member-info">
                   <div className="team-member-name">{member.name}</div>

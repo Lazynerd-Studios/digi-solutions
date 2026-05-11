@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import GalleryLightbox from '../components/GalleryLightbox';
 
 const workImages = [
@@ -99,7 +100,7 @@ export default function WorkDonePage() {
                   }
                 }}
               >
-                <img src={image.src} alt={image.alt} className="gallery-image" loading="lazy" />
+                <Image src={image.src} alt={image.alt} className="gallery-image" width={600} height={400} />
               </div>
             ))}
           </div>

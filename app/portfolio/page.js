@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Portfolio',
@@ -78,10 +79,12 @@ export default function PortfolioPage() {
           </p>
         </div>
         <div className="container" style={{ marginTop: '60px' }}>
-          <img
+          <Image
             src="/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (2).jpeg"
             alt="DigiSolutions Projects"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+            width={1320}
+            height={500}
           />
         </div>
       </section>
@@ -99,7 +102,7 @@ export default function PortfolioPage() {
             {portfolioItems.map((item, i) => (
               <Link href="/portfolio" className="portfolio-card" key={i}>
                 <div className="portfolio-image-wrap">
-                  <img src={item.img} alt={item.title} className="portfolio-image" />
+                  <Image src={item.img} alt={item.title} className="portfolio-image" width={600} height={400} />
                   <div className="portfolio-overlay">
                     <span className="portfolio-view-btn">View Project</span>
                   </div>
