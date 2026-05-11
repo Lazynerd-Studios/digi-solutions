@@ -103,9 +103,6 @@ export default function PortfolioPage() {
               <Link href="/portfolio" className="portfolio-card" key={i}>
                 <div className="portfolio-image-wrap">
                   <Image src={item.img} alt={item.title} className="portfolio-image" width={600} height={400} />
-                  <div className="portfolio-overlay">
-                    <span className="portfolio-view-btn">View Project</span>
-                  </div>
                 </div>
                 <div className="portfolio-meta">
                   <span className="portfolio-category">{item.cat}</span>
