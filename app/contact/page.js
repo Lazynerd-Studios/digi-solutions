@@ -22,7 +22,7 @@ export default function ContactPage() {
         </div>
         <div className="container" style={{ marginTop: '60px' }}>
           <img
-            src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1320&h=500&fit=crop"
+            src="/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (3).jpeg"
             alt="Contact DigiSolutions"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
           />
@@ -69,7 +69,7 @@ export default function ContactPage() {
             </div>
             <div className="contact-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=700&fit=crop"
+                src="/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (4).jpeg"
                 alt="DigiSolutions Office"
               />
             </div>

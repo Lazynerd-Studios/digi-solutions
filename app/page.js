@@ -4,16 +4,10 @@ export const metadata = {
   title: 'DigiSolutions - IT Services & Digital Infrastructure',
 };
 
-const companyLogos = [
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea28b177a0c8132c731_Company%20Logo1.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea22e58f4023f2c407c_Company%20Logo2.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea220a133701403500a_Company%20Logo3.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea240be0a12a1e31114_Company%20Logo4.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea28ac1cfc6ba5420ef_Company%20Logo5.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea22e65e6c572cff62d_Company%20Logo6.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea2d98edc9135c707e4_Company%20Logo7.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea28c5d930779c479fd_Company%20Logo8.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea240486de39f0c518e_Company%20Logo9.svg',
+const companyNames = [
+  'Shoprite', 'FinTrust Bank', 'Grandview Hospital', 'Metro Retail',
+  'Horizon Towers', 'CloudNine Data', 'Capital Trust', 'Shoprite Nigeria',
+  'University of Lagos',
 ];
 
 const services = [
@@ -41,37 +35,37 @@ const services = [
 
 const portfolio = [
   {
-    img: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=450&fit=crop',
+    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (4).jpeg',
     cat: 'Digital Signage',
     date: 'March 2025',
     title: 'Retail LED Video Wall Deployment',
   },
   {
-    img: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=450&fit=crop',
+    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (5).jpeg',
     cat: 'Network Deployment',
     date: 'January 2025',
     title: 'Enterprise Office Network Overhaul',
   },
   {
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=450&fit=crop',
+    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (6).jpeg',
     cat: 'Network Cabling',
     date: 'November 2024',
     title: 'Data Center Fiber Optic Installation',
   },
   {
-    img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=450&fit=crop',
+    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.27.jpeg',
     cat: 'Healthcare Digital Signage',
     date: 'September 2024',
     title: 'Hospital Patient Info Display System',
   },
   {
-    img: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&h=450&fit=crop',
+    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.28.jpeg',
     cat: 'Medical Menu Boards',
     date: 'July 2024',
     title: 'Clinic Digital Menu Board Installation',
   },
   {
-    img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=450&fit=crop',
+    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.28 (1).jpeg',
     cat: 'Medical Displays',
     date: 'May 2024',
     title: 'Diagnostic Display Screens — Grandview Hospital',
@@ -89,19 +83,19 @@ const testimonials = [
     quote: 'DigiSolutions transformed our retail spaces with stunning digital signage. Their team handled everything from design to installation flawlessly. Sales increased by 30%.',
     name: 'David Okonkwo',
     role: 'Operations Director, Metro Retail Group',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+    avatar: '/imgs/WhatsApp Image 2026-05-04 at 12.17.29.jpeg',
   },
   {
     quote: 'The network deployment across our 12-branch office was executed on time and within budget. Zero downtime, and the new fiber backbone is incredibly fast.',
     name: 'Amara Nwosu',
     role: 'CTO, FinTrust Financial Services',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
+    avatar: '/imgs/WhatsApp Image 2026-05-04 at 12.17.29 (1).jpeg',
   },
   {
     quote: 'Their structured cabling work in our new headquarters was impeccable. Every cable labeled, tested, and certified. The clean cable management is a work of art.',
     name: 'James Adeyemi',
     role: 'Facilities Manager, Horizon Towers',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
+    avatar: '/imgs/WhatsApp Image 2026-05-04 at 12.17.30.jpeg',
   },
 ];
 
@@ -127,7 +121,7 @@ export default function HomePage() {
             </div>
             <div className="banner-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=700&fit=crop"
+                src="/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (1).jpeg"
                 alt="Network Cabling Installation"
                 className="banner-image"
               />
@@ -147,9 +141,9 @@ export default function HomePage() {
           <div className="sponsors-ticker-wrapper">
             <div className="sponsors-ticker">
               <div className="ticker-track">
-                {[...companyLogos, ...companyLogos].map((logo, i) => (
+                {[...companyNames, ...companyNames].map((name, i) => (
                   <div className="ticker-item" key={i}>
-                    <img src={logo} alt="Partner Logo" className="company-logo" />
+                    <span className="company-name">{name}</span>
                   </div>
                 ))}
               </div>
@@ -164,7 +158,7 @@ export default function HomePage() {
           <div className="about-us-grid">
             <div className="about-us-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=700&fit=crop"
+                src="/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (2).jpeg"
                 alt="IT Technician at Work"
                 className="about-us-image"
               />
@@ -257,7 +251,7 @@ export default function HomePage() {
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
           <img
-            src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1320&h=500&fit=crop"
+            src="/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (3).jpeg"
             alt="DigiSolutions Operations Center"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
           />

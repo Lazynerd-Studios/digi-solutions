@@ -4,16 +4,10 @@ export const metadata = {
   title: 'About Us',
 };
 
-const companyLogos = [
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea28b177a0c8132c731_Company%20Logo1.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea22e58f4023f2c407c_Company%20Logo2.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea220a133701403500a_Company%20Logo3.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea240be0a12a1e31114_Company%20Logo4.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea28ac1cfc6ba5420ef_Company%20Logo5.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea22e65e6c572cff62d_Company%20Logo6.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea2d98edc9135c707e4_Company%20Logo7.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea28c5d930779c479fd_Company%20Logo8.svg',
-  'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68780ea240486de39f0c518e_Company%20Logo9.svg',
+const companyNames = [
+  'Shoprite', 'FinTrust Bank', 'Grandview Hospital', 'Metro Retail',
+  'Horizon Towers', 'CloudNine Data', 'Capital Trust', 'Shoprite Nigeria',
+  'University of Lagos',
 ];
 
 const services = [
@@ -40,10 +34,10 @@ const services = [
 ];
 
 const team = [
-  { name: 'David Okonkwo', role: 'CEO & Lead Engineer', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face' },
-  { name: 'Amara Nwosu', role: 'Head of Network Operations', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face' },
-  { name: 'James Adeyemi', role: 'Senior Cabling Specialist', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face' },
-  { name: 'Fatima Bello', role: 'Digital Signage Consultant', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face' },
+  { name: 'David Okonkwo', role: 'CEO & Lead Engineer', img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (3).jpeg' },
+  { name: 'Amara Nwosu', role: 'Head of Network Operations', img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (4).jpeg' },
+  { name: 'James Adeyemi', role: 'Senior Cabling Specialist', img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (5).jpeg' },
+  { name: 'Fatima Bello', role: 'Digital Signage Consultant', img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (6).jpeg' },
 ];
 
 const awards = [
@@ -56,22 +50,42 @@ const awards = [
 
 const whyCards = [
   {
-    icon: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68781451c1b2ec734bdb1f89_About%20Us%20Card%20Icon1.svg',
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+        <polyline points="22 4 12 14.01 9 11.01" />
+      </svg>
+    ),
     title: 'Certified Expertise',
     desc: 'Our technicians hold certifications from Cisco, CommScope, Panduit, and Samsung for guaranteed quality.',
   },
   {
-    icon: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/6878145183772d0cdf6005e8_About%20Us%20Card%20Icon2.svg',
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+        <line x1="8" y1="21" x2="16" y2="21" />
+        <line x1="12" y1="17" x2="12" y2="21" />
+      </svg>
+    ),
     title: 'End-to-End Service',
     desc: 'From initial site survey and design to installation, testing, and ongoing maintenance — we handle it all.',
   },
   {
-    icon: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68781451e9e825ffe70ac4af_About%20Us%20Card%20Icon3.svg',
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+      </svg>
+    ),
     title: 'Industry Experience',
     desc: 'Over a decade of experience deploying IT infrastructure for retail, finance, hospitality, and enterprise.',
   },
   {
-    icon: 'https://cdn.prod.website-files.com/6877e02f5387b6bdd6d338ec/68781451954bf1b86c600b25_About%20Us%20Card%20Icon4.svg',
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" />
+      </svg>
+    ),
     title: '24/7 Support',
     desc: 'Round-the-clock monitoring and rapid response support to keep your systems running without interruption.',
   },
@@ -95,7 +109,7 @@ export default function AboutPage() {
         </div>
         <div className="container" style={{ marginTop: '60px' }}>
           <img
-            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1320&h=500&fit=crop"
+            src="/imgs/WhatsApp Image 2026-05-04 at 12.17.25.jpeg"
             alt="DigiSolutions Data Center"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
           />
@@ -108,7 +122,7 @@ export default function AboutPage() {
           <div className="about-banner-grid">
             <div className="about-banner-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?w=700&h=500&fit=crop"
+                src="/imgs/WhatsApp Image 2026-05-04 at 12.17.25 (1).jpeg"
                 alt="DigiSolutions Technicians"
                 className="about-banner-image"
               />
@@ -156,7 +170,7 @@ export default function AboutPage() {
           <div className="why-choose-grid">
             <div className="why-choose-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=500&fit=crop"
+                src="/imgs/WhatsApp Image 2026-05-04 at 12.17.26.jpeg"
                 alt="Network Cabling"
                 className="why-choose-image"
               />
@@ -165,7 +179,7 @@ export default function AboutPage() {
               {whyCards.map((card, i) => (
                 <div className="why-choose-card" key={i}>
                   <div className="why-choose-icon">
-                    <img src={card.icon} alt={card.title} />
+                    {card.icon}
                   </div>
                   <div className="why-choose-text">
                     <h4>{card.title}</h4>
@@ -189,9 +203,9 @@ export default function AboutPage() {
           <div className="sponsors-ticker-wrapper">
             <div className="sponsors-ticker">
               <div className="ticker-track">
-                {[...companyLogos, ...companyLogos].map((logo, i) => (
+                {[...companyNames, ...companyNames].map((name, i) => (
                   <div className="ticker-item" key={i}>
-                    <img src={logo} alt="Partner Logo" className="company-logo" />
+                    <span className="company-name">{name}</span>
                   </div>
                 ))}
               </div>

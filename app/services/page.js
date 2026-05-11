@@ -10,25 +10,25 @@ const servicesImages = [
     num: '01',
     title: 'Digital Signage Solutions',
     desc: 'Complete digital signage ecosystems — LED video walls, LCD displays, interactive kiosks, menu boards, and wayfinding systems. We handle design, procurement, installation, content management, and ongoing maintenance.',
-    img: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop',
+    img: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59 (1).jpeg',
   },
   {
     num: '02',
     title: 'Network Deployment & Installation',
     desc: 'Full-scale network infrastructure deployment — LAN/WAN setup, wireless networks, firewall configuration, VPN implementation, and network security hardening for offices, campuses, and multi-site organizations.',
-    img: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=400&fit=crop',
+    img: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59 (2).jpeg',
   },
   {
     num: '03',
     title: 'Network Cabling & Fiber Optics',
     desc: 'Professional structured cabling installation — Cat5e, Cat6, Cat6a, fiber optic backbone, cable tray and ladder rack installation, patch panel termination, and full certification testing with documentation.',
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
+    img: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59 (3).jpeg',
   },
   {
     num: '04',
     title: 'CCTV & Security Systems',
     desc: 'Surveillance and access control solutions — IP camera systems, NVR/DVR setup, video analytics, biometric access control, and integrated security management platforms for complete peace of mind.',
-    img: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&h=400&fit=crop',
+    img: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59.jpeg',
   },
 ];
 
@@ -77,19 +77,19 @@ const testimonials = [
     quote: 'DigiSolutions deployed a 12-screen video wall across our retail chain in under three weeks. The quality of work and attention to cable management was outstanding.',
     name: 'Chinedu Eze',
     role: 'IT Director, Shoprite Nigeria',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+    avatar: '/imgs/WhatsApp Image 2026-05-04 at 12.17.30 (1).jpeg',
   },
   {
     quote: 'Their fiber optic installation across our 8-floor office building was flawless. Every cable labeled, tested, and certified. The network performance is incredible.',
     name: 'Ngozi Obi',
     role: 'CTO, Capital Trust Bank',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
+    avatar: '/imgs/WhatsApp Image 2026-05-04 at 12.17.30 (2).jpeg',
   },
   {
     quote: 'We needed a complete network overhaul for our new hospital wing. DigiSolutions delivered on time, within budget, and with zero disruption to patient services.',
     name: 'Dr. Ibrahim Musa',
     role: 'Facilities Director, Grandview Hospital',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
+    avatar: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59 (1).jpeg',
   },
 ];
 
@@ -111,7 +111,7 @@ export default function ServicesPage() {
         </div>
         <div className="container" style={{ marginTop: '60px' }}>
           <img
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1320&h=500&fit=crop"
+            src="/imgs/WhatsApp Image 2026-05-04 at 12.17.00.jpeg"
             alt="Network Infrastructure"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
           />
