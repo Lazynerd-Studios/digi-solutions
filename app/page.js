@@ -161,7 +161,7 @@ export default function HomePage() {
           <div className="about-us-grid">
             <div className="about-us-image-wrapper">
               <Image
-                src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?w=600&h=700&fit=crop"
+                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=700&fit=crop"
                 alt="IT Technician at Work"
                 className="about-us-image"
                 width={600}
