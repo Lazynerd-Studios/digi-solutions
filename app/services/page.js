@@ -15,7 +15,7 @@ const servicesImages = [
   {
     num: '02',
     title: 'Network Deployment & Installation',
-    desc: 'Full-scale network infrastructure deployment — LAN/WAN setup, wireless networks, firewall configuration, VPN implementation, and network security hardening for offices, campuses, and multi-site organizations.',
+    desc: 'Full-scale network infrastructure deployment — LAN/WAN setup, wireless networks, access points, firewall configuration, VPN implementation, and network security hardening for offices, campuses, and multi-site organizations.',
     img: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59 (2).jpeg',
   },
   {
@@ -29,6 +29,99 @@ const servicesImages = [
     title: 'CCTV & Security Systems',
     desc: 'Surveillance and access control solutions — IP camera systems, NVR/DVR setup, video analytics, biometric access control, and integrated security management platforms for complete peace of mind.',
     img: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59.jpeg',
+  },
+];
+
+const specializedServices = [
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <rect x="3" y="3" width="18" height="14" rx="2" />
+        <line x1="8" y1="21" x2="16" y2="21" />
+        <line x1="12" y1="17" x2="12" y2="21" />
+      </svg>
+    ),
+    title: 'Video Conferencing',
+    desc: 'Professional video conference room setup with HD cameras, microphones, displays, and integration with Zoom, Teams, and Google Meet.',
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <rect x="2" y="3" width="20" height="14" rx="2" />
+        <line x1="8" y1="21" x2="16" y2="21" />
+        <line x1="12" y1="17" x2="12" y2="21" />
+      </svg>
+    ),
+    title: 'Meeting / Board Room',
+    desc: 'Complete boardroom technology — smart displays, wireless presentation systems, room scheduling panels, and automated lighting/AV control.',
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+        <line x1="8" y1="21" x2="16" y2="21" />
+        <line x1="12" y1="17" x2="12" y2="21" />
+      </svg>
+    ),
+    title: 'POS Installation',
+    desc: 'Point of Sale system setup including terminals, receipt printers, barcode scanners, cash drawers, and payment gateway integration.',
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <rect x="3" y="3" width="18" height="14" rx="2" />
+        <line x1="8" y1="21" x2="16" y2="21" />
+        <line x1="12" y1="17" x2="12" y2="21" />
+      </svg>
+    ),
+    title: 'Menu Boards',
+    desc: 'Digital menu board installation for restaurants, cafes, and fast food — including wall-mounted, hanging, and outdoor drive-thru displays.',
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <rect x="4" y="4" width="16" height="16" rx="2" />
+        <rect x="9" y="9" width="6" height="6" />
+        <line x1="9" y1="1" x2="9" y2="4" />
+        <line x1="15" y1="1" x2="15" y2="4" />
+        <line x1="9" y1="20" x2="9" y2="23" />
+        <line x1="15" y1="20" x2="15" y2="23" />
+        <line x1="20" y1="9" x2="23" y2="9" />
+        <line x1="20" y1="14" x2="23" y2="14" />
+        <line x1="1" y1="9" x2="4" y2="9" />
+        <line x1="1" y1="14" x2="4" y2="14" />
+      </svg>
+    ),
+    title: 'Kiosk Installation',
+    desc: 'Interactive kiosk deployment — self-service, wayfinding, check-in, and information kiosks for retail, healthcare, and hospitality.',
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+        <circle cx="12" cy="13" r="4" />
+      </svg>
+    ),
+    title: 'CCTV Cameras',
+    desc: 'IP camera installation — indoor/outdoor, dome, bullet, PTZ, and 4K cameras with remote monitoring and mobile app access.',
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+      </svg>
+    ),
+    title: 'Access Points',
+    desc: 'Enterprise Wi-Fi access point installation — site survey, heatmap design, ceiling/wall mounting, and seamless roaming setup.',
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+      </svg>
+    ),
+    title: 'Network Cabling',
+    desc: 'Structured cabling for offices, warehouses, and data centers — Cat6, fiber optic, patch panels, cable management, and certification.',
   },
 ];
 
@@ -149,6 +242,30 @@ export default function ServicesPage() {
                   <p className="services-card-desc">{s.desc}</p>
                 </div>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Specialized Services */}
+      <section className="section" style={{ backgroundColor: 'var(--color-light-gray)' }}>
+        <div className="container">
+          <div className="section-header">
+            <div className="section-subtitle-wrap center">
+              <span className="section-subtitle">What We Install</span>
+            </div>
+            <h2 className="section-title center">Specialized Installations</h2>
+            <p className="section-description center">
+              From video conferencing rooms to POS systems — we handle the specific technology your business needs.
+            </p>
+          </div>
+          <div className="specialized-grid">
+            {specializedServices.map((service, i) => (
+              <div className="specialized-card" key={i}>
+                <div className="specialized-icon">{service.icon}</div>
+                <h3 className="specialized-title">{service.title}</h3>
+                <p className="specialized-desc">{service.desc}</p>
+              </div>
             ))}
           </div>
         </div>

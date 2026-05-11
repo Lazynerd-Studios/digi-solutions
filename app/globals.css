@@ -1843,6 +1843,65 @@ button {
 }
 
 /* ============================================
+   SPECIALIZED SERVICES
+   ============================================ */
+.specialized-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.specialized-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: 32px 24px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.specialized-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(20, 20, 20, 0.08);
+}
+
+.specialized-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.specialized-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.specialized-desc {
+  font-size: 14px;
+  color: var(--color-gray);
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .specialized-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .specialized-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================
    LIGHTBOX / GALLERY
    ============================================ */
 .lightbox-overlay {

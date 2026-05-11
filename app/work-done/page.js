@@ -58,7 +58,7 @@ export default function WorkDonePage() {
 
   return (
     <>
-      <!-- Inner Banner -->
+      {/* Inner Banner */}
       <section className="section inner-banner" style={{ paddingBottom: 0 }}>
         <div className="container">
           <div className="breadcrumb">
@@ -75,7 +75,7 @@ export default function WorkDonePage() {
         </div>
       </section>
 
-      <!-- Gallery Grid -->
+      {/* Gallery Grid */}
       <section className="section gallery" style={{ paddingTop: '60px' }}>
         <div className="container">
           <div className="section-header">
@@ -106,7 +106,7 @@ export default function WorkDonePage() {
         </div>
       </section>
 
-      <!-- CTA -->
+      {/* CTA */}
       <section className="section cta">
         <div className="container">
           <div className="cta-box">
@@ -119,7 +119,7 @@ export default function WorkDonePage() {
         </div>
       </section>
 
-      <!-- Lightbox -->
+      {/* Lightbox */}
       <GalleryLightbox
         images={workImages}
         startIndex={lightboxIndex}
