@@ -256,8 +256,8 @@ export default function HomePage() {
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
           <Image
-            src="/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (3).jpeg"
-            alt="DigiSolutions Operations Center"
+            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1320&h=500&fit=crop"
+            alt="Modern Office Network Infrastructure"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
             width={1320}
             height={500}

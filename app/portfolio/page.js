@@ -7,55 +7,55 @@ export const metadata = {
 
 const portfolioItems = [
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.01.jpeg',
+    img: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=450&fit=crop',
     cat: 'Digital Signage',
     date: 'March 2025',
     title: 'Retail LED Video Wall — Metro Mall Lagos',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.17.jpeg',
+    img: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=450&fit=crop',
     cat: 'Network Deployment',
     date: 'January 2025',
     title: 'Enterprise Network — FinTrust Headquarters',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.17 (1).jpeg',
+    img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=450&fit=crop',
     cat: 'Network Cabling',
     date: 'November 2024',
     title: 'Data Center Fiber — CloudNine Data Center',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.21.jpeg',
+    img: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&h=450&fit=crop',
     cat: 'CCTV & Security',
     date: 'October 2024',
     title: 'Surveillance System — Horizon Towers Estate',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.22.jpeg',
+    img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=450&fit=crop',
     cat: 'Digital Signage',
     date: 'August 2024',
     title: 'Interactive Kiosks — Airport Terminal 2',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.23.jpeg',
+    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=450&fit=crop',
     cat: 'Network Cabling',
     date: 'June 2024',
     title: 'Structured Cabling — University Campus Expansion',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.23 (1).jpeg',
+    img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=450&fit=crop',
     cat: 'Healthcare Digital Signage',
     date: 'April 2024',
     title: 'Hospital Patient Info Display System',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24.jpeg',
+    img: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&h=450&fit=crop',
     cat: 'Medical Menu Boards',
     date: 'February 2024',
     title: 'Clinic Digital Menu Board Installation',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (1).jpeg',
+    img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=450&fit=crop',
     cat: 'Medical Displays',
     date: 'December 2023',
     title: 'Diagnostic Display Screens — Grandview Hospital',
@@ -80,7 +80,7 @@ export default function PortfolioPage() {
         </div>
         <div className="container" style={{ marginTop: '60px' }}>
           <Image
-            src="/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (2).jpeg"
+            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1320&h=500&fit=crop"
             alt="DigiSolutions Projects"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
             width={1320}

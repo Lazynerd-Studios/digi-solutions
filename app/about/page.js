@@ -35,10 +35,10 @@ const services = [
 ];
 
 const team = [
-  { name: 'David Okonkwo', role: 'CEO & Lead Engineer', img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (3).jpeg' },
-  { name: 'Amara Nwosu', role: 'Head of Network Operations', img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (4).jpeg' },
-  { name: 'James Adeyemi', role: 'Senior Cabling Specialist', img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (5).jpeg' },
-  { name: 'Fatima Bello', role: 'Digital Signage Consultant', img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (6).jpeg' },
+  { name: 'David Okonkwo', role: 'CEO & Lead Engineer', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face' },
+  { name: 'Amara Nwosu', role: 'Head of Network Operations', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face' },
+  { name: 'James Adeyemi', role: 'Senior Cabling Specialist', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face' },
+  { name: 'Fatima Bello', role: 'Digital Signage Consultant', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face' },
 ];
 
 const awards = [
@@ -110,7 +110,7 @@ export default function AboutPage() {
         </div>
         <div className="container" style={{ marginTop: '60px' }}>
           <Image
-            src="/imgs/WhatsApp Image 2026-05-04 at 12.17.25.jpeg"
+            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1320&h=500&fit=crop"
             alt="DigiSolutions Data Center"
             style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
             width={1320}
@@ -125,7 +125,7 @@ export default function AboutPage() {
           <div className="about-banner-grid">
             <div className="about-banner-image-wrapper">
               <Image
-                src="/imgs/WhatsApp Image 2026-05-04 at 12.17.25 (1).jpeg"
+                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=700&fit=crop"
                 alt="DigiSolutions Technicians"
                 className="about-banner-image"
                 width={600}
@@ -175,7 +175,7 @@ export default function AboutPage() {
           <div className="why-choose-grid">
             <div className="why-choose-image-wrapper">
               <Image
-                src="/imgs/WhatsApp Image 2026-05-04 at 12.17.26.jpeg"
+                src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=700&fit=crop"
                 alt="Network Cabling"
                 className="why-choose-image"
                 width={600}
