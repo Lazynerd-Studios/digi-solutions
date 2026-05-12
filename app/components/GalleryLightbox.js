@@ -6,10 +6,6 @@ import Image from 'next/image';
 export default function GalleryLightbox({ images, startIndex, isOpen, onClose }) {
   const [currentIndex, setCurrentIndex] = useState(startIndex);
 
-  useEffect(() => {
-    setCurrentIndex(startIndex);
-  }, [startIndex]);
-
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   }, [images.length]);

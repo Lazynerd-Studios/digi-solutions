@@ -2,16 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
-
-  useEffect(() => {
-    setMenuOpen(false);
-    document.body.style.overflow = '';
-  }, [pathname]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,6 +27,11 @@ export default function Navbar() {
     document.body.style.overflow = !menuOpen ? 'hidden' : '';
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+    document.body.style.overflow = '';
+  };
+
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
@@ -43,10 +44,12 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="container navbar-wrapper">
         <Link href="/" className="logo">
-          <img
+          <Image
             src="/logo-black.png"
             alt="DigiSolutions Logo"
             className="logo-img"
+            width={150}
+            height={36}
           />
         </Link>
         <div className={`nav-menu${menuOpen ? ' open' : ''}`} id="navMenu">
@@ -55,13 +58,14 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               className={`nav-link${pathname === link.href ? ' active' : ''}`}
+              onClick={closeMenu}
             >
               {link.label}
             </Link>
           ))}
         </div>
         <div className="nav-actions">
-          <Link href="/contact" className="btn btn-primary">
+          <Link href="/contact" className="btn btn-primary" onClick={closeMenu}>
             Get a Free Quote
           </Link>
           <button

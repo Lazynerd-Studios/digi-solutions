@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -8,10 +9,12 @@ export default function Footer() {
           <div className="footer-top">
             <div className="footer-brand">
               <Link href="/" className="footer-logo">
-                <img
+                <Image
                   src="/logo-white.png"
                   alt="DigiSolutions Logo"
                   className="footer-logo-img"
+                  width={150}
+                  height={36}
                 />
               </Link>
               <p className="footer-tagline">
@@ -34,9 +37,6 @@ export default function Footer() {
                 <ul className="footer-links-list">
                   <li><Link href="/about">About Us</Link></li>
                   <li><Link href="/portfolio">Projects</Link></li>
-                  <li><Link href="/contact">Contact</Link></li>
-                  <li><Link href="/">Blog</Link></li>
-                  <li><Link href="/">Careers</Link></li>
                 </ul>
               </div>
               <div className="footer-links-col">

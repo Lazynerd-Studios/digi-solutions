@@ -122,6 +122,7 @@ export default function WorkDonePage() {
 
       {/* Lightbox */}
       <GalleryLightbox
+        key={lightboxIndex}
         images={workImages}
         startIndex={lightboxIndex}
         isOpen={lightboxOpen}
