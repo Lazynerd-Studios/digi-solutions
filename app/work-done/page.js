@@ -6,26 +6,26 @@ import Image from 'next/image';
 import GalleryLightbox from '../components/GalleryLightbox';
 
 const workImages = [
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59 (1).jpeg', alt: 'Work done 1' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59 (2).jpeg', alt: 'Work done 2' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59 (3).jpeg', alt: 'Work done 3' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.16.59.jpeg', alt: 'Work done 4' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.00.jpeg', alt: 'Work done 5' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.01.jpeg', alt: 'Work done 6' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.17 (1).jpeg', alt: 'Work done 7' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.17.jpeg', alt: 'Work done 8' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.21.jpeg', alt: 'Work done 9' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.22.jpeg', alt: 'Work done 10' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.23 (1).jpeg', alt: 'Work done 11' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.23.jpeg', alt: 'Work done 12' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (1).jpeg', alt: 'Work done 13' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (2).jpeg', alt: 'Work done 14' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (3).jpeg', alt: 'Work done 15' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (4).jpeg', alt: 'Work done 16' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (5).jpeg', alt: 'Work done 17' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (6).jpeg', alt: 'Work done 18' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.24.jpeg', alt: 'Work done 19' },
-  { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.25 (1).jpeg', alt: 'Work done 20' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610339/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.30_p7t383.jpg', alt: 'Work done 1' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610337/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.30_2_gsldau.jpg', alt: 'Work done 2' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610335/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.30_1_gkwups.jpg', alt: 'Work done 3' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610330/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.29_hpchtv.jpg', alt: 'Work done 4' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610328/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.29_1_b3gcec.jpg', alt: 'Work done 5' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610326/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.28_wcgtbz.jpg', alt: 'Work done 6' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610324/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.28_1_w4vtjw.jpg', alt: 'Work done 7' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610322/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.27_wkvfki.jpg', alt: 'Work done 8' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610321/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.26_pp047d.jpg', alt: 'Work done 9' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610320/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.26_6_q3oicr.jpg', alt: 'Work done 10' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610317/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.26_5_g9kymh.jpg', alt: 'Work done 11' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610315/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.26_4_sbqegt.jpg', alt: 'Work done 12' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610313/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.26_3_rvcao7.jpg', alt: 'Work done 13' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610313/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.26_2_ydkjkx.jpg', alt: 'Work done 14' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610310/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.26_1_e3zlod.jpg', alt: 'Work done 15' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610309/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.25_ov9cdm.jpg', alt: 'Work done 16' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610308/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.25_1_lnqe3m.jpg', alt: 'Work done 17' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610306/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.24_wishle.jpg', alt: 'Work done 18' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610303/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.24_6_by2g2n.jpg', alt: 'Work done 19' },
+  { src: 'https://res.cloudinary.com/lazynerd/image/upload/v1778610302/digi/gallery/WhatsApp_Image_2026-05-04_at_12.17.24_5_nmfxjf.jpg', alt: 'Work done 20' },
   { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.25.jpeg', alt: 'Work done 21' },
   { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (1).jpeg', alt: 'Work done 22' },
   { src: '/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (2).jpeg', alt: 'Work done 23' },
@@ -100,7 +100,7 @@ export default function WorkDonePage() {
                   }
                 }}
               >
-                <Image src={image.src} alt={image.alt} className="gallery-image" width={600} height={400} />
+                <Image src={image.src} alt={image.alt} className="gallery-image" width={600} height={400} loading="lazy" />
               </div>
             ))}
           </div>
