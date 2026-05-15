@@ -1,0 +1,211 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Collections" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Download History" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - button "Bookmarks" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fdigital-menu-board
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: digital menu board
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fdigital-menu-board
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 13":
+                - /url: /s/photos/digital-menu-board
+                - img
+                - text: Photos
+                - generic: "13"
+            - listitem [ref=e73]:
+              - link "Illustrations 4" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/digital-menu-board
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "4"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Digital menu board" [level=1] [ref=e87]
+          - generic [ref=e91]:
+            - link "menu board" [ref=e93] [cursor=pointer]:
+              - /url: /s/photos/menu-board
+            - link "illustration" [ref=e95] [cursor=pointer]:
+              - /url: /s/photos/illustration
+            - link "food service" [ref=e97] [cursor=pointer]:
+              - /url: /s/photos/food-service
+            - link "hospitality" [ref=e99] [cursor=pointer]:
+              - /url: /s/photos/hospitality
+            - link "bar" [ref=e101] [cursor=pointer]:
+              - /url: /s/photos/bar
+            - link "beer tap" [ref=e103] [cursor=pointer]:
+              - /url: /s/photos/beer-tap
+            - link "modern cafe" [ref=e105] [cursor=pointer]:
+              - /url: /s/photos/modern-cafe
+            - link "cafe interior" [ref=e107] [cursor=pointer]:
+              - /url: /s/photos/cafe-interior
+            - link "coffee machine" [ref=e109] [cursor=pointer]:
+              - /url: /s/photos/coffee-machine
+            - link "vector" [ref=e111] [cursor=pointer]:
+              - /url: /s/photos/vector
+            - link "interior" [ref=e113] [cursor=pointer]:
+              - /url: /s/photos/interior
+        - generic [ref=e115]:
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - figure [ref=e121]:
+                - link "A blank billboard stands in a lush green area." [ref=e124]:
+                  - /url: /photos/a-blank-billboard-stands-in-a-lush-green-area-Y1qehkVDkTs
+                  - img "A blank billboard stands in a lush green area." [ref=e125]
+              - generic [ref=e126]:
+                - heading "Sponsored images" [level=4] [ref=e127]:
+                  - generic [ref=e128]: Sponsored images
+                  - link [ref=e129] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A&phrase=digital+menu+board&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e130]
+                - generic [ref=e132]:
+                  - link "White blank signboard stand near the entrance to the coffee shop, mock up, cafeteria blurred background can inserting the text of the customer." [ref=e133] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/white-blank-signboard-stand-near-the-entrance-to-the-coffee-shop-mock-up-cafeteria-gm1421043760-466810096?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                    - img "White blank signboard stand near the entrance to the coffee shop, mock up, cafeteria blurred background can inserting the text of the customer." [ref=e134]
+                  - link "Mock up screen display Restaurant Cafe Menu Food Business" [ref=e135] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/mock-up-screen-display-restaurant-cafe-menu-food-business-gm1740504251-542677393?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                    - img "Mock up screen display Restaurant Cafe Menu Food Business" [ref=e136]
+                  - link "Young Asian man following the steps to prepare a meal from an online cooking tutorial on a laptop." [ref=e137] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/young-asian-man-following-the-steps-to-prepare-a-meal-from-an-online-cooking-gm2177897308-597269149?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                    - img "Young Asian man following the steps to prepare a meal from an online cooking tutorial on a laptop." [ref=e138]
+                  - link "A woman orders food at a fast food restaurant" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/a-woman-orders-food-at-a-fast-food-restaurant-gm2268766306-681342574?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                    - img "A woman orders food at a fast food restaurant" [ref=e140]
+                - link "Get 20% off with code UNSPLASH20" [ref=e141] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A&phrase=digital+menu+board&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e142]:
+                - link "Retro orange lamp above a cafe counter" [ref=e145]:
+                  - /url: /photos/retro-orange-lamp-above-a-cafe-counter-0np8c262szQ
+                  - img "Retro orange lamp above a cafe counter" [ref=e146]
+              - figure [ref=e147]:
+                - link "A bunch of beer taps lined up on a wall" [ref=e150]:
+                  - /url: /photos/a-bunch-of-beer-taps-lined-up-on-a-wall-WQzvZIhcE_E
+                  - img "A bunch of beer taps lined up on a wall" [ref=e151]
+              - figure [ref=e152]:
+                - link "Person working behind a counter at a cafe." [ref=e155]:
+                  - /url: /photos/person-working-behind-a-counter-at-a-cafe-ASOwh9_YI2o
+                  - img "Person working behind a counter at a cafe." [ref=e156]
+            - generic [ref=e157]:
+              - figure [ref=e158]:
+                - link "Blurred screen with bright light above" [ref=e161]:
+                  - /url: /photos/blurred-screen-with-bright-light-above-esZfKobesfE
+                  - img "Blurred screen with bright light above" [ref=e162]
+              - figure [ref=e163]:
+                - link "One of young waitresses making presentation of new assortment of desserts in laptop to her colleague" [ref=e166]:
+                  - /url: /photos/one-of-young-waitresses-making-presentation-of-new-assortment-of-desserts-in-laptop-to-her-colleague-PptRElcOxhI
+                  - img "One of young waitresses making presentation of new assortment of desserts in laptop to her colleague" [ref=e167]
+              - figure [ref=e168]:
+                - link "A brightly lit diner with an open sign at night." [ref=e171]:
+                  - /url: /photos/a-brightly-lit-diner-with-an-open-sign-at-night-sQCNhHqZ1PA
+                  - img "A brightly lit diner with an open sign at night." [ref=e172]
+              - figure [ref=e173]:
+                - link "Cctv footage shows people inside a coffeeshop." [ref=e176]:
+                  - /url: /photos/cctv-footage-shows-people-inside-a-coffeeshop-9LhnqEkgFzc
+                  - img "Cctv footage shows people inside a coffeeshop." [ref=e177]
+              - figure [ref=e178]:
+                - link "A cheerful young Down Syndrome waiter taking contactless smartphone payment from costumer in take away restaurant." [ref=e181]:
+                  - /url: /photos/a-cheerful-young-down-syndrome-waiter-taking-contactless-smartphone-payment-from-costumer-in-take-away-restaurant-DEKsJRFI1_Y
+                  - img "A cheerful young Down Syndrome waiter taking contactless smartphone payment from costumer in take away restaurant." [ref=e182]
+            - generic [ref=e183]:
+              - figure [ref=e184]:
+                - link "A dimly lit room with a scoreboard and taps." [ref=e187]:
+                  - /url: /photos/a-dimly-lit-room-with-a-scoreboard-and-taps-Rw3yoVY9klQ
+                  - img "A dimly lit room with a scoreboard and taps." [ref=e188]
+              - figure [ref=e189]:
+                - link "Blurred light and digital display in motion" [ref=e192]:
+                  - /url: /photos/blurred-light-and-digital-display-in-motion-RgcVg8Et4w8
+                  - img "Blurred light and digital display in motion" [ref=e193]
+              - figure [ref=e194]:
+                - link "Retail store display with products and screens." [ref=e197]:
+                  - /url: /photos/retail-store-display-with-products-and-screens-G9sAr2jBkM8
+                  - img "Retail store display with products and screens." [ref=e198]
+              - figure [ref=e199]:
+                - link "Sign says no laptops or ipads please" [ref=e202]:
+                  - /url: /photos/sign-says-no-laptops-or-ipads-please-GGUsBSFwcCo
+                  - img "Sign says no laptops or ipads please" [ref=e203]
+          - generic [ref=e206]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e207]:
+              - text: Browse premium images on iStock
+              - generic [ref=e208]: "| Claim your discount now"
+            - generic [ref=e210]:
+              - link "Menu on Blackboard Background." [ref=e211] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/menu-on-blackboard-background-gm2179903305-599040800?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                - img "Menu on Blackboard Background." [ref=e212]
+              - link "cafe interior or coffee shop inside with counter bar" [ref=e213] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/cafe-interior-or-coffee-shop-inside-with-counter-bar-gm1387901854-445704946?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                - img "cafe interior or coffee shop inside with counter bar" [ref=e214]
+              - link "Customer girl ordering food at a fast food restaurant, interacting with a self service electronic menu on a touchscreen kiosk for a quick meal choice" [ref=e215] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/customer-girl-ordering-food-at-a-fast-food-restaurant-interacting-with-a-self-gm2227456369-643326758?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                - img "Customer girl ordering food at a fast food restaurant, interacting with a self service electronic menu on a touchscreen kiosk for a quick meal choice" [ref=e216]
+              - link "Female barista looks over her shoulder" [ref=e217] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/female-barista-looks-over-her-shoulder-gm860318404-142184505?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                - img "Female barista looks over her shoulder" [ref=e218]
+              - link "Table talkers promotional upright menu table tent top sign holder table menu and qr card display stand picture frame for mock up and template design." [ref=e219] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/table-talkers-promotional-upright-menu-table-tent-top-sign-holder-table-menu-and-qr-gm2202318807-619922445?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                - img "Table talkers promotional upright menu table tent top sign holder table menu and qr card display stand picture frame for mock up and template design." [ref=e220]
+              - link "Mock up screen for food Menu Restaurant Business" [ref=e221] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/mock-up-screen-for-food-menu-restaurant-business-gm1472039912-502495330?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                - img "Mock up screen for food Menu Restaurant Business" [ref=e222]
+              - link "Interior of a modern coffee bar with a blank signboard behind the counter and items on the shelves. Mockup. Contemporary coffee shop interior." [ref=e223] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/interior-of-a-modern-coffee-bar-with-a-blank-signboard-behind-the-counter-and-items-gm1495001282-518161454?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                - img "Interior of a modern coffee bar with a blank signboard behind the counter and items on the shelves. Mockup. Contemporary coffee shop interior." [ref=e224]
+              - generic [ref=e225]:
+                - link "the food court, the ordering counter, and the seating. ,3d rendering" [ref=e226] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/the-food-court-the-ordering-counter-and-the-seating-3d-rendering-gm1822757835-550185899?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A
+                  - img "the food court, the ordering counter, and the seating. ,3d rendering" [ref=e227]
+                - link "View more on iStock ↗" [ref=e228] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdigital-menu-board&utm_term=digital+menu+board%3A%3A%3A%3A&phrase=digital+menu+board&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - generic [ref=e230]:
+            - link [ref=e231] [cursor=pointer]:
+              - /url: /
+              - img [ref=e232]
+            - paragraph [ref=e234]: Make something awesome
+    - generic:
+      - region "Notifications"

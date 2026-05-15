@@ -1,0 +1,539 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - img "Unsplash Home" [ref=e9]
+    - generic [ref=e11]:
+      - link "Log in / Sign up" [ref=e12] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Finteractive-kiosk
+        - img [ref=e13]
+      - button "Language" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+      - button "Menu" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - navigation [ref=e23]:
+        - search "Find visuals sitewide" [ref=e25]:
+          - button "Search Unsplash" [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+          - combobox [ref=e29]:
+            - searchbox "Search Unsplash" [ref=e30]: interactive kiosk
+            - listbox
+          - button "Clear" [ref=e31] [cursor=pointer]:
+            - img [ref=e32]
+        - button "Filters" [ref=e34] [cursor=pointer]:
+          - img [ref=e36]
+      - generic [ref=e38]:
+        - list [ref=e45]:
+          - listitem [ref=e46]:
+            - link "Photos 912":
+              - /url: /s/photos/interactive-kiosk
+              - text: Photos
+              - generic: "912"
+          - listitem [ref=e47]:
+            - link "Illustrations 190" [ref=e48] [cursor=pointer]:
+              - /url: /s/illustrations/interactive-kiosk
+              - text: Illustrations
+              - generic [ref=e49]: "190"
+          - listitem [ref=e50]:
+            - button "More" [ref=e51] [cursor=pointer]
+        - generic [ref=e52]:
+          - heading "Interactive kiosk" [level=1] [ref=e54]
+          - generic [ref=e58]:
+            - link "self service" [ref=e60] [cursor=pointer]:
+              - /url: /s/photos/self-service
+            - link "kiosk" [ref=e62] [cursor=pointer]:
+              - /url: /s/photos/kiosk
+            - link "self service kiosk" [ref=e64] [cursor=pointer]:
+              - /url: /s/photos/self-service-kiosk
+            - link "restaurant" [ref=e66] [cursor=pointer]:
+              - /url: /s/photos/restaurant
+            - link "atm" [ref=e68] [cursor=pointer]:
+              - /url: /s/photos/atm
+            - link "bar" [ref=e70] [cursor=pointer]:
+              - /url: /s/photos/bar
+            - link "self serve food" [ref=e72] [cursor=pointer]:
+              - /url: /s/photos/self-serve-food
+            - link "payment terminal" [ref=e74] [cursor=pointer]:
+              - /url: /s/photos/payment-terminal
+            - link "touch screen" [ref=e76] [cursor=pointer]:
+              - /url: /s/photos/touch-screen
+            - link "convenience" [ref=e78] [cursor=pointer]:
+              - /url: /s/photos/convenience
+            - link "card reader" [ref=e80] [cursor=pointer]:
+              - /url: /s/photos/card-reader
+            - link "public service" [ref=e82] [cursor=pointer]:
+              - /url: /s/photos/public-service
+        - generic [ref=e84]:
+          - generic [ref=e87]:
+            - figure [ref=e88]:
+              - generic [ref=e90]:
+                - link [ref=e91] [cursor=pointer]:
+                  - /url: /@rlldied
+                - generic [ref=e94]:
+                  - link "Valeria Nikitina" [ref=e95] [cursor=pointer]:
+                    - /url: /@rlldied
+                  - generic [ref=e96]:
+                    - text: For
+                    - link "Unsplash+" [ref=e97] [cursor=pointer]:
+                      - /url: /plus?referrer=%2Fphotos%2Fa-computer-monitor-sitting-on-top-of-a-white-stand-qLjZjxRzeeg
+              - generic [ref=e98]:
+                - link "a computer monitor sitting on top of a white stand" [ref=e99]:
+                  - /url: /photos/a-computer-monitor-sitting-on-top-of-a-white-stand-qLjZjxRzeeg
+                  - img "a computer monitor sitting on top of a white stand" [ref=e100]
+                - link [ref=e101] [cursor=pointer]:
+                  - /url: /plus?referrer=%2Fphotos%2Fa-computer-monitor-sitting-on-top-of-a-white-stand-qLjZjxRzeeg
+                  - img [ref=e102]
+              - generic [ref=e105]:
+                - generic [ref=e106]:
+                  - button "Bookmark" [ref=e107] [cursor=pointer]:
+                    - img [ref=e108]
+                  - button "Add to Collection" [ref=e111] [cursor=pointer]:
+                    - img [ref=e112]
+                - link "Download" [ref=e115] [cursor=pointer]:
+                  - /url: /plus?referrer=%2Fphotos%2Fa-computer-monitor-sitting-on-top-of-a-white-stand-qLjZjxRzeeg
+                  - img [ref=e116]
+                  - text: Download
+            - contentinfo [ref=e122]:
+              - generic [ref=e128]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+            - figure [ref=e130]:
+              - generic [ref=e132]:
+                - link [ref=e133] [cursor=pointer]:
+                  - /url: /@onesix
+                - link "Onesix" [ref=e137] [cursor=pointer]:
+                  - /url: /@onesix
+              - link "timeline" [ref=e139]:
+                - /url: /photos/timeline-LBikV4HMGwM
+                - img "timeline" [ref=e140]
+              - generic [ref=e142]:
+                - generic [ref=e143]:
+                  - button "Bookmark" [ref=e144] [cursor=pointer]:
+                    - img [ref=e145]
+                  - button "Add to Collection" [ref=e148] [cursor=pointer]:
+                    - img [ref=e149]
+                - generic [ref=e152]:
+                  - link "Download" [ref=e153] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/LBikV4HMGwM/download?force=true
+                  - button "Choose download size" [ref=e154] [cursor=pointer]:
+                    - img [ref=e155]
+            - figure [ref=e157]:
+              - generic [ref=e159]:
+                - link [ref=e160] [cursor=pointer]:
+                  - /url: /@onesix
+                - link "Onesix" [ref=e164] [cursor=pointer]:
+                  - /url: /@onesix
+              - link "a close up of a phone" [ref=e166]:
+                - /url: /photos/a-close-up-of-a-phone-Uq6SoEnPdQ0
+                - img "a close up of a phone" [ref=e167]
+              - generic [ref=e169]:
+                - generic [ref=e170]:
+                  - button "Bookmark" [ref=e171] [cursor=pointer]:
+                    - img [ref=e172]
+                  - button "Add to Collection" [ref=e175] [cursor=pointer]:
+                    - img [ref=e176]
+                - generic [ref=e179]:
+                  - link "Download" [ref=e180] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/Uq6SoEnPdQ0/download?force=true
+                  - button "Choose download size" [ref=e181] [cursor=pointer]:
+                    - img [ref=e182]
+            - figure [ref=e184]:
+              - generic [ref=e186]:
+                - link [ref=e187] [cursor=pointer]:
+                  - /url: /@onesix
+                - link "Onesix" [ref=e191] [cursor=pointer]:
+                  - /url: /@onesix
+              - link "a close up of a sign" [ref=e193]:
+                - /url: /photos/a-close-up-of-a-sign-3L0aUxetRhE
+                - img "a close up of a sign" [ref=e194]
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - button "Bookmark" [ref=e198] [cursor=pointer]:
+                    - img [ref=e199]
+                  - button "Add to Collection" [ref=e202] [cursor=pointer]:
+                    - img [ref=e203]
+                - generic [ref=e206]:
+                  - link "Download" [ref=e207] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/3L0aUxetRhE/download?force=true
+                  - button "Choose download size" [ref=e208] [cursor=pointer]:
+                    - img [ref=e209]
+            - figure [ref=e211]:
+              - generic [ref=e213]:
+                - link [ref=e214] [cursor=pointer]:
+                  - /url: /@gettyimages
+                - generic [ref=e217]:
+                  - link "Getty Images" [ref=e218] [cursor=pointer]:
+                    - /url: /@gettyimages
+                  - generic [ref=e219]:
+                    - text: For
+                    - link "Unsplash+" [ref=e220] [cursor=pointer]:
+                      - /url: /plus?referrer=%2Fphotos%2Ftourist-woman-buys-tickets-for-transport-in-georgia-modern-street-machine-for-purchase-of-tickets-for-bus-4lvb26gDe_k
+              - generic [ref=e221]:
+                - link "Tourist woman buys tickets for transport in Georgia. modern street machine for purchase of tickets for bus" [ref=e222]:
+                  - /url: /photos/tourist-woman-buys-tickets-for-transport-in-georgia-modern-street-machine-for-purchase-of-tickets-for-bus-4lvb26gDe_k
+                  - img "Tourist woman buys tickets for transport in Georgia. modern street machine for purchase of tickets for bus" [ref=e223]
+                - link [ref=e224] [cursor=pointer]:
+                  - /url: /plus?referrer=%2Fphotos%2Ftourist-woman-buys-tickets-for-transport-in-georgia-modern-street-machine-for-purchase-of-tickets-for-bus-4lvb26gDe_k
+                  - img [ref=e225]
+              - generic [ref=e228]:
+                - generic [ref=e229]:
+                  - button "Bookmark" [ref=e230] [cursor=pointer]:
+                    - img [ref=e231]
+                  - button "Add to Collection" [ref=e234] [cursor=pointer]:
+                    - img [ref=e235]
+                - link "Download" [ref=e238] [cursor=pointer]:
+                  - /url: /plus?referrer=%2Fphotos%2Ftourist-woman-buys-tickets-for-transport-in-georgia-modern-street-machine-for-purchase-of-tickets-for-bus-4lvb26gDe_k
+                  - img [ref=e239]
+                  - text: Download
+            - figure [ref=e241]:
+              - generic [ref=e243]:
+                - link [ref=e244] [cursor=pointer]:
+                  - /url: /@ed_757
+                - link "Edwin Rodriguez" [ref=e248] [cursor=pointer]:
+                  - /url: /@ed_757
+              - link "A brightly lit kiosk with text and buttons." [ref=e250]:
+                - /url: /photos/a-brightly-lit-kiosk-with-text-and-buttons-0rC40Gbnm9w
+                - img "A brightly lit kiosk with text and buttons." [ref=e251]
+              - generic [ref=e253]:
+                - generic [ref=e254]:
+                  - button "Bookmark" [ref=e255] [cursor=pointer]:
+                    - img [ref=e256]
+                  - button "Add to Collection" [ref=e259] [cursor=pointer]:
+                    - img [ref=e260]
+                - generic [ref=e263]:
+                  - link "Download" [ref=e264] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/0rC40Gbnm9w/download?force=true
+                  - button "Choose download size" [ref=e265] [cursor=pointer]:
+                    - img [ref=e266]
+            - figure [ref=e268]:
+              - generic [ref=e270]:
+                - link [ref=e271] [cursor=pointer]:
+                  - /url: /@covasoftware
+                - link "Cova Software" [ref=e275] [cursor=pointer]:
+                  - /url: /@covasoftware
+              - link "Two people interact with a digital display screen." [ref=e277]:
+                - /url: /photos/two-people-interact-with-a-digital-display-screen-ucAGk6vH7t8
+                - img "Two people interact with a digital display screen." [ref=e278]
+              - generic [ref=e280]:
+                - generic [ref=e281]:
+                  - button "Bookmark" [ref=e282] [cursor=pointer]:
+                    - img [ref=e283]
+                  - button "Add to Collection" [ref=e286] [cursor=pointer]:
+                    - img [ref=e287]
+                - generic [ref=e290]:
+                  - link "Download" [ref=e291] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/ucAGk6vH7t8/download?force=true
+                  - button "Choose download size" [ref=e292] [cursor=pointer]:
+                    - img [ref=e293]
+            - figure [ref=e295]:
+              - generic [ref=e297]:
+                - link [ref=e298] [cursor=pointer]:
+                  - /url: /@covasoftware
+                - link "Cova Software" [ref=e302] [cursor=pointer]:
+                  - /url: /@covasoftware
+              - link "Two people interact with a digital display screen." [ref=e304]:
+                - /url: /photos/two-people-interact-with-a-digital-display-screen-jkc5WuJWoIQ
+                - img "Two people interact with a digital display screen." [ref=e305]
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - button "Bookmark" [ref=e309] [cursor=pointer]:
+                    - img [ref=e310]
+                  - button "Add to Collection" [ref=e313] [cursor=pointer]:
+                    - img [ref=e314]
+                - generic [ref=e317]:
+                  - link "Download" [ref=e318] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/jkc5WuJWoIQ/download?force=true
+                  - button "Choose download size" [ref=e319] [cursor=pointer]:
+                    - img [ref=e320]
+            - figure [ref=e322]:
+              - generic [ref=e324]:
+                - link [ref=e325] [cursor=pointer]:
+                  - /url: /@lishakov
+                - generic [ref=e328]:
+                  - link "Andrej Lišakov" [ref=e329] [cursor=pointer]:
+                    - /url: /@lishakov
+                  - generic [ref=e330]:
+                    - text: For
+                    - link "Unsplash+" [ref=e331] [cursor=pointer]:
+                      - /url: /plus?referrer=%2Fphotos%2Fwoman-uses-interactive-kiosk-in-a-library-3RscPs1XJuI
+              - generic [ref=e332]:
+                - link "Woman uses interactive kiosk in a library." [ref=e333]:
+                  - /url: /photos/woman-uses-interactive-kiosk-in-a-library-3RscPs1XJuI
+                  - img "Woman uses interactive kiosk in a library." [ref=e334]
+                - link [ref=e335] [cursor=pointer]:
+                  - /url: /plus?referrer=%2Fphotos%2Fwoman-uses-interactive-kiosk-in-a-library-3RscPs1XJuI
+                  - img [ref=e336]
+              - generic [ref=e339]:
+                - generic [ref=e340]:
+                  - button "Bookmark" [ref=e341] [cursor=pointer]:
+                    - img [ref=e342]
+                  - button "Add to Collection" [ref=e345] [cursor=pointer]:
+                    - img [ref=e346]
+                - link "Download" [ref=e349] [cursor=pointer]:
+                  - /url: /plus?referrer=%2Fphotos%2Fwoman-uses-interactive-kiosk-in-a-library-3RscPs1XJuI
+                  - img [ref=e350]
+                  - text: Download
+            - figure [ref=e352]:
+              - generic [ref=e354]:
+                - link [ref=e355] [cursor=pointer]:
+                  - /url: /@permadicreative
+                - link "Permadi Creative" [ref=e359] [cursor=pointer]:
+                  - /url: /@permadicreative
+              - link "Person paying at a grocery store checkout with cart" [ref=e361]:
+                - /url: /photos/person-paying-at-a-grocery-store-checkout-with-cart-2dEoodA5x_k
+                - img "Person paying at a grocery store checkout with cart" [ref=e362]
+              - generic [ref=e364]:
+                - generic [ref=e365]:
+                  - button "Bookmark" [ref=e366] [cursor=pointer]:
+                    - img [ref=e367]
+                  - button "Add to Collection" [ref=e370] [cursor=pointer]:
+                    - img [ref=e371]
+                - generic [ref=e374]:
+                  - link "Download" [ref=e375] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/2dEoodA5x_k/download?force=true
+                  - button "Choose download size" [ref=e376] [cursor=pointer]:
+                    - img [ref=e377]
+            - figure [ref=e379]:
+              - generic [ref=e381]:
+                - link [ref=e382] [cursor=pointer]:
+                  - /url: /@hippoatm
+                - link "John Paul Cuvinar" [ref=e386] [cursor=pointer]:
+                  - /url: /@hippoatm
+              - link "graphical user interface" [ref=e388]:
+                - /url: /photos/graphical-user-interface-hH9xWAwdDfE
+                - img "graphical user interface" [ref=e389]
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - button "Bookmark" [ref=e393] [cursor=pointer]:
+                    - img [ref=e394]
+                  - button "Add to Collection" [ref=e397] [cursor=pointer]:
+                    - img [ref=e398]
+                - generic [ref=e401]:
+                  - link "Download" [ref=e402] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/hH9xWAwdDfE/download?force=true
+                  - button "Choose download size" [ref=e403] [cursor=pointer]:
+                    - img [ref=e404]
+            - figure [ref=e406]:
+              - generic [ref=e408]:
+                - link [ref=e409] [cursor=pointer]:
+                  - /url: /@mfchshao
+                - link "CHARLIE" [ref=e413] [cursor=pointer]:
+                  - /url: /@mfchshao
+              - link "a couple of machines sitting inside of a building" [ref=e415]:
+                - /url: /photos/a-couple-of-machines-sitting-inside-of-a-building-Wt_fdAM6hzc
+                - img "a couple of machines sitting inside of a building" [ref=e416]
+              - generic [ref=e418]:
+                - generic [ref=e419]:
+                  - button "Bookmark" [ref=e420] [cursor=pointer]:
+                    - img [ref=e421]
+                  - button "Add to Collection" [ref=e424] [cursor=pointer]:
+                    - img [ref=e425]
+                - generic [ref=e428]:
+                  - link "Download" [ref=e429] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/Wt_fdAM6hzc/download?force=true
+                  - button "Choose download size" [ref=e430] [cursor=pointer]:
+                    - img [ref=e431]
+            - figure [ref=e433]:
+              - generic [ref=e435]:
+                - link [ref=e436] [cursor=pointer]:
+                  - /url: /@gettyimages
+                - generic [ref=e439]:
+                  - link "Getty Images" [ref=e440] [cursor=pointer]:
+                    - /url: /@gettyimages
+                  - generic [ref=e441]:
+                    - text: For
+                    - link "Unsplash+" [ref=e442] [cursor=pointer]:
+                      - /url: /plus?referrer=%2Fphotos%2Fman-on-airport-using-modern-technology-space-for-copy-close-up-ghyplXYoyjc
+              - generic [ref=e443]:
+                - link "Man on airport using modern technology. Space for copy. Close up." [ref=e444]:
+                  - /url: /photos/man-on-airport-using-modern-technology-space-for-copy-close-up-ghyplXYoyjc
+                  - img "Man on airport using modern technology. Space for copy. Close up." [ref=e445]
+                - link [ref=e446] [cursor=pointer]:
+                  - /url: /plus?referrer=%2Fphotos%2Fman-on-airport-using-modern-technology-space-for-copy-close-up-ghyplXYoyjc
+                  - img [ref=e447]
+              - generic [ref=e450]:
+                - generic [ref=e451]:
+                  - button "Bookmark" [ref=e452] [cursor=pointer]:
+                    - img [ref=e453]
+                  - button "Add to Collection" [ref=e456] [cursor=pointer]:
+                    - img [ref=e457]
+                - link "Download" [ref=e460] [cursor=pointer]:
+                  - /url: /plus?referrer=%2Fphotos%2Fman-on-airport-using-modern-technology-space-for-copy-close-up-ghyplXYoyjc
+                  - img [ref=e461]
+                  - text: Download
+            - figure [ref=e463]:
+              - generic [ref=e465]:
+                - link [ref=e466] [cursor=pointer]:
+                  - /url: /@karengrigorean
+                - link "Karen Grigorean" [ref=e470] [cursor=pointer]:
+                  - /url: /@karengrigorean
+              - link "a person pointing at a large display of pictures" [ref=e472]:
+                - /url: /photos/a-person-pointing-at-a-large-display-of-pictures-9D6UlCW38Ss
+                - img "a person pointing at a large display of pictures" [ref=e473]
+              - generic [ref=e475]:
+                - generic [ref=e476]:
+                  - button "Bookmark" [ref=e477] [cursor=pointer]:
+                    - img [ref=e478]
+                  - button "Add to Collection" [ref=e481] [cursor=pointer]:
+                    - img [ref=e482]
+                - generic [ref=e485]:
+                  - link "Download" [ref=e486] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/9D6UlCW38Ss/download?force=true
+                  - button "Choose download size" [ref=e487] [cursor=pointer]:
+                    - img [ref=e488]
+            - figure [ref=e490]:
+              - generic [ref=e492]:
+                - link [ref=e493] [cursor=pointer]:
+                  - /url: /@hippoatm
+                - link "John Paul Cuvinar" [ref=e497] [cursor=pointer]:
+                  - /url: /@hippoatm
+              - link "a black and orange gaming device" [ref=e499]:
+                - /url: /photos/a-black-and-orange-gaming-device-PwGx1XCt6oI
+                - img "a black and orange gaming device" [ref=e500]
+              - generic [ref=e502]:
+                - generic [ref=e503]:
+                  - button "Bookmark" [ref=e504] [cursor=pointer]:
+                    - img [ref=e505]
+                  - button "Add to Collection" [ref=e508] [cursor=pointer]:
+                    - img [ref=e509]
+                - generic [ref=e512]:
+                  - link "Download" [ref=e513] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/PwGx1XCt6oI/download?force=true
+                  - button "Choose download size" [ref=e514] [cursor=pointer]:
+                    - img [ref=e515]
+            - figure [ref=e517]:
+              - generic [ref=e519]:
+                - link [ref=e520] [cursor=pointer]:
+                  - /url: /@hippoatm
+                - link "John Paul Cuvinar" [ref=e524] [cursor=pointer]:
+                  - /url: /@hippoatm
+              - link "a person using a tablet" [ref=e526]:
+                - /url: /photos/a-person-using-a-tablet-vd_P7agZf9I
+                - img "a person using a tablet" [ref=e527]
+              - generic [ref=e529]:
+                - generic [ref=e530]:
+                  - button "Bookmark" [ref=e531] [cursor=pointer]:
+                    - img [ref=e532]
+                  - button "Add to Collection" [ref=e535] [cursor=pointer]:
+                    - img [ref=e536]
+                - generic [ref=e539]:
+                  - link "Download" [ref=e540] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/vd_P7agZf9I/download?force=true
+                  - button "Choose download size" [ref=e541] [cursor=pointer]:
+                    - img [ref=e542]
+            - figure [ref=e544]:
+              - generic [ref=e546]:
+                - link [ref=e547] [cursor=pointer]:
+                  - /url: /@curatedlifestyle
+                - generic [ref=e550]:
+                  - link "Curated Lifestyle" [ref=e551] [cursor=pointer]:
+                    - /url: /@curatedlifestyle
+                  - generic [ref=e552]:
+                    - text: For
+                    - link "Unsplash+" [ref=e553] [cursor=pointer]:
+                      - /url: /plus?referrer=%2Fphotos%2Fbusiness-people-discussing-about-work-using-tablet-NGo82eZIvew
+              - generic [ref=e554]:
+                - link "Business people discussing about work using tablet" [ref=e555]:
+                  - /url: /photos/business-people-discussing-about-work-using-tablet-NGo82eZIvew
+                  - img "Business people discussing about work using tablet" [ref=e556]
+                - link [ref=e557] [cursor=pointer]:
+                  - /url: /plus?referrer=%2Fphotos%2Fbusiness-people-discussing-about-work-using-tablet-NGo82eZIvew
+                  - img [ref=e558]
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - button "Bookmark" [ref=e563] [cursor=pointer]:
+                    - img [ref=e564]
+                  - button "Add to Collection" [ref=e567] [cursor=pointer]:
+                    - img [ref=e568]
+                - link "Download" [ref=e571] [cursor=pointer]:
+                  - /url: /plus?referrer=%2Fphotos%2Fbusiness-people-discussing-about-work-using-tablet-NGo82eZIvew
+                  - img [ref=e572]
+                  - text: Download
+            - figure [ref=e574]:
+              - generic [ref=e576]:
+                - link [ref=e577] [cursor=pointer]:
+                  - /url: /@pabloarenas
+                - link "Pablo Arenas" [ref=e581] [cursor=pointer]:
+                  - /url: /@pabloarenas
+              - link "a video game sitting on top of a table" [ref=e583]:
+                - /url: /photos/a-video-game-sitting-on-top-of-a-table-7T6eguGtb8w
+                - img "a video game sitting on top of a table" [ref=e584]
+              - generic [ref=e586]:
+                - generic [ref=e587]:
+                  - button "Bookmark" [ref=e588] [cursor=pointer]:
+                    - img [ref=e589]
+                  - button "Add to Collection" [ref=e592] [cursor=pointer]:
+                    - img [ref=e593]
+                - generic [ref=e596]:
+                  - link "Download" [ref=e597] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/7T6eguGtb8w/download?force=true
+                  - button "Choose download size" [ref=e598] [cursor=pointer]:
+                    - img [ref=e599]
+            - figure [ref=e601]:
+              - generic [ref=e603]:
+                - link [ref=e604] [cursor=pointer]:
+                  - /url: /@lishuhang
+                - link "James Li" [ref=e608] [cursor=pointer]:
+                  - /url: /@lishuhang
+              - link "People looking at a colorful floor plan in an elevator." [ref=e610]:
+                - /url: /photos/people-looking-at-a-colorful-floor-plan-in-an-elevator-Qv0fGmZNfd0
+                - img "People looking at a colorful floor plan in an elevator." [ref=e611]
+              - generic [ref=e613]:
+                - generic [ref=e614]:
+                  - button "Bookmark" [ref=e615] [cursor=pointer]:
+                    - img [ref=e616]
+                  - button "Add to Collection" [ref=e619] [cursor=pointer]:
+                    - img [ref=e620]
+                - generic [ref=e623]:
+                  - link "Download" [ref=e624] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/Qv0fGmZNfd0/download?force=true
+                  - button "Choose download size" [ref=e625] [cursor=pointer]:
+                    - img [ref=e626]
+            - figure [ref=e628]:
+              - generic [ref=e630]:
+                - link [ref=e631] [cursor=pointer]:
+                  - /url: /@dzguevara
+                - link "dzguevara" [ref=e635] [cursor=pointer]:
+                  - /url: /@dzguevara
+              - link "A row of chairs sitting in front of a window" [ref=e637]:
+                - /url: /photos/a-row-of-chairs-sitting-in-front-of-a-window-uSBltlvgK9E
+                - img "A row of chairs sitting in front of a window" [ref=e638]
+              - generic [ref=e640]:
+                - generic [ref=e641]:
+                  - button "Bookmark" [ref=e642] [cursor=pointer]:
+                    - img [ref=e643]
+                  - button "Add to Collection" [ref=e646] [cursor=pointer]:
+                    - img [ref=e647]
+                - generic [ref=e650]:
+                  - link "Download" [ref=e651] [cursor=pointer]:
+                    - /url: https://unsplash.com/photos/uSBltlvgK9E/download?force=true
+                  - button "Choose download size" [ref=e652] [cursor=pointer]:
+                    - img [ref=e653]
+          - generic [ref=e657]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e658]:
+              - text: Browse premium images on iStock
+              - generic [ref=e659]: "| Claim your discount now"
+            - generic [ref=e661]:
+              - link "Professional man using kiosk at airport terminal" [ref=e662] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/professional-man-using-kiosk-at-airport-terminal-gm2204352010-621808813?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                - img "Professional man using kiosk at airport terminal" [ref=e663]
+              - link "blank tablet information display on wall" [ref=e664] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/blank-tablet-information-display-on-wall-gm1161729008-318418635?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                - img "blank tablet information display on wall" [ref=e665]
+              - link "Asian businesswoman using smart phone and touching the screen of a self-service device in a store. Device store navigator. Self purchase." [ref=e666] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/asian-businesswoman-using-smart-phone-and-touching-the-screen-of-a-self-service-gm2193641662-611864874?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                - img "Asian businesswoman using smart phone and touching the screen of a self-service device in a store. Device store navigator. Self purchase." [ref=e667]
+              - generic [ref=e668]:
+                - link "Acrylic information show electronic display floor stand for branding, 3d illustration" [ref=e669] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/acrylic-information-show-electronic-display-floor-stand-for-branding-3d-illustration-gm1330180877-413679093?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                  - img "Acrylic information show electronic display floor stand for branding, 3d illustration" [ref=e670]
+                - link "View more on iStock ↗" [ref=e671] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A&phrase=interactive+kiosk&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e675] [cursor=pointer]
+          - generic [ref=e676]:
+            - link [ref=e677] [cursor=pointer]:
+              - /url: /
+              - img [ref=e678]
+            - paragraph [ref=e680]: Make something awesome
+    - generic:
+      - region "Notifications"

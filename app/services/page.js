@@ -31,6 +31,18 @@ const servicesImages = [
     desc: 'Surveillance and access control solutions — IP camera systems, NVR/DVR setup, video analytics, biometric access control, and integrated security management platforms for complete peace of mind.',
     img: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&h=400&fit=crop',
   },
+  {
+    num: '05',
+    title: 'POS & Payment Systems',
+    desc: 'Point of Sale system setup including touchscreen terminals, receipt printers, barcode scanners, cash drawers, and payment gateway integration for retail and hospitality.',
+    img: 'https://images.unsplash.com/photo-1647427017067-8f33ccbae493?w=600&h=400&fit=crop',
+  },
+  {
+    num: '06',
+    title: 'Interactive Kiosk Solutions',
+    desc: 'Interactive kiosk deployment — self-service, wayfinding, check-in, and information kiosks for retail, healthcare, and hospitality environments.',
+    img: 'https://images.unsplash.com/photo-1764795849878-59b546cfe9c7?w=600&h=400&fit=crop',
+  },
 ];
 
 const specializedServices = [

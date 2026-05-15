@@ -1,0 +1,223 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Collections" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Download History" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - button "Bookmarks" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Finteractive-kiosk
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: interactive kiosk
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Finteractive-kiosk
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 912":
+                - /url: /s/photos/interactive-kiosk
+                - img
+                - text: Photos
+                - generic: "912"
+            - listitem [ref=e73]:
+              - link "Illustrations 190" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/interactive-kiosk
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "190"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Interactive kiosk" [level=1] [ref=e87]
+          - generic [ref=e91]:
+            - link "self service" [ref=e93] [cursor=pointer]:
+              - /url: /s/photos/self-service
+            - link "kiosk" [ref=e95] [cursor=pointer]:
+              - /url: /s/photos/kiosk
+            - link "self service kiosk" [ref=e97] [cursor=pointer]:
+              - /url: /s/photos/self-service-kiosk
+            - link "restaurant" [ref=e99] [cursor=pointer]:
+              - /url: /s/photos/restaurant
+            - link "atm" [ref=e101] [cursor=pointer]:
+              - /url: /s/photos/atm
+            - link "bar" [ref=e103] [cursor=pointer]:
+              - /url: /s/photos/bar
+            - link "self serve food" [ref=e105] [cursor=pointer]:
+              - /url: /s/photos/self-serve-food
+            - link "payment terminal" [ref=e107] [cursor=pointer]:
+              - /url: /s/photos/payment-terminal
+            - link "touch screen" [ref=e109] [cursor=pointer]:
+              - /url: /s/photos/touch-screen
+            - link "convenience" [ref=e111] [cursor=pointer]:
+              - /url: /s/photos/convenience
+            - link "card reader" [ref=e113] [cursor=pointer]:
+              - /url: /s/photos/card-reader
+            - link "public service" [ref=e115] [cursor=pointer]:
+              - /url: /s/photos/public-service
+        - generic [ref=e117]:
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - figure [ref=e123]:
+                - link "a computer monitor sitting on top of a white stand" [ref=e126]:
+                  - /url: /photos/a-computer-monitor-sitting-on-top-of-a-white-stand-qLjZjxRzeeg
+                  - img "a computer monitor sitting on top of a white stand" [ref=e127]
+              - figure [ref=e128]:
+                - link "a close up of a phone" [ref=e131]:
+                  - /url: /photos/a-close-up-of-a-phone-Uq6SoEnPdQ0
+                  - img "a close up of a phone" [ref=e132]
+              - figure [ref=e133]:
+                - link "Two people interact with a digital display screen." [ref=e136]:
+                  - /url: /photos/two-people-interact-with-a-digital-display-screen-ucAGk6vH7t8
+                  - img "Two people interact with a digital display screen." [ref=e137]
+              - figure [ref=e138]:
+                - link "Two people interact with a digital display screen." [ref=e141]:
+                  - /url: /photos/two-people-interact-with-a-digital-display-screen-jkc5WuJWoIQ
+                  - img "Two people interact with a digital display screen." [ref=e142]
+              - figure [ref=e143]:
+                - link "graphical user interface" [ref=e146]:
+                  - /url: /photos/graphical-user-interface-hH9xWAwdDfE
+                  - img "graphical user interface" [ref=e147]
+              - figure [ref=e148]:
+                - link "a person using a tablet" [ref=e151]:
+                  - /url: /photos/a-person-using-a-tablet-vd_P7agZf9I
+                  - img "a person using a tablet" [ref=e152]
+              - figure [ref=e153]:
+                - link "a video game sitting on top of a table" [ref=e156]:
+                  - /url: /photos/a-video-game-sitting-on-top-of-a-table-7T6eguGtb8w
+                  - img "a video game sitting on top of a table" [ref=e157]
+              - figure [ref=e158]:
+                - link "A row of chairs sitting in front of a window" [ref=e161]:
+                  - /url: /photos/a-row-of-chairs-sitting-in-front-of-a-window-uSBltlvgK9E
+                  - img "A row of chairs sitting in front of a window" [ref=e162]
+            - generic [ref=e163]:
+              - figure [ref=e164]:
+                - link "timeline" [ref=e167]:
+                  - /url: /photos/timeline-LBikV4HMGwM
+                  - img "timeline" [ref=e168]
+              - figure [ref=e169]:
+                - link "a close up of a sign" [ref=e172]:
+                  - /url: /photos/a-close-up-of-a-sign-3L0aUxetRhE
+                  - img "a close up of a sign" [ref=e173]
+              - figure [ref=e174]:
+                - link "Person paying at a grocery store checkout with cart" [ref=e177]:
+                  - /url: /photos/person-paying-at-a-grocery-store-checkout-with-cart-2dEoodA5x_k
+                  - img "Person paying at a grocery store checkout with cart" [ref=e178]
+              - figure [ref=e179]:
+                - link "Man on airport using modern technology. Space for copy. Close up." [ref=e182]:
+                  - /url: /photos/man-on-airport-using-modern-technology-space-for-copy-close-up-ghyplXYoyjc
+                  - img "Man on airport using modern technology. Space for copy. Close up." [ref=e183]
+              - figure [ref=e184]:
+                - link "a black and orange gaming device" [ref=e187]:
+                  - /url: /photos/a-black-and-orange-gaming-device-PwGx1XCt6oI
+                  - img "a black and orange gaming device" [ref=e188]
+            - generic [ref=e189]:
+              - contentinfo [ref=e194]:
+                - generic [ref=e200]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e202]:
+                - link "Tourist woman buys tickets for transport in Georgia. modern street machine for purchase of tickets for bus" [ref=e205]:
+                  - /url: /photos/tourist-woman-buys-tickets-for-transport-in-georgia-modern-street-machine-for-purchase-of-tickets-for-bus-4lvb26gDe_k
+                  - img "Tourist woman buys tickets for transport in Georgia. modern street machine for purchase of tickets for bus" [ref=e206]
+              - figure [ref=e207]:
+                - link "A brightly lit kiosk with text and buttons." [ref=e210]:
+                  - /url: /photos/a-brightly-lit-kiosk-with-text-and-buttons-0rC40Gbnm9w
+                  - img "A brightly lit kiosk with text and buttons." [ref=e211]
+              - figure [ref=e212]:
+                - link "Woman uses interactive kiosk in a library." [ref=e215]:
+                  - /url: /photos/woman-uses-interactive-kiosk-in-a-library-3RscPs1XJuI
+                  - img "Woman uses interactive kiosk in a library." [ref=e216]
+              - figure [ref=e217]:
+                - link "a couple of machines sitting inside of a building" [ref=e220]:
+                  - /url: /photos/a-couple-of-machines-sitting-inside-of-a-building-Wt_fdAM6hzc
+                  - img "a couple of machines sitting inside of a building" [ref=e221]
+              - figure [ref=e222]:
+                - link "a person pointing at a large display of pictures" [ref=e225]:
+                  - /url: /photos/a-person-pointing-at-a-large-display-of-pictures-9D6UlCW38Ss
+                  - img "a person pointing at a large display of pictures" [ref=e226]
+              - figure [ref=e227]:
+                - link "Business people discussing about work using tablet" [ref=e230]:
+                  - /url: /photos/business-people-discussing-about-work-using-tablet-NGo82eZIvew
+                  - img "Business people discussing about work using tablet" [ref=e231]
+              - figure [ref=e232]:
+                - link "People looking at a colorful floor plan in an elevator." [ref=e235]:
+                  - /url: /photos/people-looking-at-a-colorful-floor-plan-in-an-elevator-Qv0fGmZNfd0
+                  - img "People looking at a colorful floor plan in an elevator." [ref=e236]
+          - generic [ref=e239]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e240]:
+              - text: Browse premium images on iStock
+              - generic [ref=e241]: "| Claim your discount now"
+            - generic [ref=e243]:
+              - link "Professional man using kiosk at airport terminal" [ref=e244] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/professional-man-using-kiosk-at-airport-terminal-gm2204352010-621808813?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                - img "Professional man using kiosk at airport terminal" [ref=e245]
+              - link "blank tablet information display on wall" [ref=e246] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/blank-tablet-information-display-on-wall-gm1161729008-318418635?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                - img "blank tablet information display on wall" [ref=e247]
+              - link "Asian businesswoman using smart phone and touching the screen of a self-service device in a store. Device store navigator. Self purchase." [ref=e248] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/asian-businesswoman-using-smart-phone-and-touching-the-screen-of-a-self-service-gm2193641662-611864874?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                - img "Asian businesswoman using smart phone and touching the screen of a self-service device in a store. Device store navigator. Self purchase." [ref=e249]
+              - link "Acrylic information show electronic display floor stand for branding, 3d illustration" [ref=e250] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/acrylic-information-show-electronic-display-floor-stand-for-branding-3d-illustration-gm1330180877-413679093?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                - img "Acrylic information show electronic display floor stand for branding, 3d illustration" [ref=e251]
+              - link "Woman with self-service device in the store" [ref=e252] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/woman-with-self-service-device-in-the-store-gm957243880-261378456?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                - img "Woman with self-service device in the store" [ref=e253]
+              - link "Woman buyer selecting clothes on board" [ref=e254] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/woman-buyer-selecting-clothes-on-board-gm1490564186-515106297?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                - img "Woman buyer selecting clothes on board" [ref=e255]
+              - link "Woman using touch screen city display" [ref=e256] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/woman-using-touch-screen-city-display-gm1204082939-346322869?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                - img "Woman using touch screen city display" [ref=e257]
+              - generic [ref=e258]:
+                - link "Online check-in" [ref=e259] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/online-check-in-gm498595655-42398314?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A
+                  - img "Online check-in" [ref=e260]
+                - link "View more on iStock ↗" [ref=e261] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Finteractive-kiosk&utm_term=interactive+kiosk%3A%3A%3A%3A&phrase=interactive+kiosk&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e265] [cursor=pointer]
+          - generic [ref=e266]:
+            - link [ref=e267] [cursor=pointer]:
+              - /url: /
+              - img [ref=e268]
+            - paragraph [ref=e270]: Make something awesome
+    - generic:
+      - region "Notifications"

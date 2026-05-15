@@ -54,13 +54,13 @@ const portfolio = [
     title: 'Data Center Fiber Optic Installation',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.27.jpeg',
+    img: 'https://images.unsplash.com/photo-1624004015322-a94d3a4eff39?w=600&h=450&fit=crop',
     cat: 'Healthcare Digital Signage',
     date: 'September 2024',
     title: 'Hospital Patient Info Display System',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.28.jpeg',
+    img: 'https://images.unsplash.com/photo-1712232415633-095dc9e03c5d?w=600&h=450&fit=crop',
     cat: 'Medical Menu Boards',
     date: 'July 2024',
     title: 'Clinic Digital Menu Board Installation',

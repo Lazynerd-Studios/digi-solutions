@@ -1,0 +1,290 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Collections" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Download History" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - button "Bookmarks" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fhospital-display-monitor
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: hospital display monitor
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fhospital-display-monitor
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 1k":
+                - /url: /s/photos/hospital-display-monitor
+                - img
+                - text: Photos
+                - generic: 1k
+            - listitem [ref=e73]:
+              - link "Illustrations 90" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/hospital-display-monitor
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "90"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Hospital display monitor" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "hospital" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/hospital
+              - link "medical" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/medical
+              - link "health" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/health
+              - link "doctor" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/doctor
+              - link "heart" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/heart
+              - link "healthcare" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/healthcare
+              - link "heart rate" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/heart-rate
+              - link "heart rate monitor" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/heart-rate-monitor
+              - link "blood pressure" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/blood-pressure
+              - link "medicine" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/medicine
+              - link "nurse" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/nurse
+              - link "person" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/person
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - generic [ref=e129]:
+                  - link "Sick little boy sleeping in bed at hospital ward during his disease" [ref=e130]:
+                    - /url: /photos/sick-little-boy-sleeping-in-bed-at-hospital-ward-during-his-disease-F2AsThx9wmU
+                    - img "Sick little boy sleeping in bed at hospital ward during his disease" [ref=e131]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link [ref=e132] [cursor=pointer]:
+                            - /url: /plus?referrer=%2Fphotos%2Fsick-little-boy-sleeping-in-bed-at-hospital-ward-during-his-disease-F2AsThx9wmU
+                            - img [ref=e133]
+                          - generic:
+                            - button "Bookmark" [ref=e135] [cursor=pointer]:
+                              - img [ref=e136]
+                            - button "Add to Collection" [ref=e138] [cursor=pointer]:
+                              - img [ref=e139]
+                        - generic:
+                          - generic [ref=e142]:
+                            - link [ref=e143] [cursor=pointer]:
+                              - /url: /@gettyimages
+                            - generic [ref=e146]:
+                              - link "Getty Images" [ref=e147] [cursor=pointer]:
+                                - /url: /@gettyimages
+                              - generic [ref=e148]:
+                                - text: For
+                                - link "Unsplash+" [ref=e149] [cursor=pointer]:
+                                  - /url: /plus?referrer=%2Fphotos%2Fsick-little-boy-sleeping-in-bed-at-hospital-ward-during-his-disease-F2AsThx9wmU
+                          - button "Download" [ref=e151] [cursor=pointer]:
+                            - img [ref=e152]
+                            - text: Download
+              - generic [ref=e154]:
+                - heading "Sponsored images" [level=4] [ref=e155]:
+                  - generic [ref=e156]: Sponsored images
+                  - link [ref=e157] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3A6a01cdd1-d563-4ca7-a5dc-3da30fd2ecae&phrase=hospital+display+monitor&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e158]
+                - generic [ref=e160]:
+                  - link "Medical record showing on computer monitor screen." [ref=e161] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/medical-record-showing-on-computer-monitor-screen-gm1438260051-478816483?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3A669060c9-4c3a-46ff-8e33-3883ae18c5ee
+                    - img "Medical record showing on computer monitor screen." [ref=e162]
+                  - link "monitor technology computer in the hospital surgery room" [ref=e163] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/monitor-technology-computer-in-the-hospital-surgery-room-gm2085851027-565536142?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3A03ffe26e-20cd-4314-93f3-163c963719c1
+                    - img "monitor technology computer in the hospital surgery room" [ref=e164]
+                  - link "Vital signs monitor displaying patient data in a hospital room. Medical technology for tracking heart rate, blood pressure, and oxygen saturation." [ref=e165] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/vital-signs-monitor-displaying-patient-data-in-a-hospital-room-medical-technology-gm2241923673-656347111?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3A4d808454-79a3-4764-9c8a-02325d21b417
+                    - img "Vital signs monitor displaying patient data in a hospital room. Medical technology for tracking heart rate, blood pressure, and oxygen saturation." [ref=e166]
+                  - link "Vital signs monitor, digital and hospital with EKG machine, electronic and medical equipment to help. Emergency, stats and computer in ICU, clinic and healthcare, life and science with technology" [ref=e167] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/vital-signs-monitor-digital-and-hospital-with-ekg-machine-electronic-and-medical-gm2149642730-570857418?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3A405f53ad-50c2-48f2-88c0-418fef4d44c9
+                    - img "Vital signs monitor, digital and hospital with EKG machine, electronic and medical equipment to help. Emergency, stats and computer in ICU, clinic and healthcare, life and science with technology" [ref=e168]
+                - link "Get 20% off with code UNSPLASH20" [ref=e169] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3A6a01cdd1-d563-4ca7-a5dc-3da30fd2ecae&phrase=hospital+display+monitor&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e170]:
+                - link "text" [ref=e173]:
+                  - /url: /photos/text-HoneMAhhCXI
+                  - img "text" [ref=e174]
+              - figure [ref=e175]:
+                - generic [ref=e177]:
+                  - link "Medical monitors and equipment are shown in a hospital." [ref=e178]:
+                    - /url: /photos/medical-monitors-and-equipment-are-shown-in-a-hospital-1sctX_TV3q0
+                    - img "Medical monitors and equipment are shown in a hospital." [ref=e179]
+                  - link [ref=e180] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fmedical-monitors-and-equipment-are-shown-in-a-hospital-1sctX_TV3q0
+                    - img [ref=e181]
+              - figure [ref=e183]:
+                - link "a room with a computer and medical equipment" [ref=e186]:
+                  - /url: /photos/a-room-with-a-computer-and-medical-equipment-zqeOrO8ZAz4
+                  - img "a room with a computer and medical equipment" [ref=e187]
+              - figure [ref=e188]:
+                - link "A hospital room with a monitor on a tripod" [ref=e191]:
+                  - /url: /photos/a-hospital-room-with-a-monitor-on-a-tripod-p-uJyWmr6BE
+                  - img "A hospital room with a monitor on a tripod" [ref=e192]
+              - figure [ref=e193]:
+                - generic [ref=e195]:
+                  - link "a woman laying in bed with a thermometer on her arm" [ref=e196]:
+                    - /url: /photos/a-woman-laying-in-bed-with-a-thermometer-on-her-arm-7bPN-_lS7PY
+                    - img "a woman laying in bed with a thermometer on her arm" [ref=e197]
+                  - link [ref=e198] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-woman-laying-in-bed-with-a-thermometer-on-her-arm-7bPN-_lS7PY
+                    - img [ref=e199]
+            - generic [ref=e201]:
+              - figure [ref=e202]:
+                - link "doctors doing surgery inside emergency room" [ref=e205]:
+                  - /url: /photos/doctors-doing-surgery-inside-emergency-room-43LwvC-eQPM
+                  - img "doctors doing surgery inside emergency room" [ref=e206]
+              - figure [ref=e207]:
+                - link "black and white digital heart beat monitor at 97 display" [ref=e210]:
+                  - /url: /photos/black-and-white-digital-heart-beat-monitor-at-97-display-0lrJo37r6Nk
+                  - img "black and white digital heart beat monitor at 97 display" [ref=e211]
+              - figure [ref=e212]:
+                - link "a man laying in a hospital bed next to a monitor" [ref=e215]:
+                  - /url: /photos/a-man-laying-in-a-hospital-bed-next-to-a-monitor-ZjVb97Pq0Ls
+                  - img "a man laying in a hospital bed next to a monitor" [ref=e216]
+              - figure [ref=e217]:
+                - link "white digital device at 19 0" [ref=e220]:
+                  - /url: /photos/white-digital-device-at-19-0-0hjokXK6uLs
+                  - img "white digital device at 19 0" [ref=e221]
+              - figure [ref=e222]:
+                - generic [ref=e224]:
+                  - link "a group of doctors in scrubs standing in a room" [ref=e225]:
+                    - /url: /photos/a-group-of-doctors-in-scrubs-standing-in-a-room-pa0EaWvEzM0
+                    - img "a group of doctors in scrubs standing in a room" [ref=e226]
+                  - link [ref=e227] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-group-of-doctors-in-scrubs-standing-in-a-room-pa0EaWvEzM0
+                    - img [ref=e228]
+              - figure [ref=e230]:
+                - link "yellow monitor" [ref=e233]:
+                  - /url: /photos/yellow-monitor-BvS7q4yFQt4
+                  - img "yellow monitor" [ref=e234]
+              - figure [ref=e235]:
+                - link "A large monitor displaying a number of times" [ref=e238]:
+                  - /url: /photos/a-large-monitor-displaying-a-number-of-times-0V7aC2SEm5U
+                  - img "A large monitor displaying a number of times" [ref=e239]
+              - figure [ref=e240]:
+                - link "black and gray digital device" [ref=e243]:
+                  - /url: /photos/black-and-gray-digital-device-Gmu260C-1Mk
+                  - img "black and gray digital device" [ref=e244]
+            - generic [ref=e245]:
+              - contentinfo [ref=e250]:
+                - generic [ref=e256]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e258]:
+                - generic [ref=e260]:
+                  - link "Medical monitor displaying vital signs in a hospital room" [ref=e261]:
+                    - /url: /photos/medical-monitor-displaying-vital-signs-in-a-hospital-room-eya4rbG_ucU
+                    - img "Medical monitor displaying vital signs in a hospital room" [ref=e262]
+                  - link [ref=e263] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fmedical-monitor-displaying-vital-signs-in-a-hospital-room-eya4rbG_ucU
+                    - img [ref=e264]
+              - figure [ref=e266]:
+                - link "a close up of a computer screen with a line of ecg" [ref=e269]:
+                  - /url: /photos/a-close-up-of-a-computer-screen-with-a-line-of-ecg-ZSo4axN3ZXI
+                  - img "a close up of a computer screen with a line of ecg" [ref=e270]
+              - figure [ref=e271]:
+                - link "a close up of a monitor screen with a heart beat" [ref=e274]:
+                  - /url: /photos/a-close-up-of-a-monitor-screen-with-a-heart-beat-beXUIzvxW-Q
+                  - img "a close up of a monitor screen with a heart beat" [ref=e275]
+              - figure [ref=e276]:
+                - link "a monitor is on a stand in a room" [ref=e279]:
+                  - /url: /photos/a-monitor-is-on-a-stand-in-a-room-PoEbadI3mQQ
+                  - img "a monitor is on a stand in a room" [ref=e280]
+              - figure [ref=e281]:
+                - link "white crt computer monitor turned on displaying 20 00" [ref=e284]:
+                  - /url: /photos/white-crt-computer-monitor-turned-on-displaying-20-00-7P1KdY9wZjA
+                  - img "white crt computer monitor turned on displaying 20 00" [ref=e285]
+              - figure [ref=e286]:
+                - link "white digital device at 2 00" [ref=e289]:
+                  - /url: /photos/white-digital-device-at-2-00-qYqmbQwwXJo
+                  - img "white digital device at 2 00" [ref=e290]
+          - generic [ref=e293]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e294]:
+              - text: Browse premium images on iStock
+              - generic [ref=e295]: "| Claim your discount now"
+            - generic [ref=e297]:
+              - link "Monitor at the hospital monitoring a patient's vitals" [ref=e298] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/monitor-at-the-hospital-monitoring-a-patients-vitals-gm1445262091-483731740?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3Af9667b4e-77e2-4819-ba61-68fda9a715f0
+                - img "Monitor at the hospital monitoring a patient's vitals" [ref=e299]
+              - link "Doctor sits at computer with blank display" [ref=e300] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/doctor-sits-at-computer-with-blank-display-gm2177810132-597188585?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3Ac27601b4-3582-4b72-881c-208554d38999
+                - img "Doctor sits at computer with blank display" [ref=e301]
+              - link "Hospital Monitor medical equipment displaying vital signs like heart rate, blood pressure, and oxygen levels on a hospital monitor, emphasizing health monitoring" [ref=e302] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/hospital-monitor-medical-equipment-displaying-vital-signs-like-heart-rate-blood-gm1817679879-549783983?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3Aff60a07a-3283-48c3-b5d9-8be40477beb5
+                - img "Hospital Monitor medical equipment displaying vital signs like heart rate, blood pressure, and oxygen levels on a hospital monitor, emphasizing health monitoring" [ref=e303]
+              - link "doctor explain with green screen" [ref=e304] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/doctor-explain-with-green-screen-gm2215709997-632431488?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3A9bc4992c-5984-4b2d-90b7-6848b40fbd7f
+                - img "doctor explain with green screen" [ref=e305]
+              - link "Female Asian Neuroscinetist Using Interactive Touch Screen Table With MRI Scans On Display In Modern Biotechnology Research Center. Doctor Developing Innovative Devices For People With Alzheimer's." [ref=e306] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/female-asian-neuroscinetist-using-interactive-touch-screen-table-with-mri-scans-on-gm2160715528-581227884?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3Abd94457b-1d2b-4114-a428-4433bd7d4163
+                - img "Female Asian Neuroscinetist Using Interactive Touch Screen Table With MRI Scans On Display In Modern Biotechnology Research Center. Doctor Developing Innovative Devices For People With Alzheimer's." [ref=e307]
+              - link "Nurses using computer at desk in hospital" [ref=e308] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/nurses-using-computer-at-desk-in-hospital-gm2206891102-624173409?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3Ab609b69e-89e2-4519-9588-fe68b0883491
+                - img "Nurses using computer at desk in hospital" [ref=e309]
+              - link "Blank signage mockup with black frame in hospital lobby, empty advertising display board template" [ref=e310] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/blank-signage-mockup-with-black-frame-in-hospital-lobby-empty-advertising-display-gm2234235228-649680705?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3Ac51bb578-3475-4afc-ae0c-9d084dc01514
+                - img "Blank signage mockup with black frame in hospital lobby, empty advertising display board template" [ref=e311]
+              - generic [ref=e312]:
+                - link "Young Female Doctor Pointing at Computer Screen While Explaining to Senior Patient" [ref=e313] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/young-female-doctor-pointing-at-computer-screen-while-explaining-to-senior-patient-gm2165723265-585899331?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3A6906ba18-a8a3-42e4-bb03-815829027081
+                  - img "Young Female Doctor Pointing at Computer Screen While Explaining to Senior Patient" [ref=e314]
+                - link "View more on iStock ↗" [ref=e315] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-display-monitor&utm_term=hospital+display+monitor%3A%3A%3A%3Ac661bd5c-4082-41ed-980b-3d1498f2eebf&phrase=hospital+display+monitor&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e319] [cursor=pointer]
+          - generic [ref=e320]:
+            - link [ref=e321] [cursor=pointer]:
+              - /url: /
+              - img [ref=e322]
+            - paragraph [ref=e324]: Make something awesome
+    - generic:
+      - region "Notifications"

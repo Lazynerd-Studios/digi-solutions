@@ -1,0 +1,267 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Collections" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Download History" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - button "Bookmarks" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fhospital-room-monitor
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: hospital room monitor
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fhospital-room-monitor
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 404":
+                - /url: /s/photos/hospital-room-monitor
+                - img
+                - text: Photos
+                - generic: "404"
+            - listitem [ref=e73]:
+              - link "Illustrations 39" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/hospital-room-monitor
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "39"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Hospital room monitor" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "hospital" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/hospital
+              - link "hospital room" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/hospital-room
+              - link "hospital ward" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/hospital-ward
+              - link "monitor" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/monitor
+              - link "medical" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/medical
+              - link "drip" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/drip
+              - link "machine" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/machine
+              - link "pump" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/pump
+              - link "healthcare" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/healthcare
+              - link "iv fluid" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/iv-fluid
+              - link "equipment" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/equipment
+              - link "medicare" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/medicare
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - generic [ref=e129]:
+                  - link "Hospital room" [ref=e130]:
+                    - /url: /photos/hospital-room-WPtgfxGpTm0
+                    - img "Hospital room" [ref=e131]
+                  - link [ref=e132] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fhospital-room-WPtgfxGpTm0
+                    - img [ref=e133]
+              - generic [ref=e135]:
+                - heading "Sponsored images" [level=4] [ref=e136]:
+                  - generic [ref=e137]: Sponsored images
+                  - link [ref=e138] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A9d8676ce-da81-44d9-9644-62fce70ada48&phrase=hospital+room+monitor&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e139]
+                - generic [ref=e141]:
+                  - link "Pulse tracer" [ref=e142] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/pulse-tracer-gm182188775-10832595?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A5ecfebb5-4f72-4203-97d2-f9d9c6868ba7
+                    - img "Pulse tracer" [ref=e143]
+                  - link "High Angle CCTV Shot with a Busy Hallway with Reception Desk of a Hospital Building, Diverse Female and Male Staff Members Walking, Working. Professional Nurses, Doctors and Personnel at Work" [ref=e144] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/high-angle-cctv-shot-with-a-busy-hallway-with-reception-desk-of-a-hospital-building-gm2191182508-609516969?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3Ab0ea2c75-9166-47bc-8797-7dce7501b97e
+                    - img "High Angle CCTV Shot with a Busy Hallway with Reception Desk of a Hospital Building, Diverse Female and Male Staff Members Walking, Working. Professional Nurses, Doctors and Personnel at Work" [ref=e145]
+                  - link "Young adult female patient focuses on her nurse as she talks" [ref=e146] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/young-adult-female-patient-focuses-on-her-nurse-as-she-talks-gm2164252501-584537526?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A089b5d4c-9dd9-4773-b6fa-39e724aef877
+                    - img "Young adult female patient focuses on her nurse as she talks" [ref=e147]
+                  - link "Digitally rendered image of an empty hospital intensive care unit" [ref=e148] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/digitally-rendered-image-of-an-empty-hospital-intensive-care-unit-gm1282880747-380481965?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A58d22387-a531-47e0-9372-eb059c773349
+                    - img "Digitally rendered image of an empty hospital intensive care unit" [ref=e149]
+                - link "Get 20% off with code UNSPLASH20" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A9d8676ce-da81-44d9-9644-62fce70ada48&phrase=hospital+room+monitor&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e151]:
+                - link "a hospital room with a bed and medical equipment" [ref=e154]:
+                  - /url: /photos/a-hospital-room-with-a-bed-and-medical-equipment-yQLLZ28esdo
+                  - img "a hospital room with a bed and medical equipment" [ref=e155]
+              - figure [ref=e156]:
+                - link "a hospital room with a blue curtain and a monitor" [ref=e159]:
+                  - /url: /photos/a-hospital-room-with-a-blue-curtain-and-a-monitor-uKnwO_woMaI
+                  - img "a hospital room with a blue curtain and a monitor" [ref=e160]
+              - figure [ref=e161]:
+                - link "A large monitor displaying a number of times" [ref=e164]:
+                  - /url: /photos/a-large-monitor-displaying-a-number-of-times-0V7aC2SEm5U
+                  - img "A large monitor displaying a number of times" [ref=e165]
+              - figure [ref=e166]:
+                - generic [ref=e168]:
+                  - link "Empty hospital bed with medical equipment" [ref=e169]:
+                    - /url: /photos/empty-hospital-bed-with-medical-equipment-hSOMAVyJaFU
+                    - img "Empty hospital bed with medical equipment" [ref=e170]
+                  - link [ref=e171] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fempty-hospital-bed-with-medical-equipment-hSOMAVyJaFU
+                    - img [ref=e172]
+              - figure [ref=e174]:
+                - link "Hospital room with medical bed and equipment" [ref=e177]:
+                  - /url: /photos/hospital-room-with-medical-bed-and-equipment-Vxa1lSuGOBE
+                  - img "Hospital room with medical bed and equipment" [ref=e178]
+              - figure [ref=e179]:
+                - link "doctor standing beside man inside room" [ref=e182]:
+                  - /url: /photos/doctor-standing-beside-man-inside-room-lTZUfrst5fM
+                  - img "doctor standing beside man inside room" [ref=e183]
+            - generic [ref=e184]:
+              - figure [ref=e185]:
+                - link "a hospital room with a bed and medical equipment" [ref=e188]:
+                  - /url: /photos/a-hospital-room-with-a-bed-and-medical-equipment-RfanFy_lHp8
+                  - img "a hospital room with a bed and medical equipment" [ref=e189]
+              - figure [ref=e190]:
+                - link "a man laying in a hospital bed next to a monitor" [ref=e193]:
+                  - /url: /photos/a-man-laying-in-a-hospital-bed-next-to-a-monitor-ZjVb97Pq0Ls
+                  - img "a man laying in a hospital bed next to a monitor" [ref=e194]
+              - figure [ref=e195]:
+                - link "a hospital room with a bed and medical equipment" [ref=e198]:
+                  - /url: /photos/a-hospital-room-with-a-bed-and-medical-equipment-Wp1ov-b0OAs
+                  - img "a hospital room with a bed and medical equipment" [ref=e199]
+              - figure [ref=e200]:
+                - link "green and white digital device" [ref=e203]:
+                  - /url: /photos/green-and-white-digital-device-m9617OjWgoM
+                  - img "green and white digital device" [ref=e204]
+              - figure [ref=e205]:
+                - link "a water meter attached to a wall next to a hose" [ref=e208]:
+                  - /url: /photos/a-water-meter-attached-to-a-wall-next-to-a-hose-4sLTBZ_qVF0
+                  - img "a water meter attached to a wall next to a hose" [ref=e209]
+              - figure [ref=e210]:
+                - link "white hospital bed near white wall" [ref=e213]:
+                  - /url: /photos/white-hospital-bed-near-white-wall-w7Pby5bDKW4
+                  - img "white hospital bed near white wall" [ref=e214]
+            - generic [ref=e215]:
+              - contentinfo [ref=e220]:
+                - generic [ref=e226]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e228]:
+                - generic [ref=e230]:
+                  - link "Sick little boy sleeping in bed at hospital ward during his disease" [ref=e231]:
+                    - /url: /photos/sick-little-boy-sleeping-in-bed-at-hospital-ward-during-his-disease-F2AsThx9wmU
+                    - img "Sick little boy sleeping in bed at hospital ward during his disease" [ref=e232]
+                  - link [ref=e233] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fsick-little-boy-sleeping-in-bed-at-hospital-ward-during-his-disease-F2AsThx9wmU
+                    - img [ref=e234]
+              - figure [ref=e236]:
+                - link "text" [ref=e239]:
+                  - /url: /photos/text-HoneMAhhCXI
+                  - img "text" [ref=e240]
+              - figure [ref=e241]:
+                - generic [ref=e243]:
+                  - link "The hospital cabinet equipped with gynecological chair, anesthesia apparatus and variety of medical instruments" [ref=e244]:
+                    - /url: /photos/the-hospital-cabinet-equipped-with-gynecological-chair-anesthesia-apparatus-and-variety-of-medical-instruments-sM4tvAp4Z_Y
+                    - img "The hospital cabinet equipped with gynecological chair, anesthesia apparatus and variety of medical instruments" [ref=e245]
+                  - link [ref=e246] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fthe-hospital-cabinet-equipped-with-gynecological-chair-anesthesia-apparatus-and-variety-of-medical-instruments-sM4tvAp4Z_Y
+                    - img [ref=e247]
+              - figure [ref=e249]:
+                - link "a hospital room with a blue shower curtain" [ref=e252]:
+                  - /url: /photos/a-hospital-room-with-a-blue-shower-curtain-1UQOmjMJGeQ
+                  - img "a hospital room with a blue shower curtain" [ref=e253]
+              - figure [ref=e254]:
+                - link "a hospital room with a monitor and medical equipment" [ref=e257]:
+                  - /url: /photos/a-hospital-room-with-a-monitor-and-medical-equipment-S50MwpIaKoQ
+                  - img "a hospital room with a monitor and medical equipment" [ref=e258]
+              - figure [ref=e259]:
+                - generic [ref=e261]:
+                  - link "Medical monitor displaying vital signs in a hospital room" [ref=e262]:
+                    - /url: /photos/medical-monitor-displaying-vital-signs-in-a-hospital-room-eya4rbG_ucU
+                    - img "Medical monitor displaying vital signs in a hospital room" [ref=e263]
+                  - link [ref=e264] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fmedical-monitor-displaying-vital-signs-in-a-hospital-room-eya4rbG_ucU
+                    - img [ref=e265]
+              - figure [ref=e267]:
+                - link "Medical equipment in a hospital room" [ref=e270]:
+                  - /url: /photos/medical-equipment-in-a-hospital-room-KVasPlAfs1Y
+                  - img "Medical equipment in a hospital room" [ref=e271]
+          - generic [ref=e274]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e275]:
+              - text: Browse premium images on iStock
+              - generic [ref=e276]: "| Claim your discount now"
+            - generic [ref=e278]:
+              - link "Nurse with tablet talking to senior woman" [ref=e279] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/nurse-with-tablet-talking-to-senior-woman-gm465520331-33360188?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A95d47411-9507-4924-80bb-0db851532402
+                - img "Nurse with tablet talking to senior woman" [ref=e280]
+              - link "Ventilator monitor and african american female patient in hospital bed with oxygen ventilator" [ref=e281] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/ventilator-monitor-and-african-american-female-patient-in-hospital-bed-with-oxygen-gm1315352400-403345310?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3Aa6f0f2f2-5aa0-4f99-95bc-e9cdbe1f4feb
+                - img "Ventilator monitor and african american female patient in hospital bed with oxygen ventilator" [ref=e282]
+              - link "Nurse Using Computer in Hospital Room, Patient Resting" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/nurse-using-computer-in-hospital-room-patient-resting-gm2200879617-618562236?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3Aaf7d141e-8802-4945-9293-e38e2af1787e
+                - img "Nurse Using Computer in Hospital Room, Patient Resting" [ref=e284]
+              - link "Vital signs monitor, digital and hospital with EKG machine, electronic and medical equipment to help. Emergency, stats and computer in ICU, clinic and healthcare, life and science with technology" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/vital-signs-monitor-digital-and-hospital-with-ekg-machine-electronic-and-medical-gm2149642730-570857418?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A7cb4ee60-e18c-4b12-a008-84d89af0d840
+                - img "Vital signs monitor, digital and hospital with EKG machine, electronic and medical equipment to help. Emergency, stats and computer in ICU, clinic and healthcare, life and science with technology" [ref=e286]
+              - link "Nurse standing by medical and monitoring equipment" [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/nurse-standing-by-medical-and-monitoring-equipment-gm530685633-530685633?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A5a4a2041-845f-425b-9cea-e3ce97456db3
+                - img "Nurse standing by medical and monitoring equipment" [ref=e288]
+              - link "Nurse at the hospital putting an IV Drip on a patient" [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/nurse-at-the-hospital-putting-an-iv-drip-on-a-patient-gm1352490070-427898849?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A89e4c4fd-c389-4621-95e7-6d567cf3c937
+                - img "Nurse at the hospital putting an IV Drip on a patient" [ref=e290]
+              - 'link "Hospital Ward: Friendly Black Head Nurse Uses Stethoscope to Listen to Heartbeat and Lungs of Recovering Male Patient Resting in Bed, Does Checkup. Man Getting well after Successful Surgery" [ref=e291] [cursor=pointer]':
+                - /url: https://www.istockphoto.com/photo/friendly-black-head-nurse-uses-stethoscope-to-listen-to-heartbeat-and-lungs-of-gm1321691592-407861738?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3Ae6e052e9-8149-4f29-867f-407df0bc4367
+                - 'img "Hospital Ward: Friendly Black Head Nurse Uses Stethoscope to Listen to Heartbeat and Lungs of Recovering Male Patient Resting in Bed, Does Checkup. Man Getting well after Successful Surgery" [ref=e292]'
+              - generic [ref=e293]:
+                - link "Nurse showing medical history on tablet pc to patient" [ref=e294] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/nurse-showing-medical-history-on-tablet-pc-to-patient-gm1483582838-510136756?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A2dda26d9-e13a-4b99-bad7-0d9b1e7b27de
+                  - img "Nurse showing medical history on tablet pc to patient" [ref=e295]
+                - link "View more on iStock ↗" [ref=e296] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-room-monitor&utm_term=hospital+room+monitor%3A%3A%3A%3A6fc3f233-1749-46f1-9342-fd687517590c&phrase=hospital+room+monitor&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e300] [cursor=pointer]
+          - generic [ref=e301]:
+            - link [ref=e302] [cursor=pointer]:
+              - /url: /
+              - img [ref=e303]
+            - paragraph [ref=e305]: Make something awesome
+    - generic:
+      - region "Notifications"

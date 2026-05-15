@@ -1,0 +1,7 @@
+[    2271ms] [LOG] %cmetric: color:gray {name: INP, entries: Array(2), value: 80, rating: good, delta: 80} @ https://unsplash.com/a/en-US/4160.a89cffb7.js:13
+[    2272ms] [LOG] %cusr: color:gray {locale: en-US} @ https://unsplash.com/a/en-US/4160.a89cffb7.js:13
+[    2272ms] [LOG] %croute_data: color:gray Asset @ https://unsplash.com/a/en-US/4160.a89cffb7.js:13
+[    2276ms] [LOG] %cmetric: color:gray {name: CLS, entries: Array(1), value: 0.29273067883106496, rating: poor, delta: 0.29273067883106496} @ https://unsplash.com/a/en-US/4160.a89cffb7.js:13
+[    2277ms] [LOG] %cusr: color:gray {locale: en-US} @ https://unsplash.com/a/en-US/4160.a89cffb7.js:13
+[    2277ms] [LOG] %croute_data: color:gray Asset @ https://unsplash.com/a/en-US/4160.a89cffb7.js:13
+[    2287ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://images.unsplash.com/photo-1516574187841-69301976e499?w=600&h=450&fit=crop:0

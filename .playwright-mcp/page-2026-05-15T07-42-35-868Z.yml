@@ -1,0 +1,166 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "DigiSolutions Logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "DigiSolutions Logo" [ref=e5]
+      - generic [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: /services
+        - link "Projects" [ref=e10] [cursor=pointer]:
+          - /url: /portfolio
+        - link "Work Done" [ref=e11] [cursor=pointer]:
+          - /url: /work-done
+      - link "Get a Free Quote" [ref=e13] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - link "Home" [ref=e18] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e19]: /
+          - generic [ref=e20]: Projects
+        - heading "Our Projects" [level=1] [ref=e21]
+        - paragraph [ref=e22]: A showcase of IT infrastructure projects we have delivered across digital signage, network deployment, structured cabling, and security systems.
+      - img "DigiSolutions Projects" [ref=e24]
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e29]: Projects
+        - heading "Infrastructure We Have Built" [level=2] [ref=e30]
+      - generic [ref=e31]:
+        - link "Retail LED Video Wall — Metro Mall Lagos Digital Signage March 2025 Retail LED Video Wall — Metro Mall Lagos" [ref=e32] [cursor=pointer]:
+          - /url: /portfolio
+          - img "Retail LED Video Wall — Metro Mall Lagos" [ref=e34]
+          - generic [ref=e35]:
+            - generic [ref=e36]: Digital Signage
+            - generic [ref=e37]: March 2025
+          - heading "Retail LED Video Wall — Metro Mall Lagos" [level=3] [ref=e38]
+        - link "Enterprise Network — FinTrust Headquarters Network Deployment January 2025 Enterprise Network — FinTrust Headquarters" [ref=e39] [cursor=pointer]:
+          - /url: /portfolio
+          - img "Enterprise Network — FinTrust Headquarters" [ref=e41]
+          - generic [ref=e42]:
+            - generic [ref=e43]: Network Deployment
+            - generic [ref=e44]: January 2025
+          - heading "Enterprise Network — FinTrust Headquarters" [level=3] [ref=e45]
+        - link "Data Center Fiber — CloudNine Data Center Network Cabling November 2024 Data Center Fiber — CloudNine Data Center" [ref=e46] [cursor=pointer]:
+          - /url: /portfolio
+          - img "Data Center Fiber — CloudNine Data Center" [ref=e48]
+          - generic [ref=e49]:
+            - generic [ref=e50]: Network Cabling
+            - generic [ref=e51]: November 2024
+          - heading "Data Center Fiber — CloudNine Data Center" [level=3] [ref=e52]
+        - link "Surveillance System — Horizon Towers Estate CCTV & Security October 2024 Surveillance System — Horizon Towers Estate" [ref=e53] [cursor=pointer]:
+          - /url: /portfolio
+          - img "Surveillance System — Horizon Towers Estate" [ref=e55]
+          - generic [ref=e56]:
+            - generic [ref=e57]: CCTV & Security
+            - generic [ref=e58]: October 2024
+          - heading "Surveillance System — Horizon Towers Estate" [level=3] [ref=e59]
+        - link "Interactive Kiosks — Airport Terminal 2 Digital Signage August 2024 Interactive Kiosks — Airport Terminal 2" [ref=e60] [cursor=pointer]:
+          - /url: /portfolio
+          - img "Interactive Kiosks — Airport Terminal 2" [ref=e62]
+          - generic [ref=e63]:
+            - generic [ref=e64]: Digital Signage
+            - generic [ref=e65]: August 2024
+          - heading "Interactive Kiosks — Airport Terminal 2" [level=3] [ref=e66]
+        - link "Structured Cabling — University Campus Expansion Network Cabling June 2024 Structured Cabling — University Campus Expansion" [ref=e67] [cursor=pointer]:
+          - /url: /portfolio
+          - img "Structured Cabling — University Campus Expansion" [ref=e69]
+          - generic [ref=e70]:
+            - generic [ref=e71]: Network Cabling
+            - generic [ref=e72]: June 2024
+          - heading "Structured Cabling — University Campus Expansion" [level=3] [ref=e73]
+        - link "Hospital Patient Info Display System Healthcare Digital Signage April 2024 Hospital Patient Info Display System" [ref=e74] [cursor=pointer]:
+          - /url: /portfolio
+          - img "Hospital Patient Info Display System" [ref=e76]
+          - generic [ref=e77]:
+            - generic [ref=e78]: Healthcare Digital Signage
+            - generic [ref=e79]: April 2024
+          - heading "Hospital Patient Info Display System" [level=3] [ref=e80]
+        - link "Clinic Digital Menu Board Installation Medical Menu Boards February 2024 Clinic Digital Menu Board Installation" [ref=e81] [cursor=pointer]:
+          - /url: /portfolio
+          - img "Clinic Digital Menu Board Installation" [ref=e83]
+          - generic [ref=e84]:
+            - generic [ref=e85]: Medical Menu Boards
+            - generic [ref=e86]: February 2024
+          - heading "Clinic Digital Menu Board Installation" [level=3] [ref=e87]
+        - link "Diagnostic Display Screens — Grandview Hospital Medical Displays December 2023 Diagnostic Display Screens — Grandview Hospital" [ref=e88] [cursor=pointer]:
+          - /url: /portfolio
+          - img "Diagnostic Display Screens — Grandview Hospital" [ref=e90]
+          - generic [ref=e91]:
+            - generic [ref=e92]: Medical Displays
+            - generic [ref=e93]: December 2023
+          - heading "Diagnostic Display Screens — Grandview Hospital" [level=3] [ref=e94]
+    - link "View Our Work Gallery" [ref=e97] [cursor=pointer]:
+      - /url: /work-done
+    - generic [ref=e100]:
+      - heading "Have a Project in Mind?" [level=2] [ref=e101]
+      - paragraph [ref=e102]: Let us bring your IT infrastructure vision to life. Get a free consultation and project estimate.
+      - link "Start Your Project" [ref=e103] [cursor=pointer]:
+        - /url: /contact
+  - contentinfo [ref=e104]:
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - link "DigiSolutions Logo" [ref=e109] [cursor=pointer]:
+            - /url: /
+            - img "DigiSolutions Logo" [ref=e110]
+          - paragraph [ref=e111]: IT infrastructure experts specializing in digital signage, network deployment, and structured cabling for modern businesses.
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - heading "Services" [level=4] [ref=e114]
+            - list [ref=e115]:
+              - listitem [ref=e116]:
+                - link "Digital Signage" [ref=e117] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e118]:
+                - link "Network Deployment" [ref=e119] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e120]:
+                - link "Network Cabling" [ref=e121] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e122]:
+                - link "CCTV & Security" [ref=e123] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e124]:
+                - link "IT Management" [ref=e125] [cursor=pointer]:
+                  - /url: /services
+          - generic [ref=e126]:
+            - heading "Company" [level=4] [ref=e127]
+            - list [ref=e128]:
+              - listitem [ref=e129]:
+                - link "About Us" [ref=e130] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e131]:
+                - link "Projects" [ref=e132] [cursor=pointer]:
+                  - /url: /portfolio
+          - generic [ref=e133]:
+            - heading "Contact" [level=4] [ref=e134]
+            - list [ref=e135]:
+              - listitem [ref=e136]: 14B Adetokunbo Ademola St
+              - listitem [ref=e137]: Victoria Island, Lagos
+              - listitem [ref=e138]: +234 800 123 4567
+              - listitem [ref=e139]: info@digisolutions.ng
+      - generic [ref=e140]:
+        - paragraph [ref=e141]: © 2025 DigiSolutions. All rights reserved.
+        - generic [ref=e142]:
+          - link "Facebook" [ref=e143] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e144]
+          - link "Instagram" [ref=e146] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e147]
+          - link "Twitter" [ref=e150] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e151]
+          - link "LinkedIn" [ref=e153] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e154]
+  - button "Open Next.js Dev Tools" [ref=e163] [cursor=pointer]:
+    - img [ref=e164]
+  - alert [ref=e167]

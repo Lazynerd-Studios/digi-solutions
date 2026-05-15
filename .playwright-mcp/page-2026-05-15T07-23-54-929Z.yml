@@ -1,0 +1,98 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Collections" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Download History" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - button "Bookmarks" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fpos-system
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: pos system
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fpos-system
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 2.3k":
+                - /url: /s/photos/pos-system
+                - img
+                - text: Photos
+                - generic: 2.3k
+            - listitem [ref=e73]:
+              - link "Illustrations 1.3k" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/pos-system
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: 1.3k
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Pos system" [level=1] [ref=e87]
+          - generic [ref=e91]:
+            - link "point of sale" [ref=e93] [cursor=pointer]:
+              - /url: /s/photos/point-of-sale
+            - link "pos" [ref=e95] [cursor=pointer]:
+              - /url: /s/photos/pos
+            - link "business" [ref=e97] [cursor=pointer]:
+              - /url: /s/photos/business
+            - link "po" [ref=e99] [cursor=pointer]:
+              - /url: /s/photos/po
+            - link "fintech" [ref=e101] [cursor=pointer]:
+              - /url: /s/photos/fintech
+            - link "payment method" [ref=e103] [cursor=pointer]:
+              - /url: /s/photos/payment-method
+            - link "square" [ref=e105] [cursor=pointer]:
+              - /url: /s/photos/square
+            - link "payment" [ref=e107] [cursor=pointer]:
+              - /url: /s/photos/payment
+            - link "financial service" [ref=e109] [cursor=pointer]:
+              - /url: /s/photos/financial-service
+            - link "cashier" [ref=e111] [cursor=pointer]:
+              - /url: /s/photos/cashier
+            - link "point of sale system" [ref=e113] [cursor=pointer]:
+              - /url: /s/photos/point-of-sale-system
+            - link "cafe" [ref=e115] [cursor=pointer]:
+              - /url: /s/photos/cafe
+    - generic:
+      - region "Notifications"

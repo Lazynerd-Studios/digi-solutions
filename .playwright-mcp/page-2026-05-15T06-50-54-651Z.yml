@@ -1,0 +1,267 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Collections" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Download History" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - button "Bookmarks" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fhospital-digital-screen
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: hospital digital screen
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fhospital-digital-screen
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 2.4k":
+                - /url: /s/photos/hospital-digital-screen
+                - img
+                - text: Photos
+                - generic: 2.4k
+            - listitem [ref=e73]:
+              - link "Illustrations 303" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/hospital-digital-screen
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "303"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Hospital digital screen" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "hospital" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/hospital
+              - link "medical" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/medical
+              - link "health" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/health
+              - link "treatment" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/treatment
+              - link "person" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/person
+              - link "healthcare" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/healthcare
+              - link "doctor" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/doctor
+              - link "diagnosis" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/diagnosis
+              - link "brown" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/brown
+              - link "heart" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/heart
+              - link "machine" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/machine
+              - link "bed" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/bed
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - generic [ref=e129]:
+                  - link "Hospital room" [ref=e130]:
+                    - /url: /photos/hospital-room-WPtgfxGpTm0
+                    - img "Hospital room" [ref=e131]
+                  - link [ref=e132] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fhospital-room-WPtgfxGpTm0
+                    - img [ref=e133]
+              - generic [ref=e135]:
+                - heading "Sponsored images" [level=4] [ref=e136]:
+                  - generic [ref=e137]: Sponsored images
+                  - link [ref=e138] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A45f07c58-0d08-43b0-868b-ea6c242b5778&phrase=hospital+digital+screen&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e139]
+                - generic [ref=e141]:
+                  - link "Male and female radiologists looking at the MRI images on the lightbox" [ref=e142] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/male-and-female-radiologists-looking-at-the-mri-images-on-the-lightbox-gm1326240221-411008130?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A4f43773c-5f75-43ab-9185-32bceb138552
+                    - img "Male and female radiologists looking at the MRI images on the lightbox" [ref=e143]
+                  - link "Female Asian Neuroscinetist Using Interactive Touch Screen Table With MRI Scans On Display In Modern Biotechnology Research Center. Doctor Developing Innovative Devices For People With Alzheimer's." [ref=e144] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/female-asian-neuroscinetist-using-interactive-touch-screen-table-with-mri-scans-on-gm2160715528-581227884?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A1ffb4155-f378-43fd-9dbf-089db7abf222
+                    - img "Female Asian Neuroscinetist Using Interactive Touch Screen Table With MRI Scans On Display In Modern Biotechnology Research Center. Doctor Developing Innovative Devices For People With Alzheimer's." [ref=e145]
+                  - link "Medical Coding Bill" [ref=e146] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/medical-coding-bill-gm2148937376-570146754?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3Abbfd5acf-d85c-46fc-9311-1d2bd057d10b
+                    - img "Medical Coding Bill" [ref=e147]
+                  - link "Vital signs monitor, digital and hospital with EKG machine, electronic and medical equipment to help. Emergency, stats and computer in ICU, clinic and healthcare, life and science with technology" [ref=e148] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/vital-signs-monitor-digital-and-hospital-with-ekg-machine-electronic-and-medical-gm2149642730-570857418?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A2069bf39-fc11-4ed1-94aa-3aff95746e8e
+                    - img "Vital signs monitor, digital and hospital with EKG machine, electronic and medical equipment to help. Emergency, stats and computer in ICU, clinic and healthcare, life and science with technology" [ref=e149]
+                - link "Get 20% off with code UNSPLASH20" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A45f07c58-0d08-43b0-868b-ea6c242b5778&phrase=hospital+digital+screen&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e151]:
+                - link "people wearing surgical clothes inside operating room" [ref=e154]:
+                  - /url: /photos/people-wearing-surgical-clothes-inside-operating-room-y5hQCIn1c6o
+                  - img "people wearing surgical clothes inside operating room" [ref=e155]
+              - figure [ref=e156]:
+                - generic [ref=e158]:
+                  - link "Health tracker on exercise tool ***These graphics are derived from our own 3D generic designs. They do not infringe on any copyright design." [ref=e159]:
+                    - /url: /photos/health-tracker-on-exercise-tool-these-graphics-are-derived-from-our-own-3d-generic-designs-they-do-not-infringe-on-any-copyright-design-2A0njRNSvk4
+                    - img "Health tracker on exercise tool ***These graphics are derived from our own 3D generic designs. They do not infringe on any copyright design." [ref=e160]
+                  - link [ref=e161] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fhealth-tracker-on-exercise-tool-these-graphics-are-derived-from-our-own-3d-generic-designs-they-do-not-infringe-on-any-copyright-design-2A0njRNSvk4
+                    - img [ref=e162]
+              - figure [ref=e164]:
+                - link "text" [ref=e167]:
+                  - /url: /photos/text-HoneMAhhCXI
+                  - img "text" [ref=e168]
+              - figure [ref=e169]:
+                - generic [ref=e171]:
+                  - link "Multiethnic team of five doctors brainstorming or discussing patients records, on the meeting at light office. Focus on young African female doctor, listening her colleagues. Coronavirus pandemy." [ref=e172]:
+                    - /url: /photos/multiethnic-team-of-five-doctors-brainstorming-or-discussing-patients-records-on-the-meeting-at-light-office-focus-on-young-african-female-doctor-listening-her-colleagues-coronavirus-pandemy-FzLVmzJE0VE
+                    - img "Multiethnic team of five doctors brainstorming or discussing patients records, on the meeting at light office. Focus on young African female doctor, listening her colleagues. Coronavirus pandemy." [ref=e173]
+                  - link [ref=e174] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fmultiethnic-team-of-five-doctors-brainstorming-or-discussing-patients-records-on-the-meeting-at-light-office-focus-on-young-african-female-doctor-listening-her-colleagues-coronavirus-pandemy-FzLVmzJE0VE
+                    - img [ref=e175]
+              - figure [ref=e177]:
+                - link "black and gray digital device" [ref=e180]:
+                  - /url: /photos/black-and-gray-digital-device-Gmu260C-1Mk
+                  - img "black and gray digital device" [ref=e181]
+              - figure [ref=e182]:
+                - link "white wall mounted flat screen tv" [ref=e185]:
+                  - /url: /photos/white-wall-mounted-flat-screen-tv-D1abpKdaEr0
+                  - img "white wall mounted flat screen tv" [ref=e186]
+            - generic [ref=e187]:
+              - figure [ref=e188]:
+                - link "doctors doing surgery inside emergency room" [ref=e191]:
+                  - /url: /photos/doctors-doing-surgery-inside-emergency-room-43LwvC-eQPM
+                  - img "doctors doing surgery inside emergency room" [ref=e192]
+              - figure [ref=e193]:
+                - link "white medical equipment" [ref=e196]:
+                  - /url: /photos/white-medical-equipment-LPurJnihmQI
+                  - img "white medical equipment" [ref=e197]
+              - figure [ref=e198]:
+                - link "black and white digital heart beat monitor at 97 display" [ref=e201]:
+                  - /url: /photos/black-and-white-digital-heart-beat-monitor-at-97-display-0lrJo37r6Nk
+                  - img "black and white digital heart beat monitor at 97 display" [ref=e202]
+              - figure [ref=e203]:
+                - link "a man laying in a hospital bed next to a monitor" [ref=e206]:
+                  - /url: /photos/a-man-laying-in-a-hospital-bed-next-to-a-monitor-ZjVb97Pq0Ls
+                  - img "a man laying in a hospital bed next to a monitor" [ref=e207]
+              - figure [ref=e208]:
+                - link "person leaning against the wall inside building showing 18:05 time" [ref=e211]:
+                  - /url: /photos/person-leaning-against-the-wall-inside-building-showing-1805-time-yvh8fDhqHFg
+                  - img "person leaning against the wall inside building showing 18:05 time" [ref=e212]
+              - figure [ref=e213]:
+                - link "white digital device at 2 00" [ref=e216]:
+                  - /url: /photos/white-digital-device-at-2-00-qYqmbQwwXJo
+                  - img "white digital device at 2 00" [ref=e217]
+              - figure [ref=e218]:
+                - generic [ref=e220]:
+                  - link "Female doctor in white coat caring about little boy who lying on bed after operation in hospital ward" [ref=e221]:
+                    - /url: /photos/female-doctor-in-white-coat-caring-about-little-boy-who-lying-on-bed-after-operation-in-hospital-ward-ujZBtea2IXw
+                    - img "Female doctor in white coat caring about little boy who lying on bed after operation in hospital ward" [ref=e222]
+                  - link [ref=e223] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Ffemale-doctor-in-white-coat-caring-about-little-boy-who-lying-on-bed-after-operation-in-hospital-ward-ujZBtea2IXw
+                    - img [ref=e224]
+              - figure [ref=e226]:
+                - link "a large display of red numbers on a wall" [ref=e229]:
+                  - /url: /photos/a-large-display-of-red-numbers-on-a-wall-tOjIx_NyzFo
+                  - img "a large display of red numbers on a wall" [ref=e230]
+            - generic [ref=e231]:
+              - contentinfo [ref=e236]:
+                - generic [ref=e242]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e244]:
+                - generic [ref=e246]:
+                  - link "Elderly woman signing an agreement for operation giving by the anesthesiologist and doctor standing near the bed at hospital ward" [ref=e247]:
+                    - /url: /photos/elderly-woman-signing-an-agreement-for-operation-giving-by-the-anesthesiologist-and-doctor-standing-near-the-bed-at-hospital-ward-MTbz5I-Vhow
+                    - img "Elderly woman signing an agreement for operation giving by the anesthesiologist and doctor standing near the bed at hospital ward" [ref=e248]
+                  - link [ref=e249] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Felderly-woman-signing-an-agreement-for-operation-giving-by-the-anesthesiologist-and-doctor-standing-near-the-bed-at-hospital-ward-MTbz5I-Vhow
+                    - img [ref=e250]
+              - figure [ref=e252]:
+                - link "white digital device at 19 0" [ref=e255]:
+                  - /url: /photos/white-digital-device-at-19-0-0hjokXK6uLs
+                  - img "white digital device at 19 0" [ref=e256]
+              - figure [ref=e257]:
+                - link "a man in scrubs and a stethoscope looking at a monitor" [ref=e260]:
+                  - /url: /photos/a-man-in-scrubs-and-a-stethoscope-looking-at-a-monitor-0Fv4M2hSZJU
+                  - img "a man in scrubs and a stethoscope looking at a monitor" [ref=e261]
+              - figure [ref=e262]:
+                - link "white crt computer monitor turned on displaying 20 00" [ref=e265]:
+                  - /url: /photos/white-crt-computer-monitor-turned-on-displaying-20-00-7P1KdY9wZjA
+                  - img "white crt computer monitor turned on displaying 20 00" [ref=e266]
+              - figure [ref=e267]:
+                - link "a close up of a monitor screen with a heart beat" [ref=e270]:
+                  - /url: /photos/a-close-up-of-a-monitor-screen-with-a-heart-beat-beXUIzvxW-Q
+                  - img "a close up of a monitor screen with a heart beat" [ref=e271]
+          - generic [ref=e274]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e275]:
+              - text: Browse premium images on iStock
+              - generic [ref=e276]: "| Claim your discount now"
+            - generic [ref=e278]:
+              - link "Blank signage mockup with black frame in hospital lobby, empty advertising display board template" [ref=e279] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/blank-signage-mockup-with-black-frame-in-hospital-lobby-empty-advertising-display-gm2234235228-649680705?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A06ff668a-c204-44e2-b5b0-22f8726cd60c
+                - img "Blank signage mockup with black frame in hospital lobby, empty advertising display board template" [ref=e280]
+              - link "Doctor looking at the vital signs of a patient using a digital tablet" [ref=e281] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/doctor-looking-at-the-vital-signs-of-a-patient-using-a-digital-tablet-gm2217159758-633764296?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3Ae61b85dc-41cc-4437-bbe6-8dccadb7cc46
+                - img "Doctor looking at the vital signs of a patient using a digital tablet" [ref=e282]
+              - link "Close-up of physician using tablet to explain test results to a patient" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/close-up-of-physician-using-tablet-to-explain-test-results-to-a-patient-gm2177423581-596832755?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A522c6344-a43d-4f6a-9c07-2712efab90d5
+                - img "Close-up of physician using tablet to explain test results to a patient" [ref=e284]
+              - link "Group of female medical scientists meeting in brain research lab by monitor showing MRI, CT scans brain images. Group of doctors discuss treatment for brain patients, showing images on monitor" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/group-of-female-medical-scientists-meeting-in-brain-research-lab-by-monitor-showing-gm1487093963-512680476?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A791240f3-5979-41c2-9e6f-a065d7b902c7
+                - img "Group of female medical scientists meeting in brain research lab by monitor showing MRI, CT scans brain images. Group of doctors discuss treatment for brain patients, showing images on monitor" [ref=e286]
+              - link "Female nurse analyzing x-ray at desk in hospital" [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/female-nurse-analyzing-x-ray-at-desk-in-hospital-gm2163036780-583403231?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A8b472333-3bcf-4bfb-8c41-dd2bb0ca33f1
+                - img "Female nurse analyzing x-ray at desk in hospital" [ref=e288]
+              - 'link "Medical Hospital Research Laboratory: Caucasian Male Neurosurgeon Looking At TV Screen With Brain MRI Scans Of Patient, Analyzing, Preparing For Complicated Neurosurgery, Wearing Surgical Gown." [ref=e289] [cursor=pointer]':
+                - /url: https://www.istockphoto.com/photo/medical-hospital-research-laboratory-caucasian-male-neurosurgeon-looking-at-tv-gm2160720006-581231582?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A35939062-cfcf-4c93-8515-0c4e93fcb016
+                - 'img "Medical Hospital Research Laboratory: Caucasian Male Neurosurgeon Looking At TV Screen With Brain MRI Scans Of Patient, Analyzing, Preparing For Complicated Neurosurgery, Wearing Surgical Gown." [ref=e290]'
+              - link "Female Doctor Analyzing Medical Data" [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/female-doctor-analyzing-medical-data-gm2260905650-673770783?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3Ac9dc1ce0-b2f0-4e54-bdfa-e8d3168c82b1
+                - img "Female Doctor Analyzing Medical Data" [ref=e292]
+              - generic [ref=e293]:
+                - link "Computer, brain scan and doctor asian woman in hospital at night for medical, research or learning. Healthcare, thinking and screen with young medicine professional in office of clinic for neurology" [ref=e294] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/computer-brain-scan-and-doctor-asian-woman-in-hospital-at-night-for-medical-research-gm1959739742-557744261?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A790c4db4-4e80-49a0-ba31-5e78466ffeb4
+                  - img "Computer, brain scan and doctor asian woman in hospital at night for medical, research or learning. Healthcare, thinking and screen with young medicine professional in office of clinic for neurology" [ref=e295]
+                - link "View more on iStock ↗" [ref=e296] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-screen&utm_term=hospital+digital+screen%3A%3A%3A%3A8d178e6b-1390-4b09-a39f-64f5079a4b6c&phrase=hospital+digital+screen&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e300] [cursor=pointer]
+          - generic [ref=e301]:
+            - link [ref=e302] [cursor=pointer]:
+              - /url: /
+              - img [ref=e303]
+            - paragraph [ref=e305]: Make something awesome
+    - generic:
+      - region "Notifications"

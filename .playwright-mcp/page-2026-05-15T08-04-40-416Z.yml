@@ -1,0 +1,308 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "DigiSolutions Logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "DigiSolutions Logo" [ref=e5]
+      - generic [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: /services
+        - link "Projects" [ref=e10] [cursor=pointer]:
+          - /url: /portfolio
+        - link "Work Done" [ref=e11] [cursor=pointer]:
+          - /url: /work-done
+      - generic [ref=e12]:
+        - link "Get a Free Quote" [ref=e13] [cursor=pointer]:
+          - /url: /contact
+        - button "Toggle menu" [ref=e14] [cursor=pointer]
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - link "Home" [ref=e22] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e23]: /
+          - generic [ref=e24]: Services
+        - heading "Our Services" [level=1] [ref=e25]
+        - paragraph [ref=e26]: Comprehensive IT infrastructure solutions — from digital signage and network deployment to structured cabling and security systems.
+      - img "Network Infrastructure" [ref=e28]
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e33]: What We Do
+        - heading "IT Infrastructure Services" [level=2] [ref=e34]
+        - paragraph [ref=e35]: We design, deploy, and maintain the technology systems that keep modern businesses connected, visible, and secure.
+      - generic [ref=e36]:
+        - link "Digital Signage Solutions 01 Digital Signage Solutions Complete digital signage ecosystems — LED video walls, LCD displays, interactive kiosks, menu boards, and wayfinding systems. We handle design, procurement, installation, content management, and ongoing maintenance." [ref=e37] [cursor=pointer]:
+          - /url: /services
+          - img "Digital Signage Solutions" [ref=e39]
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: "01"
+              - img [ref=e44]
+            - heading "Digital Signage Solutions" [level=3] [ref=e46]
+            - paragraph [ref=e47]: Complete digital signage ecosystems — LED video walls, LCD displays, interactive kiosks, menu boards, and wayfinding systems. We handle design, procurement, installation, content management, and ongoing maintenance.
+        - link "Network Deployment & Installation 02 Network Deployment & Installation Full-scale network infrastructure deployment — LAN/WAN setup, wireless networks, access points, firewall configuration, VPN implementation, and network security hardening for offices, campuses, and multi-site organizations." [ref=e48] [cursor=pointer]:
+          - /url: /services
+          - img "Network Deployment & Installation" [ref=e50]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53]: "02"
+              - img [ref=e55]
+            - heading "Network Deployment & Installation" [level=3] [ref=e57]
+            - paragraph [ref=e58]: Full-scale network infrastructure deployment — LAN/WAN setup, wireless networks, access points, firewall configuration, VPN implementation, and network security hardening for offices, campuses, and multi-site organizations.
+        - link "Network Cabling & Fiber Optics 03 Network Cabling & Fiber Optics Professional structured cabling installation — Cat5e, Cat6, Cat6a, fiber optic backbone, cable tray and ladder rack installation, patch panel termination, and full certification testing with documentation." [ref=e59] [cursor=pointer]:
+          - /url: /services
+          - img "Network Cabling & Fiber Optics" [ref=e61]
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: "03"
+              - img [ref=e66]
+            - heading "Network Cabling & Fiber Optics" [level=3] [ref=e68]
+            - paragraph [ref=e69]: Professional structured cabling installation — Cat5e, Cat6, Cat6a, fiber optic backbone, cable tray and ladder rack installation, patch panel termination, and full certification testing with documentation.
+        - link "CCTV & Security Systems 04 CCTV & Security Systems Surveillance and access control solutions — IP camera systems, NVR/DVR setup, video analytics, biometric access control, and integrated security management platforms for complete peace of mind." [ref=e70] [cursor=pointer]:
+          - /url: /services
+          - img "CCTV & Security Systems" [ref=e72]
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]: "04"
+              - img [ref=e77]
+            - heading "CCTV & Security Systems" [level=3] [ref=e79]
+            - paragraph [ref=e80]: Surveillance and access control solutions — IP camera systems, NVR/DVR setup, video analytics, biometric access control, and integrated security management platforms for complete peace of mind.
+        - link "POS & Payment Systems 05 POS & Payment Systems Point of Sale system setup including touchscreen terminals, receipt printers, barcode scanners, cash drawers, and payment gateway integration for retail and hospitality." [ref=e81] [cursor=pointer]:
+          - /url: /services
+          - img "POS & Payment Systems" [ref=e83]
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - generic [ref=e86]: "05"
+              - img [ref=e88]
+            - heading "POS & Payment Systems" [level=3] [ref=e90]
+            - paragraph [ref=e91]: Point of Sale system setup including touchscreen terminals, receipt printers, barcode scanners, cash drawers, and payment gateway integration for retail and hospitality.
+        - link "Interactive Kiosk Solutions 06 Interactive Kiosk Solutions Interactive kiosk deployment — self-service, wayfinding, check-in, and information kiosks for retail, healthcare, and hospitality environments." [ref=e92] [cursor=pointer]:
+          - /url: /services
+          - img "Interactive Kiosk Solutions" [ref=e94]
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - generic [ref=e97]: "06"
+              - img [ref=e99]
+            - heading "Interactive Kiosk Solutions" [level=3] [ref=e101]
+            - paragraph [ref=e102]: Interactive kiosk deployment — self-service, wayfinding, check-in, and information kiosks for retail, healthcare, and hospitality environments.
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - generic [ref=e107]: What We Install
+        - heading "Specialized Installations" [level=2] [ref=e108]
+        - paragraph [ref=e109]: From video conferencing rooms to POS systems — we handle the specific technology your business needs.
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - img [ref=e113]
+          - heading "Video Conferencing" [level=3] [ref=e115]
+          - paragraph [ref=e116]: Professional video conference room setup with HD cameras, microphones, displays, and integration with Zoom, Teams, and Google Meet.
+        - generic [ref=e117]:
+          - img [ref=e119]
+          - heading "Meeting / Board Room" [level=3] [ref=e121]
+          - paragraph [ref=e122]: Complete boardroom technology — smart displays, wireless presentation systems, room scheduling panels, and automated lighting/AV control.
+        - generic [ref=e123]:
+          - img [ref=e125]
+          - heading "POS Installation" [level=3] [ref=e127]
+          - paragraph [ref=e128]: Point of Sale system setup including terminals, receipt printers, barcode scanners, cash drawers, and payment gateway integration.
+        - generic [ref=e129]:
+          - img [ref=e131]
+          - heading "Menu Boards" [level=3] [ref=e133]
+          - paragraph [ref=e134]: Digital menu board installation for restaurants, cafes, and fast food — including wall-mounted, hanging, and outdoor drive-thru displays.
+        - generic [ref=e135]:
+          - img [ref=e137]
+          - heading "Kiosk Installation" [level=3] [ref=e140]
+          - paragraph [ref=e141]: Interactive kiosk deployment — self-service, wayfinding, check-in, and information kiosks for retail, healthcare, and hospitality.
+        - generic [ref=e142]:
+          - img [ref=e144]
+          - heading "CCTV Cameras" [level=3] [ref=e147]
+          - paragraph [ref=e148]: IP camera installation — indoor/outdoor, dome, bullet, PTZ, and 4K cameras with remote monitoring and mobile app access.
+        - generic [ref=e149]:
+          - img [ref=e151]
+          - heading "Access Points" [level=3] [ref=e153]
+          - paragraph [ref=e154]: Enterprise Wi-Fi access point installation — site survey, heatmap design, ceiling/wall mounting, and seamless roaming setup.
+        - generic [ref=e155]:
+          - img [ref=e157]
+          - heading "Network Cabling" [level=3] [ref=e159]
+          - paragraph [ref=e160]: Structured cabling for offices, warehouses, and data centers — Cat6, fiber optic, patch panels, cable management, and certification.
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - generic [ref=e165]: Partners
+        - heading "Brands & Technologies We Work With" [level=2] [ref=e166]
+      - generic [ref=e167]:
+        - generic [ref=e168]: Samsung
+        - generic [ref=e169]: LG
+        - generic [ref=e170]: NEC
+        - generic [ref=e171]: Cisco
+        - generic [ref=e172]: Ubiquiti
+        - generic [ref=e173]: Aruba
+        - generic [ref=e174]: Hikvision
+        - generic [ref=e175]: Dahua
+        - generic [ref=e176]: CommScope
+        - generic [ref=e177]: Panduit
+        - generic [ref=e178]: Leviton
+        - generic [ref=e179]: Belden
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e184]: Benefits
+        - heading "Why Clients Choose DigiSolutions" [level=2] [ref=e185]
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - img [ref=e189]
+          - heading "On-Time Delivery" [level=3] [ref=e192]
+          - paragraph [ref=e193]: We prioritize timely project completion without compromising quality or safety standards.
+        - generic [ref=e194]:
+          - img [ref=e196]
+          - heading "Tailored Solutions" [level=3] [ref=e198]
+          - paragraph [ref=e199]: Every project is customized to your specific space, budget, performance requirements, and growth plans.
+        - generic [ref=e200]:
+          - img [ref=e202]
+          - heading "Certified Equipment" [level=3] [ref=e204]
+          - paragraph [ref=e205]: We use enterprise-grade equipment from Samsung, Cisco, CommScope, and other industry-leading manufacturers.
+    - generic [ref=e207]:
+      - generic [ref=e208]:
+        - generic [ref=e210]: FAQ
+        - heading "Frequently Asked Questions" [level=2] [ref=e211]
+      - generic [ref=e212]:
+        - generic [ref=e213]:
+          - button "What types of digital signage do you install?" [ref=e214] [cursor=pointer]:
+            - generic [ref=e215]: What types of digital signage do you install?
+            - img [ref=e217]
+          - paragraph [ref=e218]: We install LED video walls, LCD displays, interactive touch kiosks, menu boards, wayfinding displays, and outdoor digital billboards. We work with top brands like Samsung, LG, and NEC and provide full content management solutions.
+        - generic [ref=e219]:
+          - button "How long does a typical network deployment take?" [ref=e220] [cursor=pointer]:
+            - generic [ref=e221]: How long does a typical network deployment take?
+            - img [ref=e223]
+          - paragraph [ref=e224]: Project timelines vary based on scope. A small office network can be completed in 3-5 days, while large enterprise deployments across multiple locations may take 4-8 weeks. We provide detailed timelines during the planning phase.
+        - generic [ref=e225]:
+          - button "Do you offer warranties on cabling and installation work?" [ref=e226] [cursor=pointer]:
+            - generic [ref=e227]: Do you offer warranties on cabling and installation work?
+            - img [ref=e229]
+          - paragraph [ref=e230]: Yes. All our structured cabling installations come with a 25-year system warranty backed by manufacturers like CommScope and Panduit. Network equipment carries standard manufacturer warranties, and we offer extended maintenance packages.
+        - generic [ref=e231]:
+          - button "Can you work with existing infrastructure or do we need a complete overhaul?" [ref=e232] [cursor=pointer]:
+            - generic [ref=e233]: Can you work with existing infrastructure or do we need a complete overhaul?
+            - img [ref=e235]
+          - paragraph [ref=e236]: We can integrate with your existing infrastructure where possible. Our site assessment identifies what can be reused, what needs upgrading, and the most cost-effective path forward.
+        - generic [ref=e237]:
+          - button "Do you provide ongoing maintenance and support?" [ref=e238] [cursor=pointer]:
+            - generic [ref=e239]: Do you provide ongoing maintenance and support?
+            - img [ref=e241]
+          - paragraph [ref=e242]: Absolutely. We offer SLA-based maintenance contracts, 24/7 remote monitoring, on-call technician support, and preventive maintenance schedules to ensure your systems operate at peak performance.
+      - generic [ref=e243]:
+        - paragraph [ref=e244]: Still have questions about our services?
+        - link "Contact Us" [ref=e245] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=e247]:
+      - generic [ref=e248]:
+        - generic [ref=e250]: Testimonials
+        - heading "What Our Clients Say" [level=2] [ref=e251]
+        - paragraph [ref=e252]: Businesses across retail, finance, healthcare, and hospitality trust DigiSolutions for their IT infrastructure.
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - img [ref=e256]
+            - img [ref=e258]
+            - img [ref=e260]
+            - img [ref=e262]
+            - img [ref=e264]
+          - paragraph [ref=e266]: DigiSolutions deployed a 12-screen video wall across our retail chain in under three weeks. The quality of work and attention to cable management was outstanding.
+          - generic [ref=e267]:
+            - img "Chinedu Eze" [ref=e269]
+            - generic [ref=e270]:
+              - generic [ref=e271]: Chinedu Eze
+              - generic [ref=e272]: IT Director, Shoprite Nigeria
+        - generic [ref=e273]:
+          - generic [ref=e274]:
+            - img [ref=e275]
+            - img [ref=e277]
+            - img [ref=e279]
+            - img [ref=e281]
+            - img [ref=e283]
+          - paragraph [ref=e285]: Their fiber optic installation across our 8-floor office building was flawless. Every cable labeled, tested, and certified. The network performance is incredible.
+          - generic [ref=e286]:
+            - img "Ngozi Obi" [ref=e288]
+            - generic [ref=e289]:
+              - generic [ref=e290]: Ngozi Obi
+              - generic [ref=e291]: CTO, Capital Trust Bank
+        - generic [ref=e292]:
+          - generic [ref=e293]:
+            - img [ref=e294]
+            - img [ref=e296]
+            - img [ref=e298]
+            - img [ref=e300]
+            - img [ref=e302]
+          - paragraph [ref=e304]: We needed a complete network overhaul for our new hospital wing. DigiSolutions delivered on time, within budget, and with zero disruption to patient services.
+          - generic [ref=e305]:
+            - img "Dr. Ibrahim Musa" [ref=e307]
+            - generic [ref=e308]:
+              - generic [ref=e309]: Dr. Ibrahim Musa
+              - generic [ref=e310]: Facilities Director, Grandview Hospital
+    - generic [ref=e313]:
+      - heading "Ready to Upgrade Your Infrastructure?" [level=2] [ref=e314]
+      - paragraph [ref=e315]: Get a free site assessment and quote for your digital signage, network, or cabling project.
+      - link "Get a Free Quote" [ref=e316] [cursor=pointer]:
+        - /url: /contact
+  - contentinfo [ref=e317]:
+    - generic [ref=e319]:
+      - generic [ref=e320]:
+        - generic [ref=e321]:
+          - link "DigiSolutions Logo" [ref=e322] [cursor=pointer]:
+            - /url: /
+            - img "DigiSolutions Logo" [ref=e323]
+          - paragraph [ref=e324]: IT infrastructure experts specializing in digital signage, network deployment, and structured cabling for modern businesses.
+        - generic [ref=e325]:
+          - generic [ref=e326]:
+            - heading "Services" [level=4] [ref=e327]
+            - list [ref=e328]:
+              - listitem [ref=e329]:
+                - link "Digital Signage" [ref=e330] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e331]:
+                - link "Network Deployment" [ref=e332] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e333]:
+                - link "Network Cabling" [ref=e334] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e335]:
+                - link "CCTV & Security" [ref=e336] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e337]:
+                - link "IT Management" [ref=e338] [cursor=pointer]:
+                  - /url: /services
+          - generic [ref=e339]:
+            - heading "Company" [level=4] [ref=e340]
+            - list [ref=e341]:
+              - listitem [ref=e342]:
+                - link "About Us" [ref=e343] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e344]:
+                - link "Projects" [ref=e345] [cursor=pointer]:
+                  - /url: /portfolio
+          - generic [ref=e346]:
+            - heading "Contact" [level=4] [ref=e347]
+            - list [ref=e348]:
+              - listitem [ref=e349]: 14B Adetokunbo Ademola St
+              - listitem [ref=e350]: Victoria Island, Lagos
+              - listitem [ref=e351]: +234 800 123 4567
+              - listitem [ref=e352]: info@digisolutions.ng
+      - generic [ref=e353]:
+        - paragraph [ref=e354]: © 2025 DigiSolutions. All rights reserved.
+        - generic [ref=e355]:
+          - link "Facebook" [ref=e356] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e357]
+          - link "Instagram" [ref=e359] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e360]
+          - link "Twitter" [ref=e363] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e364]
+          - link "LinkedIn" [ref=e366] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e367]
+  - button "Open Next.js Dev Tools" [ref=e376] [cursor=pointer]:
+    - img [ref=e377]

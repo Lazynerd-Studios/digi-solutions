@@ -1,0 +1,268 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Collections" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Download History" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - button "Bookmarks" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fself-service-kiosk
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: self service kiosk
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fself-service-kiosk
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 29":
+                - /url: /s/photos/self-service-kiosk
+                - img
+                - text: Photos
+                - generic: "29"
+            - listitem [ref=e73]:
+              - link "Illustrations 4" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/self-service-kiosk
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "4"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Self service kiosk" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "kiosk" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/kiosk
+              - link "self service" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/self-service
+              - link "digital payment" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/digital-payment
+              - link "convenience" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/convenience
+              - link "transaction" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/transaction
+              - link "terminal" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/terminal
+              - link "restaurant" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/restaurant
+              - link "modern retail" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/modern-retail
+              - link "bar" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/bar
+              - link "point of sale" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/point-of-sale
+              - link "self serve food" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/self-serve-food
+        - generic [ref=e119]:
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - figure [ref=e125]:
+                - generic [ref=e127]:
+                  - link "Tourist woman buys tickets for transport in Georgia. modern street machine for purchase of tickets for bus" [ref=e128]:
+                    - /url: /photos/tourist-woman-buys-tickets-for-transport-in-georgia-modern-street-machine-for-purchase-of-tickets-for-bus-4lvb26gDe_k
+                    - img "Tourist woman buys tickets for transport in Georgia. modern street machine for purchase of tickets for bus" [ref=e129]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link [ref=e130] [cursor=pointer]:
+                            - /url: /plus?referrer=%2Fphotos%2Ftourist-woman-buys-tickets-for-transport-in-georgia-modern-street-machine-for-purchase-of-tickets-for-bus-4lvb26gDe_k
+                            - img [ref=e131]
+                          - generic:
+                            - button "Bookmark" [ref=e133] [cursor=pointer]:
+                              - img [ref=e134]
+                            - button "Add to Collection" [ref=e136] [cursor=pointer]:
+                              - img [ref=e137]
+                        - generic:
+                          - generic [ref=e140]:
+                            - link [ref=e141] [cursor=pointer]:
+                              - /url: /@gettyimages
+                            - generic [ref=e144]:
+                              - link "Getty Images" [ref=e145] [cursor=pointer]:
+                                - /url: /@gettyimages
+                              - generic [ref=e146]:
+                                - text: For
+                                - link "Unsplash+" [ref=e147] [cursor=pointer]:
+                                  - /url: /plus?referrer=%2Fphotos%2Ftourist-woman-buys-tickets-for-transport-in-georgia-modern-street-machine-for-purchase-of-tickets-for-bus-4lvb26gDe_k
+                          - button "Download" [ref=e149] [cursor=pointer]:
+                            - img [ref=e150]
+                            - text: Download
+              - generic [ref=e152]:
+                - heading "Sponsored images" [level=4] [ref=e153]:
+                  - generic [ref=e154]: Sponsored images
+                  - link [ref=e155] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3A1fa9f52c-b6cd-4d14-be6d-893347ab7d3e&phrase=self+service+kiosk&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e156]
+                - generic [ref=e158]:
+                  - 'link "Young woman using self-ordering kiosk in restaurant: ordering food through touch screen technology" [ref=e159] [cursor=pointer]':
+                    - /url: https://www.istockphoto.com/photo/young-woman-using-self-ordering-kiosk-in-restaurant-ordering-food-through-touch-gm2247045716-660968061?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3A57752756-31d5-4a86-9cd1-95759cf1af1a
+                    - 'img "Young woman using self-ordering kiosk in restaurant: ordering food through touch screen technology" [ref=e160]'
+                  - link "Customer girl ordering food at a fast food restaurant, interacting with a self service electronic menu on a touchscreen kiosk for a quick meal choice" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/customer-girl-ordering-food-at-a-fast-food-restaurant-interacting-with-a-self-gm2227456369-643326758?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3A71210973-a995-46c7-aebb-62928652f965
+                    - img "Customer girl ordering food at a fast food restaurant, interacting with a self service electronic menu on a touchscreen kiosk for a quick meal choice" [ref=e162]
+                  - link "Close up of a young Asian man using contactless payment via smartphone to pay for her shopping at self-checkout kiosk in subway" [ref=e163] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/close-up-of-a-young-asian-man-using-contactless-payment-via-smartphone-to-pay-for-gm1323554686-409171458?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3A293a77ac-763c-4e7a-b26c-81306fb6e7e8
+                    - img "Close up of a young Asian man using contactless payment via smartphone to pay for her shopping at self-checkout kiosk in subway" [ref=e164]
+                  - link "Handsome black man ordering food at self-service kiosk" [ref=e165] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/handsome-black-man-ordering-food-at-self-service-kiosk-gm2247272501-661184748?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3A851b6d17-b679-43dc-acc8-e7eab1ca7136
+                    - img "Handsome black man ordering food at self-service kiosk" [ref=e166]
+                - link "Get 20% off with code UNSPLASH20" [ref=e167] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3A1fa9f52c-b6cd-4d14-be6d-893347ab7d3e&phrase=self+service+kiosk&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e168]:
+                - generic [ref=e170]:
+                  - link "Women in casual clothing paying using automatic payment machine and smartphone." [ref=e171]:
+                    - /url: /photos/women-in-casual-clothing-paying-using-automatic-payment-machine-and-smartphone-aPNcgHl7Vc0
+                    - img "Women in casual clothing paying using automatic payment machine and smartphone." [ref=e172]
+                  - link [ref=e173] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fwomen-in-casual-clothing-paying-using-automatic-payment-machine-and-smartphone-aPNcgHl7Vc0
+                    - img [ref=e174]
+              - figure [ref=e176]:
+                - link "A checkout counter with a cell phone on it" [ref=e179]:
+                  - /url: /photos/a-checkout-counter-with-a-cell-phone-on-it-PlIxH13NGL8
+                  - img "A checkout counter with a cell phone on it" [ref=e180]
+              - figure [ref=e181]:
+                - link "a man is walking through an airport terminal" [ref=e184]:
+                  - /url: /photos/a-man-is-walking-through-an-airport-terminal-cVSMetyM5Z0
+                  - img "a man is walking through an airport terminal" [ref=e185]
+              - figure [ref=e186]:
+                - link "Two people interact with a digital display screen." [ref=e189]:
+                  - /url: /photos/two-people-interact-with-a-digital-display-screen-jkc5WuJWoIQ
+                  - img "Two people interact with a digital display screen." [ref=e190]
+            - generic [ref=e191]:
+              - figure [ref=e192]:
+                - link "timeline" [ref=e195]:
+                  - /url: /photos/timeline-LBikV4HMGwM
+                  - img "timeline" [ref=e196]
+              - figure [ref=e197]:
+                - link "a close up of a phone" [ref=e200]:
+                  - /url: /photos/a-close-up-of-a-phone-Uq6SoEnPdQ0
+                  - img "a close up of a phone" [ref=e201]
+              - figure [ref=e202]:
+                - link "yellow and gray DHL concrete building" [ref=e205]:
+                  - /url: /photos/yellow-and-gray-dhl-concrete-building-Q-fFZtc1hS4
+                  - img "yellow and gray DHL concrete building" [ref=e206]
+              - figure [ref=e207]:
+                - link "Person paying at a grocery store checkout with cart" [ref=e210]:
+                  - /url: /photos/person-paying-at-a-grocery-store-checkout-with-cart-2dEoodA5x_k
+                  - img "Person paying at a grocery store checkout with cart" [ref=e211]
+              - figure [ref=e212]:
+                - generic [ref=e214]:
+                  - link "A touchscreen cashier machine with blank screen at modern coffee shop." [ref=e215]:
+                    - /url: /photos/a-touchscreen-cashier-machine-with-blank-screen-at-modern-coffee-shop-krfV1xAawkc
+                    - img "A touchscreen cashier machine with blank screen at modern coffee shop." [ref=e216]
+                  - link [ref=e217] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-touchscreen-cashier-machine-with-blank-screen-at-modern-coffee-shop-krfV1xAawkc
+                    - img [ref=e218]
+            - generic [ref=e220]:
+              - contentinfo [ref=e225]:
+                - generic [ref=e231]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e233]:
+                - link "a close up of a sign" [ref=e236]:
+                  - /url: /photos/a-close-up-of-a-sign-3L0aUxetRhE
+                  - img "a close up of a sign" [ref=e237]
+              - figure [ref=e238]:
+                - link "Empty airport check-in counters with glowing screens" [ref=e241]:
+                  - /url: /photos/empty-airport-check-in-counters-with-glowing-screens-cb0cA41cbIc
+                  - img "Empty airport check-in counters with glowing screens" [ref=e242]
+              - figure [ref=e243]:
+                - generic [ref=e245]:
+                  - link "Young woman in international airport doing self check-in" [ref=e246]:
+                    - /url: /photos/young-woman-in-international-airport-doing-self-check-in-GHzcLWzQ000
+                    - img "Young woman in international airport doing self check-in" [ref=e247]
+                  - link [ref=e248] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fyoung-woman-in-international-airport-doing-self-check-in-GHzcLWzQ000
+                    - img [ref=e249]
+              - figure [ref=e251]:
+                - link "Two people interact with a digital display screen." [ref=e254]:
+                  - /url: /photos/two-people-interact-with-a-digital-display-screen-ucAGk6vH7t8
+                  - img "Two people interact with a digital display screen." [ref=e255]
+              - figure [ref=e256]:
+                - generic [ref=e258]:
+                  - link "a calculator with a receipt attached to it" [ref=e259]:
+                    - /url: /photos/a-calculator-with-a-receipt-attached-to-it-oDpFl-fy8jY
+                    - img "a calculator with a receipt attached to it" [ref=e260]
+                  - link [ref=e261] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-calculator-with-a-receipt-attached-to-it-oDpFl-fy8jY
+                    - img [ref=e262]
+          - generic [ref=e266]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e267]:
+              - text: Browse premium images on iStock
+              - generic [ref=e268]: "| Claim your discount now"
+            - generic [ref=e270]:
+              - link "Customer using self-checkout kiosk scanning groceries in supermarket" [ref=e271] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/customer-using-self-checkout-kiosk-scanning-groceries-in-supermarket-gm2208622960-625775555?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3A1bc29183-53ce-4a59-be72-e767ca8d9c13
+                - img "Customer using self-checkout kiosk scanning groceries in supermarket" [ref=e272]
+              - link "A female customer uses a touchscreen terminal or self-service kiosk to order at a fast food restaurant. Automated machine and electronic payment" [ref=e273] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/a-female-customer-uses-a-touchscreen-terminal-or-self-service-kiosk-to-order-at-a-gm1450120526-487126384?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3Ae113baf7-b553-41a6-a4f5-5eeb12587682
+                - img "A female customer uses a touchscreen terminal or self-service kiosk to order at a fast food restaurant. Automated machine and electronic payment" [ref=e274]
+              - link "Using Self Service Touch Screen" [ref=e275] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/using-self-service-touch-screen-gm1788973239-547559527?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3Ac8ecc759-c409-45a2-a62a-7fa9f2398957
+                - img "Using Self Service Touch Screen" [ref=e276]
+              - link "Ordering On Touch Screen Kiosk" [ref=e277] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/ordering-on-touch-screen-kiosk-gm1779820701-546698867?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3Ab8e8e79e-0ba0-49c7-aedf-e0df6375387c
+                - img "Ordering On Touch Screen Kiosk" [ref=e278]
+              - link "Airport Ticketing Kiosks" [ref=e279] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/airport-ticketing-kiosks-gm1076131528-288164841?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3A42e29c89-656b-4d8e-a064-057385095cab
+                - img "Airport Ticketing Kiosks" [ref=e280]
+              - link "Checking in Using Self Service Machine" [ref=e281] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/checking-in-using-self-service-machine-gm1788973238-547559528?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3A52cf2d63-ab7e-499f-934c-1c51ee21cff8
+                - img "Checking in Using Self Service Machine" [ref=e282]
+              - link "customer self service order drink menu with tablet screen at cafe counter bar,seller coffee shop accept payment by mobile.digital lifestyle concept.Blank space for display of design." [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/customer-self-service-order-drink-menu-with-tablet-screen-at-cafe-counter-bar-seller-gm979180054-266090435?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3A57556d12-4a74-43f4-8be5-e4018694010d
+                - img "customer self service order drink menu with tablet screen at cafe counter bar,seller coffee shop accept payment by mobile.digital lifestyle concept.Blank space for display of design." [ref=e284]
+              - generic [ref=e285]:
+                - link "African-American man uses self-service kiosk to order snack" [ref=e286] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/african-american-man-uses-self-service-kiosk-to-order-snack-gm1346155264-424003543?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3Ae59d49fd-667f-42d6-aec0-687b2fa42ecf
+                  - img "African-American man uses self-service kiosk to order snack" [ref=e287]
+                - link "View more on iStock ↗" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fself-service-kiosk&utm_term=self+service+kiosk%3A%3A%3A%3Afe6d3da2-f37c-4410-a9ac-2037ef1ab137&phrase=self+service+kiosk&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e292] [cursor=pointer]
+          - generic [ref=e293]:
+            - link [ref=e294] [cursor=pointer]:
+              - /url: /
+              - img [ref=e295]
+            - paragraph [ref=e297]: Make something awesome
+    - generic:
+      - region "Notifications"

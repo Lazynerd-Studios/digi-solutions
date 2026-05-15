@@ -31,7 +31,7 @@ const portfolioItems = [
     title: 'Surveillance System — Horizon Towers Estate',
   },
   {
-    img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=450&fit=crop',
+    img: 'https://images.unsplash.com/photo-1764795849878-59b546cfe9c7?w=600&h=450&fit=crop',
     cat: 'Digital Signage',
     date: 'August 2024',
     title: 'Interactive Kiosks — Airport Terminal 2',
@@ -43,13 +43,13 @@ const portfolioItems = [
     title: 'Structured Cabling — University Campus Expansion',
   },
   {
-    img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=450&fit=crop',
+    img: 'https://images.unsplash.com/photo-1624004015322-a94d3a4eff39?w=600&h=450&fit=crop',
     cat: 'Healthcare Digital Signage',
     date: 'April 2024',
     title: 'Hospital Patient Info Display System',
   },
   {
-    img: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&h=450&fit=crop',
+    img: 'https://images.unsplash.com/photo-1712232415633-095dc9e03c5d?w=600&h=450&fit=crop',
     cat: 'Medical Menu Boards',
     date: 'February 2024',
     title: 'Clinic Digital Menu Board Installation',
