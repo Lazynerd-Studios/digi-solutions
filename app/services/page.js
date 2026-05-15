@@ -11,7 +11,7 @@ const servicesImages = [
     num: '01',
     title: 'Digital Signage Solutions',
     desc: 'Complete digital signage ecosystems — LED video walls, LCD displays, interactive kiosks, menu boards, and wayfinding systems. We handle design, procurement, installation, content management, and ongoing maintenance.',
-    img: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop',
+    img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop',
   },
   {
     num: '02',
@@ -35,7 +35,7 @@ const servicesImages = [
     num: '05',
     title: 'POS & Payment Systems',
     desc: 'Point of Sale system setup including touchscreen terminals, receipt printers, barcode scanners, cash drawers, and payment gateway integration for retail and hospitality.',
-    img: 'https://images.unsplash.com/photo-1647427017067-8f33ccbae493?w=600&h=400&fit=crop',
+    img: 'https://images.unsplash.com/photo-1556740758-90de374c12ad?w=600&h=400&fit=crop',
   },
   {
     num: '06',

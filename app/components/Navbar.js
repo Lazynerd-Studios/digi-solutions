@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
+import styles from './Navbar.module.css';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,11 +12,13 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const navbar = document.querySelector('.navbar');
-      if (window.scrollY > 50) {
-        navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.06)';
-      } else {
-        navbar.style.boxShadow = 'none';
+      const navbar = document.querySelector(`.${styles.navbar}`);
+      if (navbar) {
+        if (window.scrollY > 50) {
+          navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.06)';
+        } else {
+          navbar.style.boxShadow = 'none';
+        }
       }
     };
     window.addEventListener('scroll', handleScroll);
@@ -41,35 +44,35 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="navbar">
-      <div className="container navbar-wrapper">
-        <Link href="/" className="logo">
+    <nav className={styles.navbar}>
+      <div className={`container ${styles.navbarWrapper}`}>
+        <Link href="/" className={styles.logo}>
           <Image
             src="/logo-blackp.png"
             alt="DigiSolutions Logo"
-            className="logo-img"
+            className={styles.logoImg}
             width={150}
             height={36}
           />
         </Link>
-        <div className={`nav-menu${menuOpen ? ' open' : ''}`} id="navMenu">
+        <div className={`${styles.navMenu}${menuOpen ? ' ' + styles.open : ''}`} id="navMenu">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`nav-link${pathname === link.href ? ' active' : ''}`}
+              className={`${styles.navLink}${pathname === link.href ? ' ' + styles.active : ''}`}
               onClick={closeMenu}
             >
               {link.label}
             </Link>
           ))}
         </div>
-        <div className="nav-actions">
+        <div className={styles.navActions}>
           <Link href="/contact" className="btn btn-primary" onClick={closeMenu}>
             Get a Free Quote
           </Link>
           <button
-            className={`mobile-menu-btn${menuOpen ? ' open' : ''}`}
+            className={`${styles.mobileMenuBtn}${menuOpen ? ' ' + styles.open : ''}`}
             id="mobileMenuBtn"
             aria-label="Toggle menu"
             onClick={toggleMenu}

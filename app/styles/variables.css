@@ -1,0 +1,46 @@
+/* ============================================
+   CSS Variables & Design Tokens
+   ============================================ */
+
+:root {
+  /* Typography */
+  --font-primary: 'Inter', Arial, sans-serif;
+  
+  /* Colors */
+  --color-primary: #141414;
+  --color-gray: #494852;
+  --color-light-gray: #f6f6f9;
+  --color-white: #ffffff;
+  --color-secondary: #ff7a52;
+  --color-border: rgba(27, 26, 39, 0.2);
+  
+  /* Spacing */
+  --section-gap: 110px;
+  --section-gap-medium: 80px;
+  --section-gap-small: 60px;
+  --container-max: 1200px;
+  
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 100px;
+  
+  /* Transitions */
+  --transition-base: all 0.3s ease;
+  --transition-slow: all 0.5s ease;
+}
+
+/* Responsive Variables */
+@media (max-width: 1024px) {
+  :root {
+    --section-gap: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-gap: 60px;
+  }
+}

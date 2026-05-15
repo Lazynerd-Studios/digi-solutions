@@ -44,3 +44,27 @@ next-env.d.ts
 
 # OS
 Thumbs.db
+
+# System files
+.DS_Store
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Backup files
+*-backup.*
+*.bak
+
+# Editor directories
+.vscode/
+.idea/
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

@@ -1,0 +1,126 @@
+/* ============================================
+   Navbar Component Styles
+   ============================================ */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px dashed var(--color-border);
+}
+
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.logoImg {
+  height: 36px;
+  width: auto;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.navLink {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-gray);
+  position: relative;
+}
+
+.navLink:hover,
+.navLink.active {
+  color: var(--color-primary);
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-primary);
+  transition: width 0.3s ease;
+}
+
+.navLink:hover::after,
+.navLink.active::after {
+  width: 100%;
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.mobileMenuBtn {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.mobileMenuBtn span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-primary);
+  transition: var(--transition-base);
+}
+
+/* Mobile Styles */
+@media (max-width: 991px) {
+  .navMenu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 320px;
+    height: 100vh;
+    background-color: var(--color-white);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 32px 32px;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 999;
+  }
+
+  .navMenu.open {
+    right: 0;
+  }
+
+  .mobileMenuBtn {
+    display: flex;
+    z-index: 1001;
+  }
+
+  .mobileMenuBtn.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .mobileMenuBtn.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobileMenuBtn.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+}

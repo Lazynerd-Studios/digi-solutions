@@ -1,30 +1,31 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import styles from './Footer.module.css';
 
 export default function Footer() {
   return (
-    <footer className="section footer">
+    <footer className={`section ${styles.footer}`}>
       <div className="container">
-        <div className="footer-wrapper">
-          <div className="footer-top">
-            <div className="footer-brand">
-              <Link href="/" className="footer-logo">
+        <div className={styles.footerWrapper}>
+          <div className={styles.footerTop}>
+            <div className={styles.footerBrand}>
+              <Link href="/" className={styles.footerLogo}>
                 <Image
                   src="/logo-whitep.png"
                   alt="DigiSolutions Logo"
-                  className="footer-logo-img"
+                  className={styles.footerLogoImg}
                   width={150}
                   height={36}
                 />
               </Link>
-              <p className="footer-tagline">
+              <p className={styles.footerTagline}>
                 IT infrastructure experts specializing in digital signage, network deployment, and structured cabling for modern businesses.
               </p>
             </div>
-            <div className="footer-links-grid">
-              <div className="footer-links-col">
-                <h4 className="footer-links-title">Services</h4>
-                <ul className="footer-links-list">
+            <div className={styles.footerLinksGrid}>
+              <div className={styles.footerLinksCol}>
+                <h4 className={styles.footerLinksTitle}>Services</h4>
+                <ul className={styles.footerLinksList}>
                   <li><Link href="/services">Digital Signage</Link></li>
                   <li><Link href="/services">Network Deployment</Link></li>
                   <li><Link href="/services">Network Cabling</Link></li>
@@ -32,16 +33,16 @@ export default function Footer() {
                   <li><Link href="/services">IT Management</Link></li>
                 </ul>
               </div>
-              <div className="footer-links-col">
-                <h4 className="footer-links-title">Company</h4>
-                <ul className="footer-links-list">
+              <div className={styles.footerLinksCol}>
+                <h4 className={styles.footerLinksTitle}>Company</h4>
+                <ul className={styles.footerLinksList}>
                   <li><Link href="/about">About Us</Link></li>
                   <li><Link href="/portfolio">Projects</Link></li>
                 </ul>
               </div>
-              <div className="footer-links-col">
-                <h4 className="footer-links-title">Contact</h4>
-                <ul className="footer-links-list">
+              <div className={styles.footerLinksCol}>
+                <h4 className={styles.footerLinksTitle}>Contact</h4>
+                <ul className={styles.footerLinksList}>
                   <li>14B Adetokunbo Ademola St</li>
                   <li>Victoria Island, Lagos</li>
                   <li>+234 800 123 4567</li>
@@ -50,9 +51,9 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="footer-bottom">
-            <p className="footer-copyright">&copy; 2025 DigiSolutions. All rights reserved.</p>
-            <div className="footer-social">
+          <div className={styles.footerBottom}>
+            <p className={styles.footerCopyright}>&copy; 2025 DigiSolutions. All rights reserved.</p>
+            <div className={styles.footerSocial}>
               <a href="#" aria-label="Facebook">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />

@@ -1,0 +1,193 @@
+/* ============================================
+   Homepage Specific Styles
+   ============================================ */
+
+/* Banner / Hero */
+.section.banner {
+  padding-top: 160px;
+  padding-bottom: 110px;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.banner-typography {
+  flex: 1;
+  max-width: 560px;
+}
+
+.banner-subtitle-wrapper {
+  margin-bottom: 20px;
+}
+
+.banner-subtitle {
+  display: inline-block;
+  background-color: var(--color-light-gray);
+  color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 20px;
+  border-radius: var(--radius-full);
+}
+
+.banner-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1.15;
+  letter-spacing: -1.2px;
+  margin-bottom: 20px;
+}
+
+.banner-description-text {
+  font-size: 18px;
+  color: var(--color-gray);
+  line-height: 1.6;
+  margin-bottom: 32px;
+  max-width: 480px;
+}
+
+.banner-button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.banner-image-wrapper {
+  flex: 1;
+  max-width: 540px;
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+  border-radius: var(--radius-xl);
+}
+
+/* Company Ticker */
+.section.company-section {
+  padding-top: 0;
+  padding-bottom: var(--section-gap);
+}
+
+.company-subtitle-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.company-subtitle-line {
+  flex: 1;
+  height: 1px;
+  background-color: var(--color-border);
+  max-width: 120px;
+}
+
+.company-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.sponsors-ticker-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.sponsors-ticker-wrapper::before,
+.sponsors-ticker-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.sponsors-ticker-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, white, transparent);
+}
+
+.sponsors-ticker-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, white, transparent);
+}
+
+.ticker-track {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  animation: ticker-scroll 30s linear infinite;
+  width: max-content;
+}
+
+.ticker-item {
+  flex-shrink: 0;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.ticker-item:hover {
+  opacity: 1;
+}
+
+.company-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-gray);
+  white-space: nowrap;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.ticker-item:hover .company-name {
+  opacity: 1;
+}
+
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .banner-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-typography {
+    max-width: 100%;
+  }
+
+  .banner-description-text {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner-button-wrapper {
+    justify-content: center;
+  }
+
+  .banner-image-wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 40px;
+  }
+}
