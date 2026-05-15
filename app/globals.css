@@ -1689,37 +1689,8 @@ button {
   }
 }
 
-@media (max-width: 768px) {
-  :root {
-    --section-gap: 60px;
-  }
-
-  .section.banner {
-    padding-top: 120px;
-    padding-bottom: 60px;
-  }
-
-  .section.inner-banner {
-    padding-top: 140px;
-    padding-bottom: 60px;
-  }
-
-  .inner-banner-title {
-    font-size: 40px;
-  }
-
-  .banner-title {
-    font-size: 40px;
-  }
-
-  .section-title {
-    font-size: 32px;
-  }
-
-  .cta-title {
-    font-size: 32px;
-  }
-
+/* Navbar mobile breakpoint */
+@media (max-width: 991px) {
   .nav-menu {
     position: fixed;
     top: 0;
@@ -1754,6 +1725,38 @@ button {
 
   .mobile-menu-btn.open span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-gap: 60px;
+  }
+
+  .section.banner {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+
+  .section.inner-banner {
+    padding-top: 140px;
+    padding-bottom: 60px;
+  }
+
+  .inner-banner-title {
+    font-size: 40px;
+  }
+
+  .banner-title {
+    font-size: 40px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .cta-title {
+    font-size: 32px;
   }
 
   .services-grid,
@@ -1988,6 +1991,665 @@ button {
   cursor: pointer;
 }
 
+/* ============================================
+   RESPONSIVE ENHANCEMENTS
+   ============================================ */
+
+/* Tablet adjustments (1024px) */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .navbar-wrapper {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .section-header {
+    margin-bottom: 48px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-card-title {
+    font-size: 24px;
+  }
+
+  .why-choose-card {
+    padding: 20px;
+  }
+
+  .process-card {
+    padding: 32px 24px;
+  }
+
+  .process-title {
+    font-size: 20px;
+  }
+
+  .cta-box {
+    padding: 60px 32px;
+  }
+
+  .contact-form-wrapper {
+    padding: 40px 32px;
+  }
+
+  .contact-form-title {
+    font-size: 24px;
+  }
+
+  .footer-top {
+    gap: 48px;
+    padding-bottom: 48px;
+  }
+
+  .specialized-card {
+    padding: 28px 20px;
+  }
+
+  .benefit-card {
+    padding: 28px 20px;
+  }
+}
+
+/* Mobile adjustments (768px) */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .navbar-wrapper {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .logo-img {
+    height: 32px;
+  }
+
+  .section-header {
+    margin-bottom: 36px;
+  }
+
+  .section-subtitle {
+    font-size: 12px;
+    padding: 4px 16px;
+  }
+
+  .banner-subtitle {
+    font-size: 12px;
+    padding: 4px 16px;
+  }
+
+  .banner-button-wrapper {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .banner-image-wrapper {
+    max-width: 100%;
+  }
+
+  .about-feature {
+    gap: 12px;
+  }
+
+  .about-feature-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .about-feature-text h4 {
+    font-size: 16px;
+  }
+
+  .about-feature-text p {
+    font-size: 14px;
+  }
+
+  .about-bottom-row {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .about-stat-number {
+    font-size: 32px;
+  }
+
+  .about-stat-card {
+    padding: 20px;
+  }
+
+  .services-card {
+    padding: 28px;
+  }
+
+  .services-card-title {
+    font-size: 22px;
+  }
+
+  .services-card-desc {
+    font-size: 15px;
+  }
+
+  .services-image-content {
+    padding: 20px;
+  }
+
+  .portfolio-card-title {
+    font-size: 18px;
+  }
+
+  .portfolio-meta {
+    padding: 16px 16px 6px;
+  }
+
+  .testimonial-card {
+    padding: 24px;
+  }
+
+  .testimonial-quote {
+    font-size: 15px;
+  }
+
+  .cta-box {
+    padding: 48px 24px;
+    border-radius: var(--radius-lg);
+  }
+
+  .cta-desc {
+    font-size: 16px;
+  }
+
+  .process-card {
+    padding: 28px 20px;
+  }
+
+  .process-number {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+  }
+
+  .process-title {
+    font-size: 18px;
+  }
+
+  .process-desc {
+    font-size: 15px;
+  }
+
+  .tool-item,
+  .cms-tech-item {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .specialized-card {
+    padding: 24px 20px;
+  }
+
+  .specialized-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .benefit-card {
+    padding: 24px 20px;
+  }
+
+  .benefit-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .benefit-title {
+    font-size: 18px;
+  }
+
+  .faq-question {
+    padding: 18px 20px;
+    font-size: 16px;
+  }
+
+  .faq-answer p {
+    padding: 0 20px 18px;
+    font-size: 15px;
+  }
+
+  .contact-form-wrapper {
+    padding: 28px 20px;
+    border-radius: var(--radius-lg);
+  }
+
+  .contact-form-title {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+
+  .form-input,
+  .form-textarea {
+    padding: 12px 14px;
+    font-size: 14px;
+  }
+
+  .contact-image-wrapper img {
+    border-radius: var(--radius-lg);
+  }
+
+  .contact-detail-card {
+    padding: 28px 20px;
+  }
+
+  .contact-detail-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .footer-logo-img {
+    height: 32px;
+  }
+
+  .footer-tagline {
+    font-size: 15px;
+  }
+
+  .footer-links-title {
+    font-size: 15px;
+  }
+
+  .footer-links-list a {
+    font-size: 14px;
+  }
+
+  .section.footer {
+    padding-top: 60px;
+    padding-bottom: 28px;
+  }
+
+  .company-subtitle-wrapper {
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+
+  .company-subtitle {
+    font-size: 12px;
+  }
+
+  .company-subtitle-line {
+    max-width: 40px;
+  }
+
+  .ticker-track {
+    gap: 32px;
+  }
+
+  .sponsors-ticker-wrapper::before,
+  .sponsors-ticker-wrapper::after {
+    width: 40px;
+  }
+
+  .award-item {
+    padding: 20px 24px;
+  }
+
+  .award-title {
+    font-size: 18px;
+  }
+
+  .team-member-info {
+    padding: 16px;
+  }
+
+  .team-member-name {
+    font-size: 16px;
+  }
+
+  .why-choose-card {
+    padding: 18px;
+  }
+
+  .why-choose-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .why-choose-text h4 {
+    font-size: 16px;
+  }
+
+  .why-choose-text p {
+    font-size: 14px;
+  }
+}
+
+/* Small mobile adjustments (480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 14px;
+  }
+
+  .logo-img {
+    height: 28px;
+  }
+
+  .section-header {
+    margin-bottom: 28px;
+  }
+
+  .section-title {
+    font-size: 26px;
+    letter-spacing: -0.5px;
+  }
+
+  .banner-title {
+    font-size: 28px;
+    letter-spacing: -0.5px;
+  }
+
+  .inner-banner-title {
+    font-size: 28px;
+    letter-spacing: -0.5px;
+  }
+
+  .cta-title {
+    font-size: 26px;
+  }
+
+  .banner-subtitle-wrapper {
+    text-align: center;
+  }
+
+  .btn {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+
+  .btn-video {
+    padding: 8px 14px;
+  }
+
+  .video-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .section.banner {
+    padding-top: 100px;
+    padding-bottom: 48px;
+  }
+
+  .section.inner-banner {
+    padding-top: 120px;
+    padding-bottom: 48px;
+  }
+
+  .about-stat-number {
+    font-size: 28px;
+  }
+
+  .about-stat-label {
+    font-size: 13px;
+  }
+
+  .services-card {
+    padding: 24px;
+  }
+
+  .services-card-title {
+    font-size: 20px;
+  }
+
+  .services-card-desc {
+    font-size: 14px;
+  }
+
+  .services-arrow {
+    width: 36px;
+    height: 36px;
+  }
+
+  .portfolio-card-title {
+    font-size: 16px;
+    padding: 0 16px 16px;
+  }
+
+  .portfolio-meta {
+    padding: 14px 16px 4px;
+    font-size: 12px;
+  }
+
+  .portfolio-image-wrap {
+    aspect-ratio: 16/10;
+  }
+
+  .testimonial-card {
+    padding: 20px;
+  }
+
+  .testimonial-quote {
+    font-size: 14px;
+  }
+
+  .testimonial-author {
+    gap: 10px;
+  }
+
+  .testimonial-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .testimonial-name {
+    font-size: 14px;
+  }
+
+  .testimonial-role {
+    font-size: 13px;
+  }
+
+  .cta-box {
+    padding: 40px 20px;
+  }
+
+  .cta-desc {
+    font-size: 15px;
+  }
+
+  .process-card {
+    padding: 24px 16px;
+  }
+
+  .process-title {
+    font-size: 17px;
+  }
+
+  .process-desc {
+    font-size: 14px;
+  }
+
+  .tool-item,
+  .cms-tech-item {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+
+  .specialized-card {
+    padding: 20px 16px;
+  }
+
+  .specialized-title {
+    font-size: 16px;
+  }
+
+  .specialized-desc {
+    font-size: 13px;
+  }
+
+  .benefit-card {
+    padding: 20px 16px;
+  }
+
+  .benefit-title {
+    font-size: 16px;
+  }
+
+  .benefit-desc {
+    font-size: 14px;
+  }
+
+  .faq-question {
+    padding: 16px 18px;
+    font-size: 15px;
+  }
+
+  .faq-answer p {
+    padding: 0 18px 16px;
+    font-size: 14px;
+  }
+
+  .contact-form-wrapper {
+    padding: 24px 16px;
+  }
+
+  .contact-form-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 16px;
+  }
+
+  .form-group label {
+    font-size: 13px;
+  }
+
+  .form-input,
+  .form-textarea {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .contact-detail-card {
+    padding: 24px 16px;
+  }
+
+  .contact-detail-title {
+    font-size: 16px;
+  }
+
+  .contact-detail-text {
+    font-size: 14px;
+  }
+
+  .footer-top {
+    gap: 36px;
+    padding-bottom: 36px;
+  }
+
+  .footer-logo-img {
+    height: 28px;
+  }
+
+  .footer-tagline {
+    font-size: 14px;
+  }
+
+  .footer-links-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .footer-links-title {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .footer-bottom {
+    padding-top: 24px;
+  }
+
+  .footer-copyright {
+    font-size: 13px;
+  }
+
+  .footer-social a {
+    width: 36px;
+    height: 36px;
+  }
+
+  .award-item {
+    padding: 16px 20px;
+  }
+
+  .award-title {
+    font-size: 16px;
+  }
+
+  .team-member-info {
+    padding: 14px;
+  }
+
+  .team-member-name {
+    font-size: 15px;
+  }
+
+  .team-member-role {
+    font-size: 13px;
+  }
+
+  .about-feature-text h4 {
+    font-size: 15px;
+  }
+
+  .about-feature-text p {
+    font-size: 13px;
+  }
+
+  .contact-text .contact-number {
+    font-size: 14px;
+  }
+
+  .nav-menu {
+    width: 85%;
+    padding: 90px 24px 24px;
+  }
+}
+
+/* Extra small devices (360px) */
+@media (max-width: 360px) {
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .inner-banner-title {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .cta-title {
+    font-size: 22px;
+  }
+
+  .services-card-title {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+}
+
+/* Lightbox mobile */
 @media (max-width: 768px) {
   .lightbox-nav {
     width: 44px;
@@ -2007,5 +2669,15 @@ button {
     right: 10px;
     width: 40px;
     height: 40px;
+  }
+
+  .lightbox-image {
+    max-height: 75vh;
+  }
+
+  .lightbox-counter {
+    bottom: -36px;
+    font-size: 12px;
+    padding: 6px 14px;
   }
 }

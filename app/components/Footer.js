@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="footer-brand">
               <Link href="/" className="footer-logo">
                 <Image
-                  src="/logo-white.png"
+                  src="/logo-whitep.png"
                   alt="DigiSolutions Logo"
                   className="footer-logo-img"
                   width={150}
@@ -45,7 +45,7 @@ export default function Footer() {
                   <li>14B Adetokunbo Ademola St</li>
                   <li>Victoria Island, Lagos</li>
                   <li>+234 800 123 4567</li>
-                  <li>info@ritovex.com</li>
+                  <li>info@digisolutions.ng</li>
                 </ul>
               </div>
             </div>

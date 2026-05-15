@@ -45,7 +45,7 @@ export default function Navbar() {
       <div className="container navbar-wrapper">
         <Link href="/" className="logo">
           <Image
-            src="/logo-black.png"
+            src="/logo-blackp.png"
             alt="DigiSolutions Logo"
             className="logo-img"
             width={150}

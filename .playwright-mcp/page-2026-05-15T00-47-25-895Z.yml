@@ -1,0 +1,244 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Collections" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Download History" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - button "Bookmarks" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fhospital-digital-display
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: hospital digital display
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fhospital-digital-display
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 3k":
+                - /url: /s/photos/hospital-digital-display
+                - img
+                - text: Photos
+                - generic: 3k
+            - listitem [ref=e73]:
+              - link "Illustrations 382" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/hospital-digital-display
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "382"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Hospital digital display" [level=1] [ref=e87]
+          - generic [ref=e91]:
+            - link "hospital" [ref=e93] [cursor=pointer]:
+              - /url: /s/photos/hospital
+            - link "medical" [ref=e95] [cursor=pointer]:
+              - /url: /s/photos/medical
+            - link "person" [ref=e97] [cursor=pointer]:
+              - /url: /s/photos/person
+            - link "health" [ref=e99] [cursor=pointer]:
+              - /url: /s/photos/health
+            - link "doctor" [ref=e101] [cursor=pointer]:
+              - /url: /s/photos/doctor
+            - link "healthcare" [ref=e103] [cursor=pointer]:
+              - /url: /s/photos/healthcare
+            - link "treatment" [ref=e105] [cursor=pointer]:
+              - /url: /s/photos/treatment
+            - link "heart" [ref=e107] [cursor=pointer]:
+              - /url: /s/photos/heart
+            - link "machine" [ref=e109] [cursor=pointer]:
+              - /url: /s/photos/machine
+            - link "human" [ref=e111] [cursor=pointer]:
+              - /url: /s/photos/human
+            - link "brown" [ref=e113] [cursor=pointer]:
+              - /url: /s/photos/brown
+            - link "corridor" [ref=e115] [cursor=pointer]:
+              - /url: /s/photos/corridor
+        - generic [ref=e117]:
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - figure [ref=e123]:
+                - link "Hospital room" [ref=e126]:
+                  - /url: /photos/hospital-room-WPtgfxGpTm0
+                  - img "Hospital room" [ref=e127]
+              - generic [ref=e128]:
+                - heading "Sponsored images" [level=4] [ref=e129]:
+                  - generic [ref=e130]: Sponsored images
+                  - link [ref=e131] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A&phrase=hospital+digital+display&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e132]
+                - generic [ref=e134]:
+                  - link "Doctor, researcher or scientist browsing the internet on a tablet for information while working at a lab, science facility or hospital. Expert, medical professional or surgeon searching the internet" [ref=e135] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/doctor-researcher-or-scientist-browsing-the-internet-on-a-tablet-for-information-gm1413603540-462621438?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                    - img "Doctor, researcher or scientist browsing the internet on a tablet for information while working at a lab, science facility or hospital. Expert, medical professional or surgeon searching the internet" [ref=e136]
+                  - link "Doctor photo with hand icon. Medical technology. Doctor using AI technology to diagnose, care and improve accuracy of patient treatment in the future. Medical innovation for future health. Telemedicine concept." [ref=e137] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/doctor-photo-with-hand-icon-medical-technology-doctor-using-ai-technology-to-gm2219183305-635685123?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                    - img "Doctor photo with hand icon. Medical technology. Doctor using AI technology to diagnose, care and improve accuracy of patient treatment in the future. Medical innovation for future health. Telemedicine concept." [ref=e138]
+                  - link "A young African - American doctor works on HUD or graphic display in front of her" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/a-young-african-american-doctor-works-on-hud-or-graphic-display-in-front-of-her-gm1396801868-451431400?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                    - img "A young African - American doctor works on HUD or graphic display in front of her" [ref=e140]
+                  - link "digital tablets" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/digital-tablets-gm913783962-251535525?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                    - img "digital tablets" [ref=e142]
+                - link "Get 20% off with code UNSPLASH20" [ref=e143] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A&phrase=hospital+digital+display&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e144]:
+                - link "Hospital patient room" [ref=e147]:
+                  - /url: /photos/hospital-patient-room-j6WtvBqxTLg
+                  - img "Hospital patient room" [ref=e148]
+              - figure [ref=e149]:
+                - link "person leaning against the wall inside building showing 18:05 time" [ref=e152]:
+                  - /url: /photos/person-leaning-against-the-wall-inside-building-showing-1805-time-yvh8fDhqHFg
+                  - img "person leaning against the wall inside building showing 18:05 time" [ref=e153]
+              - figure [ref=e154]:
+                - link "A ceiling mounted hospital directional sign highlighting the way towards the pediatric ward - 3D render" [ref=e157]:
+                  - /url: /photos/a-ceiling-mounted-hospital-directional-sign-highlighting-the-way-towards-the-pediatric-ward-3d-render-1TjVriH8m-E
+                  - img "A ceiling mounted hospital directional sign highlighting the way towards the pediatric ward - 3D render" [ref=e158]
+              - figure [ref=e159]:
+                - link "white digital device at 2 00" [ref=e162]:
+                  - /url: /photos/white-digital-device-at-2-00-qYqmbQwwXJo
+                  - img "white digital device at 2 00" [ref=e163]
+              - figure [ref=e164]:
+                - link "a close up of a monitor screen with a heart beat" [ref=e167]:
+                  - /url: /photos/a-close-up-of-a-monitor-screen-with-a-heart-beat-beXUIzvxW-Q
+                  - img "a close up of a monitor screen with a heart beat" [ref=e168]
+              - figure [ref=e169]:
+                - link "a large display of red numbers on a wall" [ref=e172]:
+                  - /url: /photos/a-large-display-of-red-numbers-on-a-wall-tOjIx_NyzFo
+                  - img "a large display of red numbers on a wall" [ref=e173]
+            - generic [ref=e174]:
+              - figure [ref=e175]:
+                - link "white and black hospital bed" [ref=e178]:
+                  - /url: /photos/white-and-black-hospital-bed-vsSu0oGtLoI
+                  - img "white and black hospital bed" [ref=e179]
+              - figure [ref=e180]:
+                - link "doctors doing surgery inside emergency room" [ref=e183]:
+                  - /url: /photos/doctors-doing-surgery-inside-emergency-room-43LwvC-eQPM
+                  - img "doctors doing surgery inside emergency room" [ref=e184]
+              - figure [ref=e185]:
+                - link "white digital device at 19 0" [ref=e188]:
+                  - /url: /photos/white-digital-device-at-19-0-0hjokXK6uLs
+                  - img "white digital device at 19 0" [ref=e189]
+              - figure [ref=e190]:
+                - link "green and white digital device" [ref=e193]:
+                  - /url: /photos/green-and-white-digital-device-m9617OjWgoM
+                  - img "green and white digital device" [ref=e194]
+              - figure [ref=e195]:
+                - link "white wall mounted flat screen tv" [ref=e198]:
+                  - /url: /photos/white-wall-mounted-flat-screen-tv-D1abpKdaEr0
+                  - img "white wall mounted flat screen tv" [ref=e199]
+              - figure [ref=e200]:
+                - link "A large monitor displaying a number of times" [ref=e203]:
+                  - /url: /photos/a-large-monitor-displaying-a-number-of-times-0V7aC2SEm5U
+                  - img "A large monitor displaying a number of times" [ref=e204]
+            - generic [ref=e205]:
+              - contentinfo [ref=e210]:
+                - generic [ref=e216]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e218]:
+                - link "black and white digital heart beat monitor at 97 display" [ref=e221]:
+                  - /url: /photos/black-and-white-digital-heart-beat-monitor-at-97-display-0lrJo37r6Nk
+                  - img "black and white digital heart beat monitor at 97 display" [ref=e222]
+              - figure [ref=e223]:
+                - link "a man laying in a hospital bed next to a monitor" [ref=e226]:
+                  - /url: /photos/a-man-laying-in-a-hospital-bed-next-to-a-monitor-ZjVb97Pq0Ls
+                  - img "a man laying in a hospital bed next to a monitor" [ref=e227]
+              - figure [ref=e228]:
+                - link "A ceiling mounted hospital directional sign highlighting the way towards the radiology ward - 3D render" [ref=e231]:
+                  - /url: /photos/a-ceiling-mounted-hospital-directional-sign-highlighting-the-way-towards-the-radiology-ward-3d-render-IYH0oEbQVmk
+                  - img "A ceiling mounted hospital directional sign highlighting the way towards the radiology ward - 3D render" [ref=e232]
+              - figure [ref=e233]:
+                - link "text" [ref=e236]:
+                  - /url: /photos/text-HoneMAhhCXI
+                  - img "text" [ref=e237]
+              - figure [ref=e238]:
+                - link "white crt computer monitor turned on displaying 20 00" [ref=e241]:
+                  - /url: /photos/white-crt-computer-monitor-turned-on-displaying-20-00-7P1KdY9wZjA
+                  - img "white crt computer monitor turned on displaying 20 00" [ref=e242]
+              - figure [ref=e243]:
+                - link "Health tracker on exercise tool ***These graphics are derived from our own 3D generic designs. They do not infringe on any copyright design." [ref=e246]:
+                  - /url: /photos/health-tracker-on-exercise-tool-these-graphics-are-derived-from-our-own-3d-generic-designs-they-do-not-infringe-on-any-copyright-design-2A0njRNSvk4
+                  - img "Health tracker on exercise tool ***These graphics are derived from our own 3D generic designs. They do not infringe on any copyright design." [ref=e247]
+              - figure [ref=e248]:
+                - link "Air quality monitor shows levels of pollutants." [ref=e251]:
+                  - /url: /photos/air-quality-monitor-shows-levels-of-pollutants-bJ_nhWE7Gxg
+                  - img "Air quality monitor shows levels of pollutants." [ref=e252]
+          - generic [ref=e255]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e256]:
+              - text: Browse premium images on iStock
+              - generic [ref=e257]: "| Claim your discount now"
+            - generic [ref=e259]:
+              - link "Physician And Patient Examine A Holographic Dna Model. AI-Powered Genomic Analysis Highlights Mutation Hotspots And Therapeutic Targets In Real-Time, Precision Medicine And Targeted Gene Therapies." [ref=e260] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/physician-and-patient-examine-a-holographic-dna-model-ai-powered-genomic-analysis-gm2196603030-614618494?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                - img "Physician And Patient Examine A Holographic Dna Model. AI-Powered Genomic Analysis Highlights Mutation Hotspots And Therapeutic Targets In Real-Time, Precision Medicine And Targeted Gene Therapies." [ref=e261]
+              - link "Medicine doctor touching electronic medical record on tablet. DNA. Digital healthcare and network connection on hologram modern virtual screen interface, medical technology and futuristic concept." [ref=e262] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/medicine-doctor-touching-electronic-medical-record-on-tablet-dna-digital-healthcare-gm1165067633-320441314?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                - img "Medicine doctor touching electronic medical record on tablet. DNA. Digital healthcare and network connection on hologram modern virtual screen interface, medical technology and futuristic concept." [ref=e263]
+              - link "Focused, serious medical scientists analyzing research scans on a computer, working late in the laboratory. Lab workers examine and talk about results from a checkup while working overtime" [ref=e264] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/focused-serious-medical-scientists-analyzing-research-scans-on-a-computer-working-gm1413600685-462619321?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                - img "Focused, serious medical scientists analyzing research scans on a computer, working late in the laboratory. Lab workers examine and talk about results from a checkup while working overtime" [ref=e265]
+              - link "A From Above Shot Of An Unrecognizable Woman Measuring The Oxygen Saturation Level Of Her Blood After Recovering From Coronavirus While Watching Something On Her Smartphone" [ref=e266] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/a-from-above-shot-of-an-unrecognizable-woman-measuring-the-oxygen-saturation-level-gm1392177599-448507294?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                - img "A From Above Shot Of An Unrecognizable Woman Measuring The Oxygen Saturation Level Of Her Blood After Recovering From Coronavirus While Watching Something On Her Smartphone" [ref=e267]
+              - link "Medical technology concept." [ref=e268] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/medical-technology-concept-gm1054930874-281861918?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                - img "Medical technology concept." [ref=e269]
+              - link "Doctor analyzing X-ray image in digital tablet" [ref=e270] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/doctor-analyzing-x-ray-image-in-digital-tablet-gm682158022-125619569?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                - img "Doctor analyzing X-ray image in digital tablet" [ref=e271]
+              - link "Doctor, surgeon analyzing patient brain testing result and human anatomy on technological digital futuristic virtual computer interface, digital holographic, innovative in science and medicine concept" [ref=e272] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/doctor-surgeon-analyzing-patient-brain-testing-result-and-human-anatomy-on-gm962094932-262747698?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                - img "Doctor, surgeon analyzing patient brain testing result and human anatomy on technological digital futuristic virtual computer interface, digital holographic, innovative in science and medicine concept" [ref=e273]
+              - generic [ref=e274]:
+                - link "Medical technology, online health, global health network, medical online concept. Stethoscope and laptop computer with medical technology internet network connection, telemedicine technology" [ref=e275] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/medical-technology-online-health-global-health-network-medical-online-concept-gm2207946068-625153240?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A
+                  - img "Medical technology, online health, global health network, medical online concept. Stethoscope and laptop computer with medical technology internet network connection, telemedicine technology" [ref=e276]
+                - link "View more on iStock ↗" [ref=e277] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhospital-digital-display&utm_term=hospital+digital+display%3A%3A%3A%3A&phrase=hospital+digital+display&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e281] [cursor=pointer]
+          - generic [ref=e282]:
+            - link [ref=e283] [cursor=pointer]:
+              - /url: /
+              - img [ref=e284]
+            - paragraph [ref=e286]: Make something awesome
+    - generic:
+      - region "Notifications"
