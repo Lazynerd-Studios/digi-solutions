@@ -12,6 +12,9 @@
 /out/
 /dist/
 
+# Playwright
+/.playwright-mcp/
+
 # Production
 /build
 
@@ -68,3 +71,9 @@ __pycache__/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Build output
+/out
+
+# Scripts (migration utilities - no longer needed)
+/scripts
