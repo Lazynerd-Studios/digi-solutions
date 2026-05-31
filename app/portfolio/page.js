@@ -7,37 +7,37 @@ export const metadata = {
 
 const portfolioItems = [
   {
-    img: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=450&fit=crop',
+    img: '/portfolio/conference-display.jpg',
     cat: 'Digital Signage',
     date: 'March 2025',
     title: 'Retail LED Video Wall — Metro Mall Lagos',
   },
   {
-    img: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=450&fit=crop',
+    img: '/portfolio/network-tech.jpg',
     cat: 'Network Deployment',
     date: 'January 2025',
     title: 'Enterprise Network — FinTrust Headquarters',
   },
   {
-    img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=450&fit=crop',
+    img: '/portfolio/cabling-room.jpg',
     cat: 'Network Cabling',
     date: 'November 2024',
     title: 'Data Center Fiber — CloudNine Data Center',
   },
   {
-    img: '/hospi/WhatsApp Image 2026-05-12 at 18.59.06.jpeg',
+    img: '/portfolio/hospital-interior.jpg',
     cat: 'Healthcare Digital Signage',
     date: 'September 2024',
     title: 'Hospital Patient Info Display System',
   },
   {
-    img: '/hospi/WhatsApp Image 2026-05-12 at 18.59.07.jpeg',
+    img: '/portfolio/server-rack.jpg',
     cat: 'Hospital Room Displays',
     date: 'July 2024',
     title: 'Patient Bedside Information Displays',
   },
   {
-    img: '/pos/WhatsApp Image 2026-05-12 at 18.59.41.jpeg',
+    img: '/portfolio/pos-retail.jpg',
     cat: 'POS Installation',
     date: 'March 2024',
     title: 'POS System — Metro Retail Chain Lagos',

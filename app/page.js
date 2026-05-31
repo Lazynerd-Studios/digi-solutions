@@ -8,7 +8,7 @@ export const metadata = {
 const companyNames = [
   'Shoprite', 'FinTrust Bank', 'Grandview Hospital', 'Metro Retail',
   'Horizon Towers', 'CloudNine Data', 'Capital Trust', 'Shoprite Nigeria',
-  'University of Lagos',
+  'University of Lagos', 'Mastercard', 'T-Mobile', 'Disney', 'Apple',
 ];
 
 const services = [
@@ -36,37 +36,37 @@ const services = [
 
 const portfolio = [
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (4).jpeg',
+    img: '/portfolio/conference-display.jpg',
     cat: 'Digital Signage',
     date: 'March 2025',
     title: 'Retail LED Video Wall Deployment',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (5).jpeg',
+    img: '/portfolio/network-tech.jpg',
     cat: 'Network Deployment',
     date: 'January 2025',
     title: 'Enterprise Office Network Overhaul',
   },
   {
-    img: '/imgs/WhatsApp Image 2026-05-04 at 12.17.26 (6).jpeg',
+    img: '/portfolio/cabling-room.jpg',
     cat: 'Network Cabling',
     date: 'November 2024',
     title: 'Data Center Fiber Optic Installation',
   },
   {
-    img: '/hospi/WhatsApp Image 2026-05-12 at 18.59.06.jpeg',
+    img: '/portfolio/hospital-interior.jpg',
     cat: 'Healthcare Digital Signage',
     date: 'September 2024',
     title: 'Hospital Patient Info Display System',
   },
   {
-    img: '/hospi/WhatsApp Image 2026-05-12 at 18.59.07.jpeg',
+    img: '/portfolio/server-rack.jpg',
     cat: 'Hospital Room Displays',
     date: 'July 2024',
     title: 'Patient Bedside Information Displays',
   },
   {
-    img: '/pos/WhatsApp Image 2026-05-12 at 18.59.41.jpeg',
+    img: '/portfolio/pos-retail.jpg',
     cat: 'POS Installation',
     date: 'March 2024',
     title: 'POS System — Metro Retail Chain Lagos',
