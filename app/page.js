@@ -5,10 +5,20 @@ export const metadata = {
   title: 'DigiSolutions - IT Services & Digital Infrastructure',
 };
 
-const companyNames = [
-  'Shoprite', 'FinTrust Bank', 'Grandview Hospital', 'Metro Retail',
-  'Horizon Towers', 'CloudNine Data', 'Capital Trust', 'Shoprite Nigeria',
-  'University of Lagos', 'Mastercard', 'T-Mobile', 'Disney', 'Apple',
+const clients = [
+  { name: 'Shoprite', logo: '/clients/shoprite.svg' },
+  { name: 'FinTrust Bank', logo: '/clients/fintrust-bank.svg' },
+  { name: 'Grandview Hospital', logo: '/clients/grandview-hospital.svg' },
+  { name: 'Metro Retail', logo: '/clients/metro-retail.svg' },
+  { name: 'Horizon Towers', logo: '/clients/horizon-towers.svg' },
+  { name: 'CloudNine Data', logo: '/clients/cloudnine-data.svg' },
+  { name: 'Capital Trust', logo: '/clients/capital-trust.svg' },
+  { name: 'Shoprite Nigeria', logo: '/clients/shoprite-nigeria.svg' },
+  { name: 'University of Lagos', logo: '/clients/university-of-lagos.svg' },
+  { name: 'Mastercard', logo: '/clients/mastercard.svg' },
+  { name: 'T-Mobile', logo: '/clients/tmobile.svg' },
+  { name: 'Disney', logo: '/clients/disney.svg' },
+  { name: 'Apple', logo: '/clients/apple.svg' },
 ];
 
 const services = [
@@ -144,9 +154,13 @@ export default function HomePage() {
           <div className="sponsors-ticker-wrapper">
             <div className="sponsors-ticker">
               <div className="ticker-track">
-                {[...companyNames, ...companyNames].map((name, i) => (
+                {[...clients, ...clients].map((client, i) => (
                   <div className="ticker-item" key={i}>
-                    <span className="company-name">{name}</span>
+                    <img
+                      src={client.logo}
+                      alt={client.name}
+                      className="client-logo"
+                    />
                   </div>
                 ))}
               </div>

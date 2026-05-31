@@ -134,24 +134,20 @@
 
 .ticker-item {
   flex-shrink: 0;
-  opacity: 0.6;
   transition: opacity 0.3s ease;
 }
 
-.ticker-item:hover {
-  opacity: 1;
-}
-
-.company-name {
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--color-gray);
-  white-space: nowrap;
-  opacity: 0.6;
+.client-logo {
+  display: block;
+  height: 44px;
+  width: auto;
+  max-width: 140px;
+  opacity: 0.65;
   transition: opacity 0.3s ease;
+  object-fit: contain;
 }
 
-.ticker-item:hover .company-name {
+.ticker-item:hover .client-logo {
   opacity: 1;
 }
 
