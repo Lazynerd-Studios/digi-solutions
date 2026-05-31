@@ -6,14 +6,14 @@ export const metadata = {
 };
 
 const clients = [
-  { name: 'Shoprite', logo: '/clients/shoprite.svg' },
-  { name: 'FinTrust Bank', logo: '/clients/fintrust-bank.svg' },
+  { name: 'Shoprite', logo: '/clients/shoprite.png' },
+  { name: 'FinTrust Bank', logo: '/clients/fintrust-bank.png' },
   { name: 'Grandview Hospital', logo: '/clients/grandview-hospital.svg' },
   { name: 'Metro Retail', logo: '/clients/metro-retail.svg' },
   { name: 'Horizon Towers', logo: '/clients/horizon-towers.svg' },
   { name: 'CloudNine Data', logo: '/clients/cloudnine-data.svg' },
   { name: 'Capital Trust', logo: '/clients/capital-trust.svg' },
-  { name: 'Shoprite Nigeria', logo: '/clients/shoprite-nigeria.svg' },
+  { name: 'Shoprite Nigeria', logo: '/clients/shoprite.png' },
   { name: 'University of Lagos', logo: '/clients/university-of-lagos.svg' },
   { name: 'Mastercard', logo: '/clients/mastercard.svg' },
   { name: 'T-Mobile', logo: '/clients/tmobile.svg' },

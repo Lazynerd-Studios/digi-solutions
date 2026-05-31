@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="189" height="60" viewBox="0 0 189 60">
-  <text x="94.5" y="38.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Capital Trust</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60">
+  <polygon points="30,10 42,22 42,34 30,46 18,34 18,22" fill="none" stroke="#b8860b" stroke-width="3"/>
+  <text x="30" y="34" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#b8860b" text-anchor="middle">C</text>
+  <text x="125" y="28" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="middle">CAPITAL</text>
+  <text x="125" y="46" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#b8860b" text-anchor="middle" font-weight="600">TRUST</text>
 </svg>

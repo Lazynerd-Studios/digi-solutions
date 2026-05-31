@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="202" height="60" viewBox="0 0 202 60">
-  <text x="101.0" y="38.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a" text-anchor="middle">CloudNine Data</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60">
+  <path d="M18 36 Q18 24 28 24 Q30 16 40 16 Q48 16 52 24 Q60 24 60 32 Q60 40 52 40 L18 40 Q12 40 12 34 Q12 28 18 28" fill="#00a8e8"/>
+  <circle cx="28" cy="30" r="3" fill="white"/>
+  <circle cx="38" cy="26" r="3" fill="white"/>
+  <circle cx="46" cy="30" r="3" fill="white"/>
+  <text x="125" y="28" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="middle">CLOUDNINE</text>
+  <text x="125" y="46" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#00a8e8" text-anchor="middle" font-weight="600">DATA</text>
 </svg>

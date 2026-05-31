@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="176" height="60" viewBox="0 0 176 60">
-  <text x="88.0" y="38.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Metro Retail</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <path d="M12 18 L20 18 L20 38 L28 38 L28 18 L36 18 L36 42 L12 42 Z" fill="#e85d04"/>
+  <circle cx="18" cy="46" r="4" fill="#1a1a1a"/>
+  <circle cx="30" cy="46" r="4" fill="#1a1a1a"/>
+  <text x="115" y="28" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a" text-anchor="middle">METRO</text>
+  <text x="115" y="46" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#e85d04" text-anchor="middle" font-weight="600">RETAIL</text>
 </svg>
