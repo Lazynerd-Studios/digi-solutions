@@ -10,7 +10,7 @@ const portfolioItems = [
     img: '/portfolio/conference-display.jpg',
     cat: 'Digital Signage',
     date: 'March 2025',
-    title: 'Retail LED Video Wall — Metro Mall Lagos',
+    title: 'Corporate Video Wall — FinTrust Headquarters',
   },
   {
     img: '/portfolio/network-tech.jpg',
@@ -32,9 +32,9 @@ const portfolioItems = [
   },
   {
     img: '/portfolio/server-rack.jpg',
-    cat: 'Hospital Room Displays',
+    cat: 'Data Center',
     date: 'July 2024',
-    title: 'Patient Bedside Information Displays',
+    title: 'Enterprise Server Rack — CloudNine Data Center',
   },
   {
     img: '/portfolio/pos-retail.jpg',

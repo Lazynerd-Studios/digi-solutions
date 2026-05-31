@@ -49,7 +49,7 @@ const portfolio = [
     img: '/portfolio/conference-display.jpg',
     cat: 'Digital Signage',
     date: 'March 2025',
-    title: 'Retail LED Video Wall Deployment',
+    title: 'Corporate Video Wall Installation',
   },
   {
     img: '/portfolio/network-tech.jpg',
@@ -71,9 +71,9 @@ const portfolio = [
   },
   {
     img: '/portfolio/server-rack.jpg',
-    cat: 'Hospital Room Displays',
+    cat: 'Data Center',
     date: 'July 2024',
-    title: 'Patient Bedside Information Displays',
+    title: 'Enterprise Server Rack Deployment',
   },
   {
     img: '/portfolio/pos-retail.jpg',
