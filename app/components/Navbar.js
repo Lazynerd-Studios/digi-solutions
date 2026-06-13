@@ -48,11 +48,11 @@ export default function Navbar() {
       <div className={`container ${styles.navbarWrapper}`}>
         <Link href="/" className={styles.logo}>
           <Image
-            src="/logo-black.svg"
+            src="/logo-black.png"
             alt="DigiSolutions Logo"
             className={styles.logoImg}
-            width={150}
-            height={36}
+            width={180}
+            height={44}
           />
         </Link>
         <div className={`${styles.navMenu}${menuOpen ? ' ' + styles.open : ''}`} id="navMenu">
@@ -68,7 +68,7 @@ export default function Navbar() {
           ))}
         </div>
         <div className={styles.navActions}>
-          <Link href="/contact" className="btn btn-primary" onClick={closeMenu}>
+          <Link href="/contact" className={`${styles.navCta} btn`} onClick={closeMenu}>
             Get a Free Quote
           </Link>
           <button

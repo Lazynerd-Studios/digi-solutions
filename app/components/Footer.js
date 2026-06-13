@@ -11,11 +11,11 @@ export default function Footer() {
             <div className={styles.footerBrand}>
               <Link href="/" className={styles.footerLogo}>
                 <Image
-                  src="/logo-white.svg"
+                  src="/logo-white.png"
                   alt="DigiSolutions Logo"
                   className={styles.footerLogoImg}
-                  width={150}
-                  height={36}
+                  width={250}
+                  height={60}
                 />
               </Link>
               <p className={styles.footerTagline}>
