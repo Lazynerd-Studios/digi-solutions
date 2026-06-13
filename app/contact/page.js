@@ -1,11 +1,49 @@
+'use client';
+
+import { useState, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-
-export const metadata = {
-  title: 'Contact Us',
-};
+import emailjs from '@emailjs/browser';
 
 export default function ContactPage() {
+  const formRef = useRef(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [status, setStatus] = useState({ type: '', message: '' });
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setStatus({ type: '', message: '' });
+
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+
+    if (!serviceId || !templateId || !publicKey) {
+      setStatus({
+        type: 'error',
+        message: 'EmailJS is not configured. Please add your EmailJS credentials to .env.local.',
+      });
+      setIsLoading(false);
+      return;
+    }
+
+    try {
+      await emailjs.sendForm(serviceId, templateId, formRef.current, publicKey);
+      formRef.current.reset();
+      setShowSuccessModal(true);
+    } catch (error) {
+      console.error('EmailJS error:', error);
+      setStatus({
+        type: 'error',
+        message: 'Something went wrong. Please try again or contact us directly by phone/email.',
+      });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   return (
     <>
       {/* Inner Banner */}
@@ -23,11 +61,11 @@ export default function ContactPage() {
         </div>
         <div className="container" style={{ marginTop: '60px' }}>
           <Image
-            src="/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (3).jpeg"
-            alt="Contact DigiSolutions"
-            style={{ width: '100%', borderRadius: '16px', objectFit: 'cover' }}
+            src="/portfolio/modern-office.jpg"
+            alt="DigiSolutions office"
+            style={{ width: '100%', maxHeight: '350px', borderRadius: '16px', objectFit: 'cover' }}
             width={1320}
-            height={500}
+            height={350}
           />
         </div>
       </section>
@@ -38,10 +76,10 @@ export default function ContactPage() {
           <div className="contact-grid">
             <div className="contact-form-wrapper">
               <h2 className="contact-form-title">Request a Free Quote</h2>
-              <form action="#" method="POST">
+              <form ref={formRef} onSubmit={handleSubmit}>
                 <div className="form-group">
                   <label htmlFor="name">Full Name</label>
-                  <input type="text" id="name" name="name" className="form-input" placeholder="John Adeyemi" required />
+                  <input type="text" id="name" name="name" className="form-input" placeholder="John Doe" required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="email">Email Address</label>
@@ -49,7 +87,7 @@ export default function ContactPage() {
                 </div>
                 <div className="form-group">
                   <label htmlFor="phone">Phone Number</label>
-                  <input type="tel" id="phone" name="phone" className="form-input" placeholder="+234 800 123 4567" />
+                  <input type="tel" id="phone" name="phone" className="form-input" placeholder="+1 (555) 123-4567" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="service">Service Interested In</label>
@@ -67,13 +105,34 @@ export default function ContactPage() {
                   <label htmlFor="message">Project Details</label>
                   <textarea id="message" name="message" className="form-textarea" placeholder="Tell us about your project — location, size, timeline, and any specific requirements." required></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>Send Request</button>
+                {status.type === 'error' && status.message && (
+                  <div
+                    className="form-status"
+                    style={{
+                      padding: '12px 16px',
+                      borderRadius: '8px',
+                      marginBottom: '16px',
+                      backgroundColor: '#fee2e2',
+                      color: '#991b1b',
+                    }}
+                  >
+                    {status.message}
+                  </div>
+                )}
+                <button
+                  type="submit"
+                  className="btn btn-primary"
+                  style={{ width: '100%' }}
+                  disabled={isLoading}
+                >
+                  {isLoading ? 'Sending...' : 'Send Request'}
+                </button>
               </form>
             </div>
             <div className="contact-image-wrapper">
               <Image
-                src="/imgs/WhatsApp Image 2026-05-04 at 12.17.24 (4).jpeg"
-                alt="DigiSolutions Office"
+                src="/portfolio/it-engineer.jpg"
+                alt="DigiSolutions engineer at work"
                 width={600}
                 height={400}
               />
@@ -81,6 +140,67 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* Success Modal */}
+      {showSuccessModal && (
+        <div
+          style={{
+            position: 'fixed',
+            inset: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 9999,
+            padding: '20px',
+          }}
+          onClick={() => setShowSuccessModal(false)}
+        >
+          <div
+            style={{
+              backgroundColor: 'white',
+              borderRadius: '16px',
+              padding: '40px',
+              maxWidth: '420px',
+              width: '100%',
+              textAlign: 'center',
+              boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div
+              style={{
+                width: '64px',
+                height: '64px',
+                borderRadius: '50%',
+                backgroundColor: '#d1fae5',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                margin: '0 auto 24px',
+              }}
+            >
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#059669" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+            </div>
+            <h3 style={{ fontSize: '24px', fontWeight: 700, marginBottom: '12px', color: '#1a1a1a' }}>
+              Submitted Successfully
+            </h3>
+            <p style={{ fontSize: '16px', color: '#555', marginBottom: '28px', lineHeight: 1.6 }}>
+              Thank you for reaching out! We have received your request and will get back to you soon.
+            </p>
+            <button
+              type="button"
+              className="btn btn-primary"
+              onClick={() => setShowSuccessModal(false)}
+              style={{ minWidth: '140px' }}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Contact Details */}
       <section className="section" style={{ backgroundColor: 'var(--color-light-gray)', paddingTop: 0 }}>
@@ -94,7 +214,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="contact-detail-title">Head Office</h3>
-              <p className="contact-detail-text">14B Adetokunbo Ademola Street, Victoria Island, Lagos, Nigeria</p>
+              <p className="contact-detail-text">6 Kilmer Rd, Edison, New Jersey, 08817</p>
             </div>
             <div className="contact-detail-card">
               <div className="contact-detail-icon">
@@ -103,7 +223,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="contact-detail-title">Phone</h3>
-              <p className="contact-detail-text">+234 800 123 4567<br />+234 700 987 6543</p>
+              <p className="contact-detail-text">908-267-7432</p>
             </div>
             <div className="contact-detail-card">
               <div className="contact-detail-icon">
@@ -113,7 +233,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="contact-detail-title">Email</h3>
-              <p className="contact-detail-text">info@digisolutions.ng<br />projects@digisolutions.ng</p>
+              <p className="contact-detail-text">Info@digisolutiongroup.com<br />Support@digisolutiongroup.com</p>
             </div>
           </div>
         </div>

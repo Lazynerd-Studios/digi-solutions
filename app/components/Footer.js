@@ -43,10 +43,10 @@ export default function Footer() {
               <div className={styles.footerLinksCol}>
                 <h4 className={styles.footerLinksTitle}>Contact</h4>
                 <ul className={styles.footerLinksList}>
-                  <li>14B Adetokunbo Ademola St</li>
-                  <li>Victoria Island, Lagos</li>
-                  <li>+234 800 123 4567</li>
-                  <li>info@digisolutions.ng</li>
+                  <li>6 Kilmer Rd</li>
+                  <li>Edison, New Jersey, 08817</li>
+                  <li>908-267-7432</li>
+                  <li>Info@digisolutiongroup.com</li>
                 </ul>
               </div>
             </div>
