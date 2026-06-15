@@ -92,19 +92,19 @@ const processSteps = [
 const testimonials = [
   {
     quote: 'DigiSolutions transformed our retail spaces with stunning digital signage. Their team handled everything from design to installation flawlessly. Sales increased by 30%.',
-    name: 'David Okonkwo',
+    name: 'Rajesh Kumar',
     role: 'Operations Director, Metro Retail Group',
     avatar: '/imgs/WhatsApp Image 2026-05-04 at 12.17.29.jpeg',
   },
   {
     quote: 'The network deployment across our 12-branch office was executed on time and within budget. Zero downtime, and the new fiber backbone is incredibly fast.',
-    name: 'Amara Nwosu',
+    name: 'Emily Chen',
     role: 'CTO, FinTrust Financial Services',
     avatar: '/imgs/WhatsApp Image 2026-05-04 at 12.17.29 (1).jpeg',
   },
   {
     quote: 'Their structured cabling work in our new headquarters was impeccable. Every cable labeled, tested, and certified. The clean cable management is a work of art.',
-    name: 'James Adeyemi',
+    name: 'Amit Patel',
     role: 'Facilities Manager, Horizon Towers',
     avatar: '/imgs/WhatsApp Image 2026-05-04 at 12.17.30.jpeg',
   },

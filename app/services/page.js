@@ -181,19 +181,19 @@ const faqs = [
 const testimonials = [
   {
     quote: 'DigiSolutions deployed a 12-screen video wall across our retail chain in under three weeks. The quality of work and attention to cable management was outstanding.',
-    name: 'Chinedu Eze',
+    name: 'Priya Sharma',
     role: 'IT Director, Shoprite Nigeria',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
   },
   {
     quote: 'Their fiber optic installation across our 8-floor office building was flawless. Every cable labeled, tested, and certified. The network performance is incredible.',
-    name: 'Ngozi Obi',
+    name: 'David Martinez',
     role: 'CTO, Capital Trust Bank',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
   },
   {
     quote: 'We needed a complete network overhaul for our new hospital wing. DigiSolutions delivered on time, within budget, and with zero disruption to patient services.',
-    name: 'Dr. Ibrahim Musa',
+    name: 'Arjun Mehta',
     role: 'Facilities Director, Grandview Hospital',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
   },
