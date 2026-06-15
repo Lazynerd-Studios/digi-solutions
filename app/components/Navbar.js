@@ -54,6 +54,7 @@ export default function Navbar() {
             width={180}
             height={44}
           />
+          <span className={styles.logoText}>igiSolutions</span>
         </Link>
         <div className={`${styles.navMenu}${menuOpen ? ' ' + styles.open : ''}`} id="navMenu">
           {navLinks.map((link) => (

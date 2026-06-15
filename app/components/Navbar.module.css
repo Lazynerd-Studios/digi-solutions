@@ -8,7 +8,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background: var(--color-primary);
+  background: #000000;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -25,6 +25,19 @@
 .logoImg {
   height: 44px;
   width: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-white);
+  letter-spacing: -0.5px;
 }
 
 .navMenu {
