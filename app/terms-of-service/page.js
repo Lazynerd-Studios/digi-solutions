@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ContactModal from '../components/ContactModal';
 
 export const metadata = {
   title: 'Terms of Service',
@@ -154,7 +155,7 @@ export default function TermsOfServicePage() {
             <p className="cta-desc">
               Reach out to us and we&apos;ll be happy to clarify anything.
             </p>
-            <Link href="/contact" className="btn btn-secondary">Contact Us</Link>
+            <ContactModal title="Contact Us" description="Have a question about our terms or services? Send us a message and we'll get back to you shortly." />
           </div>
         </div>
       </section>
