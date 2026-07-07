@@ -214,7 +214,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="contact-detail-title">Head Office</h3>
-              <p className="contact-detail-text">6 Kilmer Rd, Edison, New Jersey, 08817</p>
+              <p className="contact-detail-text"><a href="https://maps.google.com/?q=6+Kilmer+Rd+Edison+New+Jersey+08817" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>6 Kilmer Rd, Edison, New Jersey, 08817</a></p>
             </div>
             <div className="contact-detail-card">
               <div className="contact-detail-icon">
@@ -223,7 +223,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="contact-detail-title">Phone</h3>
-              <p className="contact-detail-text">908-267-7432</p>
+              <p className="contact-detail-text"><a href="tel:908-267-7432" style={{ color: 'inherit', textDecoration: 'none' }}>908-267-7432</a></p>
             </div>
             <div className="contact-detail-card">
               <div className="contact-detail-icon">
@@ -233,7 +233,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="contact-detail-title">Email</h3>
-              <p className="contact-detail-text">Info@digisolutiongroup.com<br />Support@digisolutiongroup.com</p>
+              <p className="contact-detail-text"><a href="mailto:Info@digisolutiongroup.com" style={{ color: 'inherit', textDecoration: 'none' }}>Info@digisolutiongroup.com</a><br /><a href="mailto:Support@digisolutiongroup.com" style={{ color: 'inherit', textDecoration: 'none' }}>Support@digisolutiongroup.com</a></p>
             </div>
           </div>
         </div>
