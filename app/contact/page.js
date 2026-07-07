@@ -203,7 +203,7 @@ export default function ContactPage() {
       )}
 
       {/* Contact Details */}
-      <section className="section" style={{ backgroundColor: 'var(--color-light-gray)', paddingTop: 0 }}>
+      <section className="section" style={{ backgroundColor: 'var(--color-light-gray)', paddingTop: '40px', paddingBottom: '40px' }}>
         <div className="container">
           <div className="contact-details-grid">
             <div className="contact-detail-card">

@@ -41,6 +41,7 @@ export default function Navbar() {
     { href: '/services', label: 'Services' },
     { href: '/portfolio', label: 'Projects' },
     { href: '/work-done', label: 'Work Done' },
+    { href: '/faq', label: 'FAQ' },
   ];
 
   return (
@@ -67,6 +68,9 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
+          <Link href="/contact" className={`${styles.mobileCta} btn btn-primary`} onClick={closeMenu}>
+            Get a Free Quote
+          </Link>
         </div>
         <div className={styles.navActions}>
           <Link href="/contact" className={`${styles.navCta} btn`} onClick={closeMenu}>

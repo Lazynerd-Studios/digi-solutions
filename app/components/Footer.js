@@ -38,15 +38,18 @@ export default function Footer() {
                 <ul className={styles.footerLinksList}>
                   <li><Link href="/about">About Us</Link></li>
                   <li><Link href="/portfolio">Projects</Link></li>
+                  <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                  <li><Link href="/terms-of-service">Terms of Service</Link></li>
+                  <li><Link href="/faq">FAQ</Link></li>
                 </ul>
               </div>
               <div className={styles.footerLinksCol}>
                 <h4 className={styles.footerLinksTitle}>Contact</h4>
                 <ul className={styles.footerLinksList}>
-                  <li>6 Kilmer Rd</li>
-                  <li>Edison, New Jersey, 08817</li>
-                  <li>908-267-7432</li>
-                  <li>Info@digisolutiongroup.com</li>
+                  <li><a href="https://maps.google.com/?q=6+Kilmer+Rd+Edison+New+Jersey+08817" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>6 Kilmer Rd</a></li>
+                  <li><a href="https://maps.google.com/?q=6+Kilmer+Rd+Edison+New+Jersey+08817" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>Edison, New Jersey, 08817</a></li>
+                  <li><a href="tel:908-267-7432" style={{ color: 'inherit', textDecoration: 'none' }}>908-267-7432</a></li>
+                  <li><a href="mailto:Info@digisolutiongroup.com" style={{ color: 'inherit', textDecoration: 'none' }}>Info@digisolutiongroup.com</a></li>
                 </ul>
               </div>
             </div>

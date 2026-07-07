@@ -90,6 +90,10 @@
   color: var(--color-primary);
 }
 
+.mobileCta {
+  display: none;
+}
+
 .mobileMenuBtn {
   display: none;
   flex-direction: column;
@@ -130,9 +134,52 @@
     right: 0;
   }
 
+  .navLink {
+    color: var(--color-primary);
+    font-size: 17px;
+    width: 100%;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .navLink:hover,
+  .navLink.active {
+    color: var(--color-secondary);
+  }
+
+  .navLink::after {
+    display: none;
+  }
+
+  .navCta {
+    display: none;
+  }
+
+  .mobileCta {
+    display: inline-block;
+    margin-top: 24px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 14px 24px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .mobileCta:hover {
+    background-color: #333;
+    color: var(--color-white);
+  }
+
   .mobileMenuBtn {
     display: flex;
     z-index: 1001;
+  }
+
+  .mobileMenuBtn.open span {
+    background-color: var(--color-primary);
   }
 
   .mobileMenuBtn.open span:nth-child(1) {
