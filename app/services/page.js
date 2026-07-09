@@ -139,18 +139,18 @@ const specializedServices = [
 ];
 
 const techPartners = [
-  { name: 'Samsung', logo: '/partners/samsung.png' },
-  { name: 'LG', logo: '/partners/lg.png' },
-  { name: 'NEC', logo: '/partners/nec.png' },
-  { name: 'Cisco', logo: '/partners/cisco.png' },
-  { name: 'Ubiquiti', logo: '/partners/ubiquiti.png' },
-  { name: 'Aruba', logo: '/partners/aruba.png' },
-  { name: 'Hikvision', logo: '/partners/hikvision.png' },
-  { name: 'Dahua', logo: '/partners/dahua.png' },
-  { name: 'CommScope', logo: '/partners/commscope.png' },
-  { name: 'Panduit', logo: '/partners/panduit.png' },
-  { name: 'Leviton', logo: '/partners/leviton.png' },
-  { name: 'Belden', logo: '/partners/belden.png' },
+  { name: 'Shoprite', logo: '/clients/shoprite.png' },
+  { name: 'FinTrust Bank', logo: '/clients/fintrust-bank.png' },
+  { name: 'Grandview Hospital', logo: '/clients/grandview-hospital.svg' },
+  { name: 'Metro Retail', logo: '/clients/metro-retail.svg' },
+  { name: 'Horizon Towers', logo: '/clients/horizon-towers.svg' },
+  { name: 'CloudNine Data', logo: '/clients/cloudnine-data.svg' },
+  { name: 'Capital Trust', logo: '/clients/capital-trust.svg' },
+  { name: 'University of Lagos', logo: '/clients/university-of-lagos.svg' },
+  { name: 'Mastercard', logo: '/clients/mastercard.svg' },
+  { name: 'T-Mobile', logo: '/clients/tmobile.svg' },
+  { name: 'Disney', logo: '/clients/disney.svg' },
+  { name: 'Apple', logo: '/clients/apple.svg' },
 ];
 
 const benefits = [
