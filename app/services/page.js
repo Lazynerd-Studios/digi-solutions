@@ -138,7 +138,20 @@ const specializedServices = [
   },
 ];
 
-const techStack = ['Samsung', 'LG', 'NEC', 'Cisco', 'Ubiquiti', 'Aruba', 'Hikvision', 'Dahua', 'CommScope', 'Panduit', 'Leviton', 'Belden'];
+const techPartners = [
+  { name: 'Samsung', color: '#034EA2', svg: <svg viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="60" y="26" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="18" fill="#034EA2">SAMSUNG</text></svg> },
+  { name: 'LG', color: '#A50034', svg: <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="28" fill="#A50034"/><text x="30" y="38" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="22" fill="#fff">LG</text></svg> },
+  { name: 'NEC', color: '#00539B', svg: <svg viewBox="0 0 80 40" xmlns="http://www.w3.org/2000/svg"><text x="40" y="28" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="800" fontSize="22" fill="#00539B">NEC</text></svg> },
+  { name: 'Cisco', color: '#049FD9', svg: <svg viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg"><g fill="#049FD9">{[...Array(9)].map((_, i) => <rect key={i} x={10 + i * 9} y={20 - Math.abs(i - 4) * 3} width="4" height={10 + Math.abs(i - 4) * 3} rx="1"/>)}</g><text x="50" y="44" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="600" fontSize="12" fill="#049FD9">CISCO</text></svg> },
+  { name: 'Ubiquiti', color: '#0596D9', svg: <svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><path d="M50 5 C35 5 25 15 25 28 L30 28 C30 18 38 10 50 10 C62 10 70 18 70 28 L75 28 C75 15 65 5 50 5Z" fill="#0596D9"/><circle cx="50" cy="28" r="4" fill="#0596D9"/><text x="50" y="38" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="500" fontSize="7" fill="#0596D9">Ubiquiti</text></svg> },
+  { name: 'Aruba', color: '#F05A28', svg: <svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><text x="50" y="28" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="20" fill="#F05A28">aruba</text></svg> },
+  { name: 'Hikvision', color: '#E61E25', svg: <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg"><text x="60" y="26" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="16" fill="#E61E25">HIKVISION</text></svg> },
+  { name: 'Dahua', color: '#E60012', svg: <svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><text x="50" y="28" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="20" fill="#E60012">Dahua</text></svg> },
+  { name: 'CommScope', color: '#6D2077', svg: <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg"><text x="60" y="26" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="15" fill="#6D2077">CommScope</text></svg> },
+  { name: 'Panduit', color: '#00563F', svg: <svg viewBox="0 0 110 40" xmlns="http://www.w3.org/2000/svg"><text x="55" y="26" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="16" fill="#00563F">PANDUIT</text></svg> },
+  { name: 'Leviton', color: '#003DA5', svg: <svg viewBox="0 0 110 40" xmlns="http://www.w3.org/2000/svg"><text x="55" y="26" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="16" fill="#003DA5">Leviton</text></svg> },
+  { name: 'Belden', color: '#E31837', svg: <svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg"><text x="50" y="28" textAnchor="middle" fontFamily="Arial, sans-serif" fontWeight="800" fontSize="18" fill="#E31837">BELDEN</text></svg> },
+];
 
 const benefits = [
   {
@@ -296,8 +309,10 @@ export default function ServicesPage() {
             <h2 className="section-title center">Brands & Technologies We Work With</h2>
           </div>
           <div className="cms-tech-grid">
-            {techStack.map((tech) => (
-              <div className="cms-tech-item" key={tech}>{tech}</div>
+            {techPartners.map((tech) => (
+              <div className="cms-tech-item" key={tech.name}>
+                <div className="cms-tech-logo">{tech.svg}</div>
+              </div>
             ))}
           </div>
         </div>
