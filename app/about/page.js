@@ -34,117 +34,12 @@ const services = [
   },
 ];
 
-const CartoonAvatar = ({ style, skinTone, hairStyle, accessory }) => {
-  const skin = skinTone || '#8B5E3C';
-  const hairColor = '#1a1a1a';
-  const shirtColor = style === 'ceo' ? '#1e3a5f' : style === 'ops' ? '#2d6a4f' : style === 'cable' ? '#e07a2f' : '#6b21a8';
-
-  return (
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style={{ width: '100%', height: '100%' }}>
-      {/* Background */}
-      <circle cx="100" cy="100" r="100" fill="#f0f4f8" />
-
-      {/* Body / Shirt */}
-      <ellipse cx="100" cy="210" rx="70" ry="50" fill={shirtColor} />
-      {style === 'ceo' && <><path d="M85 165 L100 185 L115 165" fill="none" stroke="#fff" strokeWidth="2" /><rect x="97" y="170" width="6" height="15" fill="#c0392b" rx="2" /></>}
-      {style === 'ops' && <path d="M70 175 Q100 160 130 175" fill="none" stroke="#fff" strokeWidth="1.5" opacity="0.5" />}
-
-      {/* Neck */}
-      <rect x="88" y="145" width="24" height="25" fill={skin} rx="4" />
-
-      {/* Head */}
-      <ellipse cx="100" cy="110" rx="42" ry="48" fill={skin} />
-
-      {/* Hair */}
-      {hairStyle === 'short' && (
-        <path d="M58 100 Q58 62 100 58 Q142 62 142 100 Q140 80 100 75 Q60 80 58 100Z" fill={hairColor} />
-      )}
-      {hairStyle === 'natural' && (
-        <g fill={hairColor}>
-          <ellipse cx="100" cy="72" rx="48" ry="35" />
-          <circle cx="60" cy="85" r="12" />
-          <circle cx="140" cy="85" r="12" />
-          <circle cx="70" cy="68" r="10" />
-          <circle cx="130" cy="68" r="10" />
-          <circle cx="85" cy="58" r="10" />
-          <circle cx="115" cy="58" r="10" />
-          <circle cx="100" cy="55" r="10" />
-        </g>
-      )}
-      {hairStyle === 'fade' && (
-        <g fill={hairColor}>
-          <path d="M58 105 Q58 65 100 60 Q142 65 142 105 Q140 85 100 78 Q60 85 58 105Z" />
-          <rect x="56" y="95" width="8" height="15" rx="3" opacity="0.3" />
-          <rect x="136" y="95" width="8" height="15" rx="3" opacity="0.3" />
-        </g>
-      )}
-      {hairStyle === 'hijab' && (
-        <g fill="#3b5998">
-          <ellipse cx="100" cy="95" rx="52" ry="55" />
-          <path d="M48 110 Q48 160 100 170 Q152 160 152 110 Q150 95 100 90 Q50 95 48 110Z" />
-          <ellipse cx="100" cy="110" rx="40" ry="42" fill={skin} />
-        </g>
-      )}
-
-      {/* Eyes */}
-      <g>
-        <ellipse cx="82" cy="110" rx="6" ry="7" fill="#fff" />
-        <ellipse cx="118" cy="110" rx="6" ry="7" fill="#fff" />
-        <circle cx="83" cy="111" r="3.5" fill="#2c1810" />
-        <circle cx="119" cy="111" r="3.5" fill="#2c1810" />
-        <circle cx="84" cy="109" r="1.2" fill="#fff" />
-        <circle cx="120" cy="109" r="1.2" fill="#fff" />
-      </g>
-
-      {/* Eyebrows */}
-      <path d="M74 100 Q82 96 90 100" fill="none" stroke={hairColor} strokeWidth="2" strokeLinecap="round" />
-      <path d="M110 100 Q118 96 126 100" fill="none" stroke={hairColor} strokeWidth="2" strokeLinecap="round" />
-
-      {/* Nose */}
-      <path d="M97 118 Q100 125 103 118" fill="none" stroke="rgba(0,0,0,0.2)" strokeWidth="1.5" strokeLinecap="round" />
-
-      {/* Mouth / Smile */}
-      <path d="M88 132 Q100 142 112 132" fill="none" stroke="#c0392b" strokeWidth="2.5" strokeLinecap="round" />
-      <path d="M90 132 Q100 138 110 132" fill="#e74c3c" opacity="0.4" />
-
-      {/* Ears */}
-      <ellipse cx="58" cy="112" rx="6" ry="8" fill={skin} />
-      <ellipse cx="142" cy="112" rx="6" ry="8" fill={skin} />
-
-      {/* Accessories */}
-      {accessory === 'glasses' && (
-        <g fill="none" stroke="#333" strokeWidth="2">
-          <rect x="72" y="104" width="20" height="14" rx="3" />
-          <rect x="108" y="104" width="20" height="14" rx="3" />
-          <line x1="92" y1="110" x2="108" y2="110" />
-          <line x1="72" y1="110" x2="58" y2="108" />
-          <line x1="128" y1="110" x2="142" y2="108" />
-        </g>
-      )}
-      {accessory === 'earring' && (
-        <g>
-          <circle cx="58" cy="124" r="3" fill="#f1c40f" />
-          <circle cx="142" cy="124" r="3" fill="#f1c40f" />
-        </g>
-      )}
-      {accessory === 'headset' && (
-        <g>
-          <path d="M55 95 Q55 60 100 55 Q145 60 145 95" fill="none" stroke="#333" strokeWidth="3" />
-          <rect x="48" y="100" width="10" height="18" rx="4" fill="#333" />
-          <rect x="142" y="100" width="10" height="18" rx="4" fill="#333" />
-          <path d="M148 118 Q155 135 140 140" fill="none" stroke="#333" strokeWidth="2" />
-          <circle cx="138" cy="141" r="4" fill="#333" />
-        </g>
-      )}
-    </svg>
-  );
-};
 
 const team = [
-  { name: 'David Okonkwo', role: 'CEO & Lead Engineer', avatarStyle: 'ceo', skinTone: '#8B5E3C', hairStyle: 'short', accessory: 'glasses' },
-  { name: 'Amara Nwosu', role: 'Head of Network Operations', avatarStyle: 'ops', skinTone: '#6B4226', hairStyle: 'natural', accessory: 'earring' },
-  { name: 'James Adeyemi', role: 'Senior Cabling Specialist', avatarStyle: 'cable', skinTone: '#7B4B2A', hairStyle: 'fade', accessory: null },
-  { name: 'Fatima Bello', role: 'Digital Signage Consultant', avatarStyle: 'consultant', skinTone: '#9B6B4A', hairStyle: 'hijab', accessory: null },
+  { name: 'David Okonkwo', role: 'CEO & Lead Engineer', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face' },
+  { name: 'Amara Nwosu', role: 'Head of Network Operations', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face' },
+  { name: 'James Adeyemi', role: 'Senior Cabling Specialist', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face' },
+  { name: 'Fatima Bello', role: 'Digital Signage Consultant', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face' },
 ];
 
 const awards = [
@@ -371,7 +266,7 @@ export default function AboutPage() {
             {team.map((member, i) => (
               <div className="team-member-card" key={i}>
                 <div className="team-member-image-wrap">
-                  <CartoonAvatar style={member.avatarStyle} skinTone={member.skinTone} hairStyle={member.hairStyle} accessory={member.accessory} />
+                  <Image src={member.img} alt={member.name} className="team-member-image" width={600} height={400} />
                 </div>
                 <div className="team-member-info">
                   <div className="team-member-name">{member.name}</div>
