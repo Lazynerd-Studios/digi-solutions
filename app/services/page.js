@@ -196,19 +196,16 @@ const testimonials = [
     quote: 'DigiSolutions deployed a 12-screen video wall across our retail chain in under three weeks. The quality of work and attention to cable management was outstanding.',
     name: 'Priya Sharma',
     role: 'IT Director, Shoprite Nigeria',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
   },
   {
     quote: 'Their fiber optic installation across our 8-floor office building was flawless. Every cable labeled, tested, and certified. The network performance is incredible.',
     name: 'David Martinez',
     role: 'CTO, Capital Trust Bank',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
   },
   {
     quote: 'We needed a complete network overhaul for our new hospital wing. DigiSolutions delivered on time, within budget, and with zero disruption to patient services.',
     name: 'Arjun Mehta',
     role: 'Facilities Director, Grandview Hospital',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
   },
 ];
 
@@ -309,13 +306,16 @@ export default function ServicesPage() {
             <h2 className="section-title center">Brands & Technologies We Work With</h2>
           </div>
           <div className="cms-tech-grid">
-            {techPartners.map((tech) => (
-              <div className="cms-tech-item" key={tech.name}>
-                <div className="cms-tech-logo">
-                  <Image src={tech.logo} alt={tech.name + ' logo'} width={120} height={50} style={{ objectFit: 'contain', maxWidth: '100%', height: 'auto' }} unoptimized />
+            {techPartners.map((tech) => {
+              const logoSize = tech.name === 'Apple' ? { w: 48, h: 59 } : tech.name === 'Mastercard' ? { w: 60, h: 47 } : tech.name === 'FinTrust Bank' ? { w: 60, h: 60 } : { w: 120, h: 50 };
+              return (
+                <div className="cms-tech-item" key={tech.name}>
+                  <div className="cms-tech-logo">
+                    <Image src={tech.logo} alt={tech.name + ' logo'} width={logoSize.w} height={logoSize.h} style={{ objectFit: 'contain', maxWidth: '100%', height: 'auto' }} unoptimized />
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -382,8 +382,8 @@ export default function ServicesPage() {
                 </div>
                 <p className="testimonial-quote">{t.quote}</p>
                 <div className="testimonial-author">
-                  <div className="testimonial-avatar">
-                    <Image src={t.avatar} alt={t.name} width={100} height={100} />
+                  <div className="testimonial-avatar" style={{ width: 48, height: 48, borderRadius: '50%', background: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 700, fontSize: 16, letterSpacing: 1, flexShrink: 0 }}>
+                    {t.name.split(' ').map(n => n[0]).join('')}
                   </div>
                   <div className="testimonial-info">
                     <div className="testimonial-name">{t.name}</div>
