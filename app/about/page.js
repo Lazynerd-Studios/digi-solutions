@@ -36,10 +36,10 @@ const services = [
 
 
 const team = [
-  { name: 'David Okonkwo', role: 'CEO & Lead Engineer', img: '/team/david-okonkwo.png' },
-  { name: 'Amara Nwosu', role: 'Head of Network Operations', img: '/team/amara-nwosu.png' },
-  { name: 'James Adeyemi', role: 'Senior Cabling Specialist', img: '/team/james-adeyemi.png' },
-  { name: 'Fatima Bello', role: 'Digital Signage Consultant', img: '/team/fatima-bello.png' },
+  { name: 'Michael Thompson', role: 'CEO & Lead Engineer', img: '/team/michael-thompson.png' },
+  { name: 'Sarah Mitchell', role: 'Head of Network Operations', img: '/team/sarah-mitchell.png' },
+  { name: 'Arjun Patel', role: 'Senior Cabling Specialist', img: '/team/arjun-patel.png' },
+  { name: 'Mei Lin', role: 'Digital Signage Consultant', img: '/team/mei-lin.png' },
 ];
 
 const awards = [
