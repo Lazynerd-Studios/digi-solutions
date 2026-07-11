@@ -36,10 +36,10 @@ const services = [
 
 
 const team = [
-  { name: 'David Okonkwo', role: 'CEO & Lead Engineer', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face' },
-  { name: 'Amara Nwosu', role: 'Head of Network Operations', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face' },
-  { name: 'James Adeyemi', role: 'Senior Cabling Specialist', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face' },
-  { name: 'Fatima Bello', role: 'Digital Signage Consultant', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face' },
+  { name: 'David Okonkwo', role: 'CEO & Lead Engineer', img: '/team/david-okonkwo.png' },
+  { name: 'Amara Nwosu', role: 'Head of Network Operations', img: '/team/amara-nwosu.png' },
+  { name: 'James Adeyemi', role: 'Senior Cabling Specialist', img: '/team/james-adeyemi.png' },
+  { name: 'Fatima Bello', role: 'Digital Signage Consultant', img: '/team/fatima-bello.png' },
 ];
 
 const awards = [
