@@ -146,7 +146,7 @@ const techPartners = [
   { name: 'Horizon Towers', logo: '/clients/horizon-towers.svg' },
   { name: 'CloudNine Data', logo: '/clients/cloudnine-data.svg' },
   { name: 'Capital Trust', logo: '/clients/capital-trust.svg' },
-  { name: 'University of Lagos', logo: '/clients/university-of-lagos.svg' },
+  { name: 'Atrium Health', logo: '/clients/atrium-health-logo-teal-1200x630.png' },
   { name: 'Mastercard', logo: '/clients/mastercard.svg' },
   { name: 'T-Mobile', logo: '/clients/tmobile.svg' },
   { name: 'Disney', logo: '/clients/disney.svg' },
